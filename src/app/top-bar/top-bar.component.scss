@@ -2,6 +2,23 @@
 	position: sticky;
 	top: 0;
 	left: 0;
-	padding: 5px;
+	padding: 0px 40px;
 	background-color: #fff;
+	display: flex;
+	overflow-x: hidden;
+}
+.links {
+	display: flex;
+	align-items: center;
+}
+.links > li {
+	display: inline-block;
+	margin-left: 2em;
+}
+.links > li > a {
+	color: #555;
+	font-size: 1.125em;
+}
+nav > h1 {
+	flex-grow: 1;
 }
