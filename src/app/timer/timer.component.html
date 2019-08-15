@@ -1,0 +1,18 @@
+<div class="parent">
+	<div class="box">
+		{{ (remainingTimeSubject | async).days }}
+		<span>Days</span>
+	</div>
+	<div class="box">
+		{{ (remainingTimeSubject | async).hours }}
+		<span>Hours</span>
+	</div>
+	<div class="box">
+		{{ (remainingTimeSubject | async).minutes }}
+		<span>Minutes</span>
+	</div>
+	<div class="box">
+		{{ (remainingTimeSubject | async).seconds }}
+		<span>Seconds</span>
+	</div>
+</div>

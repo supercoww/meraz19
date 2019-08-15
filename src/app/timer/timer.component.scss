@@ -1,0 +1,13 @@
+.parent {
+	display: flex;
+	justify-content: space-around;
+}
+.box {
+	font-size: 2.3rem;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+.box > span {
+	font-size: 1.2rem;
+}

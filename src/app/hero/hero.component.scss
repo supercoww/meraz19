@@ -12,7 +12,10 @@
 
 .centered-text {
 	position: absolute;
+	width: fit-content;
+	margin: 0px;
 	top: 50%;
 	left: 50%;
+	min-width: 50%;
 	transform: translate(-50%, -50%);
 }
