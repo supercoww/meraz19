@@ -12,14 +12,14 @@ const TIMER_INTERVAL = 1000;
 })
 export class TimerComponent implements OnInit {
 	remainingTimeSubject: BehaviorSubject<Time>;
-	interval: NodeJS.Timer;
+	interval: number;
 
 	constructor() {
 		this.remainingTimeSubject = new BehaviorSubject(this.timeLeft);
 	}
 
 	ngOnInit() {
-		this.interval = setInterval(() => {
+		this.interval = window.setInterval(() => {
 			const timeLeft = this.timeLeft;
 			this.remainingTimeSubject.next(timeLeft);
 		}, TIMER_INTERVAL);
@@ -28,7 +28,7 @@ export class TimerComponent implements OnInit {
 	public get timeLeft(): Time {
 		const totalSeconds = END_TIME - Date.now();
 		if (totalSeconds === 0) {
-			clearInterval(this.interval);
+			window.clearInterval(this.interval);
 		}
 		return {
 			days: Math.floor(totalSeconds / (1000 * 60 * 60 * 24)),
