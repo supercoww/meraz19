@@ -7,9 +7,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { HeroComponent } from './hero/hero.component';
 import { TimerComponent } from './timer/timer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-	declarations: [AppComponent, HomeComponent, TopBarComponent, HeroComponent, TimerComponent],
+	declarations: [AppComponent, HomeComponent, TopBarComponent, HeroComponent, TimerComponent, FooterComponent],
 	imports: [BrowserModule, AppRoutingModule],
 	providers: [],
 	bootstrap: [AppComponent]
