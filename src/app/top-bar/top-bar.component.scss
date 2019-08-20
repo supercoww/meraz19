@@ -4,17 +4,19 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	padding: 0px 40px;
+	padding: 0px 40px 0px 15px;
 	background-color: rgba(0, 0, 0, 0);
 	display: flex;
+	align-items: center;
 	overflow-x: hidden;
 	color: white;
 	transition: background-color 0.8s ease;
 }
 .links {
-	display: flex;
+	display: none;
 	align-items: center;
 }
+
 .links > li {
 	display: inline-block;
 	margin-left: 2em;
@@ -25,4 +27,19 @@
 }
 nav > h1 {
 	flex-grow: 1;
+	text-align: center;
+}
+.fa.fa-bars:hover {
+	cursor: pointer;
+}
+@media screen and (min-width: 700px) {
+	.links {
+		display: flex;
+	}
+	.fa.fa-bars {
+		display: none;
+	}
+	nav > h1 {
+		text-align: left;
+	}
 }
