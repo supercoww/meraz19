@@ -13,7 +13,7 @@ export class TopBarComponent implements OnInit {
 	ngOnInit() {
 		window.addEventListener('scroll', (event: Event) => {
 			if (window.scrollY > 56) {
-				this.bgColor = 'rgba(55,55,55,0.8)';
+				this.bgColor = 'black';
 			} else {
 				this.bgColor = 'rgba(0,0,0,0)';
 			}
