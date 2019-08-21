@@ -12,6 +12,7 @@ footer {
 .fa {
 	background-color: transparent;
 	color: #bdbdbd;
+	transition: color 0.4s ease;
 }
 .fa.fa-instagram:hover {
 	color: #e1306c;
