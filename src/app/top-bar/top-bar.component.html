@@ -1,8 +1,10 @@
-<nav class="app-bar" [ngStyle]="{ 'background-color': bgColor }">
+<nav class="app-bar" [ngStyle]="{ 'background-color': bgColor, color: fgColor }">
 	<i class="fa fa-bars fa-2x"></i>
 	<h1>Meraz</h1>
 	<ul class="links">
-		<li><a routerLink="" routerLinkActive="active">Home</a></li>
+		<li>
+			<a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+		</li>
 		<li><a routerLink="events" routerLinkActive="active">Events</a></li>
 		<li><a routerLink="contact" routerLinkActive="active">Contact</a></li>
 		<li><a routerLink="register" routerLinkActive="active">Register</a></li>

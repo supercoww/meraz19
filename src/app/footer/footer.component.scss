@@ -2,25 +2,26 @@ footer {
 	scroll-snap-align: start;
 	scroll-padding-top: 75px;
 	// padding: 30px 5% 0px 5%;
-	background-color: black;
+	background-color: white;
+	color: black;
 }
 .footer-content {
 	text-align: center;
 	padding: 30px 5%;
 }
 .fa {
-	background-color: white;
-	border-radius: 50%;
+	background-color: transparent;
+	color: #bdbdbd;
 }
-.fa.fa-instagram {
+.fa.fa-instagram:hover {
 	color: #e1306c;
 }
-.fa.fa-facebook {
+.fa.fa-facebook:hover {
 	color: #3b5998;
 }
-.fa.fa-youtube-play {
+.fa.fa-youtube-play:hover {
 	color: #ff0000;
 }
-.fa.fa-twitter {
+.fa.fa-twitter:hover {
 	color: #1da1f2;
 }

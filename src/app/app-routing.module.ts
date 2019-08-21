@@ -4,8 +4,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { EventListComponent } from './pages/event-list/event-list.component';
 
 const routes: Routes = [
-	{ path: '', component: HomeComponent },
 	{ path: 'events', component: EventListComponent },
+	{ path: '', component: HomeComponent },
 	{ path: '**', redirectTo: '' }
 ];
 
