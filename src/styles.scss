@@ -15,6 +15,15 @@ body {
 	scroll-snap-points-y: repeat(100vh);
 	scroll-snap-type: y mandatory;
 }
+app-root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-height: 100vh;
+}
+main {
+	flex-grow: 1;
+}
 
 a {
 	text-decoration: none;
