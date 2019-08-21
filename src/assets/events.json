@@ -1,0 +1,14 @@
+[
+	{
+		"name": "cultural",
+		"events": [{ "name": "viva la vida" }, { "name": "shredded" }, { "name": "the whirl" }]
+	},
+	{
+		"name": "gaming",
+		"events": [{ "name": "cs:go" }, { "name": "fifa 18" }, { "name": "nfs" }]
+	},
+	{
+		"name": "technical",
+		"events": [{ "name": "fireball" }, { "name": "real steel" }]
+	}
+]
