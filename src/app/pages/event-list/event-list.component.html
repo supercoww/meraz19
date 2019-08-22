@@ -1,7 +1,9 @@
 <div style="width: 90%;margin: 80px auto;">
 	<div *ngFor="let category of categories">
-		<h2>{{ category.name }}</h2>
-		<div *ngFor="let event of category.events">
+		<h2 class="event-heading">{{ category.name }}</h2>
+		<div class="event" *ngFor="let event of category.events">
+			<img [src]="'assets/event-images/' + event.image" style="width: 400px" />
+			<br />
 			{{ event.name }}
 		</div>
 	</div>

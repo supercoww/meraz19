@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EventDataService } from 'src/app/core/event-data.service';
+import { Category } from 'src/interfaces';
 
 @Component({
 	selector: 'app-event-list',
@@ -7,7 +8,8 @@ import { EventDataService } from 'src/app/core/event-data.service';
 	styleUrls: ['./event-list.component.scss']
 })
 export class EventListComponent implements OnInit {
-	categories: any[];
+	categories: Category[];
+
 	constructor(private eventDataService: EventDataService) {}
 
 	ngOnInit() {

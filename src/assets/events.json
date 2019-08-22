@@ -1,14 +1,25 @@
 [
 	{
-		"name": "cultural",
-		"events": [{ "name": "viva la vida" }, { "name": "shredded" }, { "name": "the whirl" }]
+		"name": "Cultural",
+		"events": [
+			{ "name": "Viva La Vida", "image": "fashion.jpg" },
+			{ "name": "Shredded", "image": "shred.jpg" },
+			{ "name": "The Whirl", "image": "whirl.jpg" }
+		]
 	},
 	{
-		"name": "gaming",
-		"events": [{ "name": "cs:go" }, { "name": "fifa 18" }, { "name": "nfs" }]
+		"name": "Gaming",
+		"events": [
+			{ "name": "CS:GO", "image": "go.jpg" },
+			{ "name": "FIFA 18", "image": "fifa.jpg" },
+			{ "name": "NFS", "image": "nfs.jpg" }
+		]
 	},
 	{
-		"name": "technical",
-		"events": [{ "name": "fireball" }, { "name": "real steel" }]
+		"name": "Technical",
+		"events": [
+			{ "name": "Fireball", "image": "fireball.jpg" },
+			{ "name": "Real Steel", "image": "real_steel.jpg" }
+		]
 	}
 ]

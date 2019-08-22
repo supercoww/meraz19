@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { Category } from 'src/interfaces';
 
 @Injectable({
 	providedIn: 'root'
@@ -9,7 +10,7 @@ export class EventDataService {
 	baseUrl = 'assets/';
 	constructor(private http: HttpClient) {}
 
-	getAllEvents(): Observable<any[]> {
-		return this.http.get<any[]>(this.baseUrl + 'events.json');
+	getAllEvents(): Observable<Category[]> {
+		return this.http.get<Category[]>(this.baseUrl + 'events.json');
 	}
 }
