@@ -1,3 +1,5 @@
+@import 'src/theme';
+
 .app-bar {
 	position: fixed;
 	z-index: 10;
@@ -9,7 +11,7 @@
 	display: flex;
 	align-items: center;
 	overflow-x: hidden;
-	color: black;
+	color: $primary;
 	transition: background-color 0.8s ease;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12),
 		0 1px 5px 0 rgba(0, 0, 0, 0.2);

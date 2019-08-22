@@ -1,11 +1,14 @@
+@import 'src/theme';
+
 .parent {
 	display: flex;
 	justify-content: space-around;
+	color: $primary;
 }
 .box {
 	font-size: 2.3rem;
 	font-weight: bold;
-	text-shadow: white 0px 0px 3px;
+	// text-shadow: white 0px 0px 3px;
 	display: flex;
 	flex-direction: column;
 	padding: 5px;

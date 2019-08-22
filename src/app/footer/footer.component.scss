@@ -1,9 +1,11 @@
+@import 'src/theme';
+
 footer {
 	scroll-snap-align: start;
 	scroll-padding-top: 75px;
 	// padding: 30px 5% 0px 5%;
-	background-color: white;
-	color: black;
+	background-color: $bg-primary;
+	color: $secondary;
 }
 .footer-content {
 	text-align: center;
