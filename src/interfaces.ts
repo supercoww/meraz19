@@ -1,9 +1,16 @@
-export interface EventBrief {
+export interface EventInfo {
 	name: string;
 	image: string;
 }
 
 export interface Category {
 	name: string;
-	events: EventBrief[];
+	events: EventInfo[];
+}
+
+export interface Time {
+	days: number;
+	hours: number;
+	minutes: number;
+	seconds: number;
 }
