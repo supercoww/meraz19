@@ -1,19 +1,13 @@
 .event {
 	scroll-snap-align: start;
 	scroll-padding-top: 75px;
-	padding-top: 85px;
+	// padding-top: 85px;
 }
 
 .event-heading {
 	scroll-snap-align: start;
 	scroll-padding-top: 75px;
 	padding-top: 80px;
-}
-
-.event {
-	margin: 0px auto;
-	width: 200px;
-	// display: block;
 }
 
 @font-face {
@@ -217,10 +211,10 @@ a:focus {
 	grid-area: title;
 	font-family: "nexa_boldregular", sans-serif;
 	letter-spacing: -0.025em;
-	font-size: 8em;
+	font-size: 5em;
 	line-height: 160px;
 	margin: 0;
-	text-transform: lowercase;
+	// text-transform: lowercase;
 	z-index: 10;
 	cursor: default;
 }

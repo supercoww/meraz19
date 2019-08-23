@@ -2,24 +2,48 @@
 	{
 		"name": "Cultural",
 		"events": [
-			{ "name": "Viva La Vida", "image": "fashion.jpg" },
-			{ "name": "Shredded", "image": "shred.jpg" },
-			{ "name": "The Whirl", "image": "whirl.jpg" }
+			{
+				"name": "Viva La Vida",
+				"image": "fashion.jpg",
+				"desc": "Some Description"
+			},
+			{
+				"name": "Shredded",
+				"image": "shred.jpg",
+				"desc": "Some Description"
+			},
+			{
+				"name": "The Whirl",
+				"image": "whirl.jpg",
+				"desc": "Some Description"
+			}
 		]
 	},
 	{
 		"name": "Gaming",
 		"events": [
-			{ "name": "CS:GO", "image": "go.jpg" },
-			{ "name": "FIFA 18", "image": "fifa.jpg" },
-			{ "name": "NFS", "image": "nfs.jpg" }
+			{ "name": "CS:GO", "image": "go.jpg", "desc": "Some Description" },
+			{
+				"name": "FIFA 18",
+				"image": "fifa.jpg",
+				"desc": "Some Description"
+			},
+			{ "name": "NFS", "image": "nfs.jpg", "desc": "Some Description" }
 		]
 	},
 	{
 		"name": "Technical",
 		"events": [
-			{ "name": "Fireball", "image": "fireball.jpg" },
-			{ "name": "Real Steel", "image": "real_steel.jpg" }
+			{
+				"name": "Fireball",
+				"image": "fireball.jpg",
+				"desc": "Some Description"
+			},
+			{
+				"name": "Real Steel",
+				"image": "real_steel.jpg",
+				"desc": "Some Description"
+			}
 		]
 	}
 ]

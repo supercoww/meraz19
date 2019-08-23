@@ -5,6 +5,7 @@
 	text-align: center;
 	scroll-snap-align: start;
 }
+
 .hero-img {
 	width: auto;
 	max-width: 100%;
@@ -22,4 +23,51 @@ app-timer {
 	left: 50%;
 	min-width: 50%;
 	transform: translate(-50%, 0px);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+}
+
+#fog {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	pointer-events: none;
+	&:before,
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 300%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: repeat-x;
+	}
+	&:before {
+		background-image: url("https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-3.png");
+		animation: drift 60s linear 0s infinite;
+	}
+	&:after {
+		background-image: url("./fog-1.png");
+		animation: drift 25s linear 0s infinite;
+	}
+	@keyframes drift {
+		from {
+			transform: translate3d(0, 0, 0);
+		}
+		to {
+			transform: translate3d(-200vw, 0, 0);
+		}
+	}
 }
