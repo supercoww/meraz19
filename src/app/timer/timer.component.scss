@@ -1,4 +1,4 @@
-@import "src/theme";
+@import 'src/theme';
 
 .parent {
 	display: flex;
@@ -7,7 +7,7 @@
 	font-family: nouty;
 	letter-spacing: 3px;
 
-	background: url("../../assets/gold-texture.jpg");
+	background: url('../../assets/gold-texture.jpg');
 	background-repeat: repeat-x;
 	background-position: 0 0;
 	font-size: 200px;
@@ -15,9 +15,10 @@
 	text-align: center;
 	color: transparent;
 	-webkit-font-smoothing: antialiased;
+
+	background-clip: text;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
-	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin: 0;
 
@@ -74,5 +75,5 @@
 
 @font-face {
 	font-family: nouty;
-	src: url("../../assets/nouty\ stamp.otf");
+	src: url('../../assets/nouty\ stamp.otf');
 }
