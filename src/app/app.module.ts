@@ -12,6 +12,7 @@ import { FooterComponent } from "./footer/footer.component";
 import { EventListComponent } from "./pages/event-list/event-list.component";
 import { CoreModule } from "./core/core.module";
 import { ParticlesModule } from "angular-particle";
+import { EventComponent } from './pages/event/event.component';
 
 @NgModule({
 	declarations: [
@@ -21,7 +22,8 @@ import { ParticlesModule } from "angular-particle";
 		HeroComponent,
 		TimerComponent,
 		FooterComponent,
-		EventListComponent
+		EventListComponent,
+		EventComponent
 	],
 	imports: [
 		BrowserModule,

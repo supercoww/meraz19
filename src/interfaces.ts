@@ -1,6 +1,7 @@
 export interface EventInfo {
 	name: string;
 	image: string;
+	desc: string;
 }
 
 export interface Category {
