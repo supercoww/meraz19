@@ -1,9 +1,20 @@
-<nav class="app-bar" [ngStyle]="{ 'background-color': bgColor, 'box-shadow': shadow }">
-	<i class="fa fa-bars fa-2x"></i>
-	<h1>Meraz</h1>
+<nav
+	class="app-bar"
+	[ngStyle]="{ 'background-color': bgColor, 'box-shadow': shadow }"
+>
+	<i
+		class="fa fa-bars fa-2x"
+		onclick='document.getElementsByClassName("container")[0].style.left = "240px";document.getElementsByTagName("app-top-bar")[0].style.display = "none";'
+	></i>
+	<h1>MERAZ</h1>
 	<ul class="links">
 		<li>
-			<a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+			<a
+				routerLink=""
+				routerLinkActive="active"
+				[routerLinkActiveOptions]="{ exact: true }"
+				>Home</a
+			>
 		</li>
 		<li><a routerLink="events" routerLinkActive="active">Events</a></li>
 		<li><a routerLink="contact" routerLinkActive="active">Contact</a></li>

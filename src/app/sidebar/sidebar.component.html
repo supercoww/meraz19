@@ -1,0 +1,24 @@
+<div
+	class="container"
+	onclick='this.style.left = 0;document.getElementsByTagName("app-top-bar")[0].style.display = "block";'
+>
+	<nav class="app-bar" id="sidebar">
+		<ul class="links">
+			<li>
+				<a
+					routerLink=""
+					routerLinkActive="active"
+					[routerLinkActiveOptions]="{ exact: true }"
+					>Home
+				</a>
+			</li>
+			<li><a routerLink="events" routerLinkActive="active">Events</a></li>
+			<li>
+				<a routerLink="contact" routerLinkActive="active">Contact</a>
+			</li>
+			<li>
+				<a routerLink="register" routerLinkActive="active">Register</a>
+			</li>
+		</ul>
+	</nav>
+</div>

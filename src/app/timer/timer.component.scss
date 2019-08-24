@@ -22,11 +22,11 @@
 	-webkit-text-fill-color: transparent;
 	margin: 0;
 
-	-webkit-animation: BackgroundAnimated 15s linear infinite;
-	-moz-animation: BackgroundAnimated 15s linear infinite;
-	-ms-animation: BackgroundAnimated 15s linear infinite;
-	-o-animation: BackgroundAnimated 15s linear infinite;
-	animation: BackgroundAnimated 15s linear infinite;
+	-webkit-animation: BackgroundAnimated 10s linear infinite;
+	-moz-animation: BackgroundAnimated 10s linear infinite;
+	-ms-animation: BackgroundAnimated 10s linear infinite;
+	-o-animation: BackgroundAnimated 10s linear infinite;
+	animation: BackgroundAnimated 10s linear infinite;
 }
 
 @keyframes BackgroundAnimated {
@@ -63,7 +63,7 @@
 }
 
 .box {
-	font-size: 2.1rem;
+	font-size: 1.9rem;
 	// text-shadow: white 0px 0px 3px;
 	display: flex;
 	flex-direction: column;
