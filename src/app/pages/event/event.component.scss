@@ -1,0 +1,15 @@
+.parent {
+	padding-top: 75px;
+	scroll-snap-align: start;
+	scroll-padding-top: 75px;
+	margin: auto 5%;
+	display: flex;
+}
+h2 {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	padding-right: 100px;
+}

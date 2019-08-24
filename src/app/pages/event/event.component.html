@@ -1,0 +1,11 @@
+<div *ngIf="eventObservable | async as event; else loading" class="parent">
+	<div style="flex:0.8;">
+		<img [src]="'assets/event-images/' + event.image" />
+	</div>
+	<div style="flex:1">
+		<h2>{{ event.name }}</h2>
+		{{ event.desc }}
+	</div>
+</div>
+
+<ng-template #loading>Loading...</ng-template>
