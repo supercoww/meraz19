@@ -1,4 +1,8 @@
-@import 'src/theme';
+@import "src/theme";
+@font-face {
+	font-family: nouty;
+	src: url("../../assets/nouty\ stamp.otf");
+}
 
 .app-bar {
 	position: fixed;
@@ -12,11 +16,19 @@
 	align-items: center;
 	overflow-x: hidden;
 	color: $primary;
+	-webkit-transition: display 4s ease-in-out;
+	-moz-transition: display 4s ease-in-out;
+	-ms-transition: display 4s ease-in-out;
+	-o-transition: display 4s ease-in-out;
+	transition: display 4s ease-in-out;
+
 	transition: background-color 0.8s ease;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12),
-		0 1px 5px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+		0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .links {
+	// font-family: nouty;
+	// letter-spacing: 2px;
 	display: none;
 	align-items: center;
 	li {
@@ -35,9 +47,6 @@
 nav > h1 {
 	flex-grow: 1;
 	text-align: center;
-}
-.fa.fa-bars:hover {
-	cursor: pointer;
 }
 @media screen and (min-width: 700px) {
 	.links {

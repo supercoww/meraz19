@@ -24,6 +24,11 @@ app-timer {
 	min-width: 50%;
 	transform: translate(-50%, 0px);
 }
+@media (max-width: 720px) {
+	app-timer {
+		bottom: 15%;
+	}
+}
 
 /* ---- reset ---- */
 body {
