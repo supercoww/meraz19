@@ -1,13 +1,68 @@
-@import 'src/theme';
+@import "src/theme";
 
 .parent {
 	display: flex;
 	justify-content: space-around;
 	color: $primary;
+	font-family: nouty;
+	letter-spacing: 3px;
+
+	background: url("../../assets/gold-texture.jpg");
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font-size: 200px;
+	text-transform: uppercase;
+	text-align: center;
+	color: transparent;
+	-webkit-font-smoothing: antialiased;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+
+	-webkit-animation: BackgroundAnimated 15s linear infinite;
+	-moz-animation: BackgroundAnimated 15s linear infinite;
+	-ms-animation: BackgroundAnimated 15s linear infinite;
+	-o-animation: BackgroundAnimated 15s linear infinite;
+	animation: BackgroundAnimated 15s linear infinite;
 }
+
+@keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-webkit-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-ms-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-moz-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+
 .box {
-	font-size: 2.3rem;
-	font-weight: bold;
+	font-size: 2.1rem;
 	// text-shadow: white 0px 0px 3px;
 	display: flex;
 	flex-direction: column;
@@ -15,4 +70,9 @@
 }
 .box > span {
 	font-size: 1.2rem;
+}
+
+@font-face {
+	font-family: nouty;
+	src: url("../../assets/nouty\ stamp.otf");
 }
