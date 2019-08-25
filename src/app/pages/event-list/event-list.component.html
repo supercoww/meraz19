@@ -1,25 +1,11 @@
 <div class="container">
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="vertical"><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="horizontal"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="big"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="vertical"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="horizontal"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="big"><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="vertical"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="horizontal"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="big"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="horizontal"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="big"><img src="assets/event-images/rock.jpeg" /></div>
-	<div><img src="assets/event-images/rock.jpeg" /></div>
-	<div class="vertical"><img src="assets/event-images/rock.jpeg" /></div>
+	<ng-container *ngFor="let category of categories$ | async">
+		<div
+			[routerLink]="['/events', event.name]"
+			*ngFor="let event of category.events"
+		>
+			<img src="assets/event-images/{{ event.image }}" />
+			<span class="event-title">{{ event.name }}</span>
+		</div>
+	</ng-container>
 </div>

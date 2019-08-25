@@ -13,15 +13,16 @@ import { Observable } from 'rxjs';
 export class EventComponent implements OnInit {
 	eventObservable: Observable<EventInfo>;
 
-	constructor(private route: ActivatedRoute, private eventDataService: EventDataService) {}
+	constructor(
+		private route: ActivatedRoute,
+		private eventDataService: EventDataService
+	) {}
 
 	ngOnInit() {
 		this.eventObservable = this.route.paramMap.pipe(
-			switchMap((params: ParamMap) => this.eventDataService.getEvent(params.get('name')))
+			switchMap((params: ParamMap) =>
+				this.eventDataService.getEvent(params.get('name'))
+			)
 		);
-
-		this.eventObservable.subscribe(data => {
-			console.log(data);
-		});
 	}
 }

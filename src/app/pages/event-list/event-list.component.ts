@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EventDataService } from 'src/app/core/event-data.service';
 import { Category } from 'src/interfaces';
+import { Observable } from 'rxjs';
 
 @Component({
 	selector: 'app-event-list',
@@ -8,17 +9,11 @@ import { Category } from 'src/interfaces';
 	styleUrls: ['./event-list.component.scss']
 })
 export class EventListComponent implements OnInit {
-	categories: Category[];
+	categories$: Observable<Category[]>;
 
 	constructor(private eventDataService: EventDataService) {}
 
 	ngOnInit() {
-		this.getAllEvents();
-	}
-
-	getAllEvents() {
-		this.eventDataService
-			.getAllEvents()
-			.subscribe(categories => (this.categories = categories));
+		this.categories$ = this.eventDataService.getAllEvents();
 	}
 }

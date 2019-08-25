@@ -10,15 +10,23 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		font-size: 2em;
-		color: #ffeead;
 		scroll-snap-align: start;
 		scroll-margin-top: 75px;
+		position: relative;
 
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+		}
+
+		.event-title {
+			position: absolute;
+			bottom: 10px;
+			left: 10px;
+			text-shadow: black 0px 0px 5px;
+			font-weight: bold;
+			font-size: 1.5em;
 		}
 	}
 }
