@@ -1,10 +1,10 @@
 .container {
 	display: grid;
-	grid-gap: 5px;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-	grid-auto-rows: 75px;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-auto-rows: 200px;
 	grid-auto-flow: dense;
-	margin-top: 115px;
+	margin-top: 75px;
 
 	div {
 		display: flex;
@@ -12,6 +12,8 @@
 		align-items: center;
 		font-size: 2em;
 		color: #ffeead;
+		scroll-snap-align: start;
+		scroll-margin-top: 75px;
 
 		img {
 			width: 100%;
