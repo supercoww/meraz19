@@ -5,30 +5,44 @@
 			{
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": ""
 			},
 			{
 				"name": "Shredded",
 				"image": "shred.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": "big"
 			},
 			{
 				"name": "The Whirl",
 				"image": "whirl.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": ""
 			}
 		]
 	},
 	{
 		"name": "Gaming",
 		"events": [
-			{ "name": "CS:GO", "image": "go.jpg", "desc": "Some Description" },
+			{
+				"name": "CS:GO",
+				"image": "go.jpg",
+				"desc": "Some Description",
+				"imageSize": "big"
+			},
 			{
 				"name": "FIFA 18",
 				"image": "fifa.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": ""
 			},
-			{ "name": "NFS", "image": "nfs.jpg", "desc": "Some Description" }
+			{
+				"name": "NFS",
+				"image": "nfs.jpg",
+				"desc": "Some Description",
+				"imageSize": "horizontal"
+			}
 		]
 	},
 	{
@@ -37,12 +51,14 @@
 			{
 				"name": "Fireball",
 				"image": "fireball.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": ""
 			},
 			{
 				"name": "Real Steel",
 				"image": "real_steel.jpg",
-				"desc": "Some Description"
+				"desc": "Some Description",
+				"imageSize": ""
 			}
 		]
 	}
