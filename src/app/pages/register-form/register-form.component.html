@@ -1,33 +1,29 @@
 <div
 	class="register-form"
 	style="scroll-snap-align: start;
-scroll-padding-top: 75px;
-padding-top: 80px;"
+scroll-padding-top: 75px;height: 100%;"
 >
-	<p>register-form works!</p>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-		fugiat, minus mollitia et, veritatis reiciendis ad nihil quo vero libero
-		dignissimos veniam ab? Quos sunt sed cumque perspiciatis necessitatibus
-		nisi.
-	</p>
-	<form class="example-form">
-		<mat-form-field class="example-full-width">
-			<input matInput placeholder="Favorite food" value="Sushi" />
-		</mat-form-field>
+	<div class="reg-form">
+		<h1>Register Here</h1>
+		<form class="example-form">
+			<mat-form-field class="example-form">
+				<input matInput placeholder="Name" />
+			</mat-form-field>
+			<br />
+			<mat-form-field class="example-full-width">
+				<input matInput placeholder="Email" />
+			</mat-form-field>
+			<mat-form-field class="example-full-width">
+				<input matInput placeholder="Phone" />
+			</mat-form-field>
+			<mat-form-field class="example-full-width">
+				<input matInput placeholder="College" />
+			</mat-form-field>
+			<mat-form-field class="example-full-width">
+				<textarea matInput placeholder="Leave a comment"></textarea>
+			</mat-form-field>
+		</form>
 
-		<mat-form-field class="example-full-width">
-			<textarea matInput placeholder="Leave a comment"></textarea>
-		</mat-form-field>
-
-		<mat-form-field class="example-full-width">
-			<input matInput #message maxlength="256" placeholder="Message" />
-			<mat-hint align="start"
-				><strong>Don't disclose personal info</strong>
-			</mat-hint>
-			<mat-hint align="end">{{ message.value.length }} / 256</mat-hint>
-		</mat-form-field>
-	</form>
-
-	<button mat-raised-button color="primary">Click me!</button>
+		<button mat-raised-button color="primary">I am in !</button>
+	</div>
 </div>

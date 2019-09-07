@@ -4,6 +4,7 @@
 			class="{{ event.imageSize }}"
 			[routerLink]="['/events', event.name]"
 			*ngFor="let event of category.events"
+			style="cursor: pointer;"
 		>
 			<img src="assets/event-images/{{ event.image }}" />
 			<span class="event-title">{{ event.name }}</span>

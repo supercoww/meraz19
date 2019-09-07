@@ -1,9 +1,65 @@
-@import "src/theme";
+@import 'src/theme';
 @font-face {
 	font-family: nouty;
-	src: url("../../assets/nouty\ stamp.otf");
+	src: url('../../assets/nouty\ stamp.otf');
+}
+@media (max-width: 720px) {
+	h1 {
+		position: relative;
+		left: -10px;
+	}
 }
 
+h1 {
+	font-weight: normal;
+	font-size: 2em;
+	font-family: nouty;
+	letter-spacing: 5px;
+
+	background: url('../../assets/gold-texture.jpg');
+	text-transform: uppercase;
+	text-align: center;
+	color: transparent;
+	-webkit-font-smoothing: antialiased;
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-webkit-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-ms-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
+@-moz-keyframes BackgroundAnimated {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 0 100%;
+	}
+}
 .app-bar {
 	position: fixed;
 	z-index: 10;

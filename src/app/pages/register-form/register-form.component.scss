@@ -1,6 +1,25 @@
 .register-form {
 	// background: red;
 	// color: yellow;
-	padding: 50% 5%;
+	padding: 10% 5%;
 	height: 50px;
+}
+h1 {
+	color: black;
+}
+.reg-form {
+	padding: 5%;
+	align-content: center;
+	border: 2px solid white;
+	background: whitesmoke;
+}
+.example-form {
+	min-width: 150px;
+	max-width: 500px;
+	width: 100%;
+	color: black;
+}
+
+.example-full-width {
+	width: 100%;
 }

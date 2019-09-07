@@ -1,7 +1,19 @@
 <div
 	class="container"
-	hidden="true"
-	onclick='this.style.left = 0;document.getElementsByTagName("app-top-bar")[0].style.display = "block";'
+	hidden
+	onclick="document
+.getElementsByClassName('container')[0]
+.setAttribute('style', 'left:0;');
+
+document
+.getElementsByTagName('app-top-bar')[0]
+.setAttribute('hidden', 'true');
+document
+.getElementsByTagName('app-top-bar')[0]
+.setAttribute('style', 'display:block;');
+document
+.getElementsByClassName('container')[0].setAttribute('hidden','true');
+"
 >
 	<nav class="app-bar" id="sidebar">
 		<ul class="links">
