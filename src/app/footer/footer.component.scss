@@ -11,24 +11,24 @@ footer {
 	text-align: center;
 	padding: 30px 5%;
 }
-a > i {
-	background: rgb(241, 205, 0);
-	border-radius: 50%;
-}
+// a > i {
+// 	background: rgb(241, 205, 0);
+// 	border-radius: 50%;
+// }
 .fa {
 	background-color: transparent;
-	// color: white;
+	color: white;
 	transition: color 0.4s ease;
 }
-.fa.fa-instagram {
+.fa.fa-instagram:hover {
 	color: #e1306c;
 }
-.fa.fa-facebook {
+.fa.fa-facebook:hover {
 	color: #3b5998;
 }
-.fa.fa-youtube-play {
+.fa.fa-youtube-play:hover {
 	color: #ff0000;
 }
-.fa.fa-twitter {
+.fa.fa-twitter:hover {
 	color: #1da1f2;
 }
