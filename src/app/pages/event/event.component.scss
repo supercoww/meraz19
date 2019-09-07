@@ -3,13 +3,27 @@
 	scroll-snap-align: start;
 	scroll-padding-top: 75px;
 	margin: auto 5%;
-	display: flex;
 }
-h2 {
+h1 {
 	text-align: center;
 }
 img {
-	max-width: 100%;
+	max-width: 90vw;
+	width: 100%;
 	height: auto;
-	padding-right: 100px;
+	scroll-snap-align: start;
+	scroll-margin-top: 75px;
+}
+.description {
+	padding-left: 15px;
+}
+
+@media screen and (max-width: 425px) {
+	.description {
+		padding-left: 0px;
+		padding-top: 10px;
+	}
+	img {
+		width: 90vw;
+	}
 }
