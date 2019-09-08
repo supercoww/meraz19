@@ -1,4 +1,4 @@
-@import "src/theme";
+@import 'src/theme';
 
 .container {
 	position: fixed;
@@ -26,6 +26,7 @@
 	height: 100%;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	z-index: 11;
 }
 #sidebar ul {
 	margin: 0;
