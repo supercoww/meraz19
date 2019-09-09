@@ -18,7 +18,7 @@ $meraz19-accent: mat-palette($mat-pink, A200, A100, A400);
 $meraz19-warn: mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$meraz19-theme: mat-light-theme(
+$meraz19-theme: mat-dark-theme(
 	$meraz19-primary,
 	$meraz19-accent,
 	$meraz19-warn
