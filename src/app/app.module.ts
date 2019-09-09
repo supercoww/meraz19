@@ -20,6 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
 	declarations: [
@@ -32,7 +33,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 		EventListComponent,
 		EventComponent,
 		SidebarComponent,
-		RegisterFormComponent
+		RegisterFormComponent,
+		ContactComponent
 	],
 	imports: [
 		BrowserModule,
