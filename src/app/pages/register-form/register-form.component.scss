@@ -31,3 +31,8 @@
 .example-full-width {
 	width: 100%;
 }
+mat-form-field,
+h1 {
+	scroll-snap-align: start;
+	scroll-margin-top: 75px;
+}

@@ -5,25 +5,42 @@ section {
 	scroll-padding-top: 75px;
 	margin: auto;
 	display: flex;
+	flex-direction: column;
 
-	div.pronite-image {
-		flex: 1;
-		background-position: center;
-		background-size: cover;
-		margin: 30px;
-		border-radius: 60px 0px;
-		box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
-			0 2px 4px -1px rgba(0, 0, 0, 0.3);
-		position: relative;
-		border: 3px outset goldenrod;
+	.title {
+		display: flex;
+		margin: 0px 30px;
+		div {
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			flex-grow: 1;
+		}
+	}
 
-		span {
-			font-size: 1.7em;
-			font-weight: bold;
-			position: absolute;
-			bottom: 20px;
-			left: 10px;
-			text-shadow: black 0px 0px 5px;
+	div.images {
+		height: 100%;
+		display: flex;
+		div.pronite-image {
+			flex: 1;
+			background-position: center;
+			background-size: cover;
+			margin: 30px;
+			border-radius: 60px 0px;
+			box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+				0 1px 10px 0 rgba(0, 0, 0, 0.12),
+				0 2px 4px -1px rgba(0, 0, 0, 0.3);
+			position: relative;
+			border: 3px outset goldenrod;
+
+			span {
+				font-size: 1.7em;
+				font-weight: bold;
+				position: absolute;
+				bottom: 20px;
+				left: 10px;
+				text-shadow: black 0px 0px 5px;
+			}
 		}
 	}
 }
@@ -43,7 +60,7 @@ section {
 }
 
 @media screen and (max-width: 1060px) {
-	section {
+	section > div.images {
 		flex-direction: column;
 
 		div.pronite-image {
