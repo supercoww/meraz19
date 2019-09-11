@@ -1,0 +1,20 @@
+.parent {
+	scroll-snap-align: start;
+	scroll-margin-top: 75px;
+	margin-top: 75px;
+}
+
+.contact-info {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+mat-icon {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+}

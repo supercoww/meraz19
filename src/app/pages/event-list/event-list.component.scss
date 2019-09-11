@@ -7,6 +7,10 @@
 	width: 80%;
 	margin: 75px 10%;
 
+	div:focus {
+		outline: none;
+	}
+
 	div {
 		display: flex;
 		justify-content: center;
