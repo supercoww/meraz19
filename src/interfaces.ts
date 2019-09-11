@@ -1,7 +1,7 @@
 export interface EventInfo {
 	name: string;
 	image: string;
-	desc: string;
+	descriptionFile: string;
 	imageSize: string;
 }
 

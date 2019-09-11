@@ -5,19 +5,19 @@
 			{
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Shredded",
 				"image": "shred.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": "big"
 			},
 			{
 				"name": "The Whirl",
 				"image": "whirl.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": ""
 			}
 		]
@@ -28,19 +28,19 @@
 			{
 				"name": "CS:GO",
 				"image": "go.jpg",
-				"desc": "Sunt Lorem ea eu voluptate Lorem. Sit sunt quis ipsum laboris. Nostrud exercitation adipisicing voluptate deserunt sit dolor nulla exercitation commodo eiusmod commodo proident anim. Occaecat id ad tempor eu aute sit minim. Aliquip laboris sit ipsum laboris esse sit officia fugiat esse do dolor consectetur minim. Cillum sunt quis est cupidatat dolor do occaecat ipsum non.",
+				"descriptionFile": "cs-go.html",
 				"imageSize": "big"
 			},
 			{
 				"name": "FIFA 18",
 				"image": "fifa.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": ""
 			},
 			{
 				"name": "NFS",
 				"image": "nfs.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": "horizontal"
 			}
 		]
@@ -51,13 +51,13 @@
 			{
 				"name": "Fireball",
 				"image": "fireball.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Real Steel",
 				"image": "real_steel.jpg",
-				"desc": "Some Description",
+				"descriptionFile": "someFile.html",
 				"imageSize": ""
 			}
 		]
