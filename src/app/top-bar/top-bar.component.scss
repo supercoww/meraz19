@@ -92,10 +92,28 @@ h1 {
 	li {
 		display: inline-block;
 		margin-left: 2em;
+		position: relative;
 
 		a {
 			color: inherit;
 			font-size: 1.125em;
+		}
+		a:after {
+			background: none repeat scroll 0 0 transparent;
+			bottom: 0;
+			content: '';
+			display: block;
+			height: 2px;
+			left: 50%;
+			bottom: -10px;
+			position: absolute;
+			background: $primary;
+			transition: width 0.3s ease 0s, left 0.3s ease 0s;
+			width: 0;
+		}
+		a:hover:after {
+			width: 100%;
+			left: 0;
 		}
 	}
 }
