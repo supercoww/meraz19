@@ -13,6 +13,13 @@ export class HeroComponent implements OnInit {
 	height: number = 100;
 
 	constructor() {}
+	showCoords(event:any) :void {
+		console.log(event);
+		var x = event.clientX;
+		var y = event.clientY;
+		var coords = "X coords: " + x + ", Y coords: " + y;
+		console.log(coords);
+	  }
 
 	ngOnInit() {
 		console.log("Trying to use ParticlesJS libray");

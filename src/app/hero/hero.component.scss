@@ -4,7 +4,28 @@
 	position: relative;
 	text-align: center;
 	scroll-snap-align: start;
+	
 }
+#meraz_m{
+	background: url('../../assets/logo-otherthanM.png');
+	// -webkit-clip-path: polygon(38px 297px,468px 296px,347px 3px,256px 149px,161px 11px);
+	clip-path: url("#clipPolygon");
+}
+
+@keyframes movePoly {
+	0% {transform : translateY(250px);} 
+	100%  {transform : translateY(0px);}
+	// 100%  {transform : translateY(250px);}
+}
+
+#myPoly{
+	animation: movePoly 10s infinite;
+}
+#myCircle{
+	animation: movePoly 10s infinite;
+}
+
+
 
 .hero-img {
 	width: auto;
