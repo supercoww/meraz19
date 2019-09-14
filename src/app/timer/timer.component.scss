@@ -4,8 +4,13 @@
 	display: flex;
 	justify-content: space-around;
 	color: $primary;
-	font-family: nouty;
+	font-family: 'Metal Mania', cursive;
+
 	letter-spacing: 3px;
+	font-size: 1.2em;
+
+	// font-family: nouty;
+	// letter-spacing: 3px;
 
 	background: url('../../assets/gold-texture.jpg');
 	background-repeat: repeat-x;

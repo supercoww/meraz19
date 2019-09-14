@@ -8,6 +8,23 @@ section {
 	flex-direction: column;
 
 	.title {
+		background: url('../../../assets/gold-texture.jpg');
+		text-align: center;
+		color: transparent;
+		-webkit-font-smoothing: antialiased;
+
+		background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		
+		// font-family: 'Audiowide', cursive;
+		// font-family: 'Cinzel Decorative', cursive;
+		font-family: 'Metal Mania', cursive;
+
+		letter-spacing: 3px;
+		font-size: 1.2em;
+
 		display: flex;
 		margin: 0px 30px;
 		div {
@@ -34,8 +51,12 @@ section {
 			border: 3px outset goldenrod;
 
 			span {
+				font-family: 'Metal Mania', cursive;
+				text-shadow: 2px solid red;
+				letter-spacing: 3px;
+				// font-size: 1.2em;
+		
 				font-size: 1.7em;
-				font-weight: bold;
 				position: absolute;
 				bottom: 20px;
 				left: 10px;
@@ -45,17 +66,18 @@ section {
 	}
 }
 
+
 .pronite-image:nth-child(1) {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+	background:  linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
 		url('../../../assets/event-images/rock.jpeg');
 	background-position: top !important;
 }
 .pronite-image:nth-child(2) {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
 		url('../../../assets/event-images/stand.jpg');
 }
 .pronite-image:nth-child(3) {
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)),
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
 		url('../../../assets/event-images/edm.jpg');
 }
 
