@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { slider } from './route-animations';
+import { slideIn } from './route-animations';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
 	selector: 'app-root',
 	templateUrl: './app.component.html',
 	styleUrls: ['./app.component.scss'],
-	animations: [slider]
+	animations: [slideIn]
 })
 export class AppComponent {
 	prepareRoute(outlet: RouterOutlet) {
