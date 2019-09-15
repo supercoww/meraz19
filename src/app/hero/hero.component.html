@@ -8,15 +8,62 @@
 		[height]="height"
 	></particles> -->
 	<!-- <object data="assets/logo.svg" type="image/svg+xml"></object> -->
+	
+	<!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+		<clipPath id='circleAnim'>
+				<circle cx="50" cy="50" r="45"/>
+		</clipPath>
+		<circle cx="50" cy="50" r="45"/>
+		<image width="500" height="500" xlink:href="assets/logo-circle.png" clip-path='url(#circleAnim)' />
 
-  <svg width="500" height="500">
+	  </svg> -->
 	  
+
+	  <!-- <svg viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+		
+		 <clipPath id='newCirclePath'>
+				<circle  id='newCircle' cx="50" cy="50" r="45"/>
+		</clipPath> 
+		<circle  id='newCircle' cx="50" cy="50" r="45"/>
+
+	</svg> -->
+	  
+
+  <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+		<!-- <circle  id='preload' cx="250" cy="200" r="150"/>
+		<circle  id='preload' cx="250" cy="200" r="5"/> -->
+		<!-- <rect id='rectGrow' x="240" y="50" width="1" height="350" fill='black' > -->
+				<!-- <rect id='rectGrow' x="240" y="50" width="5" height="350" fill='black' /> -->
+				
 	<defs>	
+		<mask id='mask2'>
+				<rect id='rectGrow' x="240" y="50" width="50" height="350" fill='white' >
+						<!-- <animate attributeName="width" from="0" to="100" begin= "0s" dur="5s"/>
+						<animateTransform attributeName="transform" type="scale" from="0" to="1" dur="3s"/> -->
+				</rect>
+
+				<!-- <circle id='cir' fill='white' cx="245" cy="204" r="160"/> -->
+				<circle id='head' fill='white' cx='245' cy='350' r='10'></circle>
+			</mask>
+			<linearGradient id="gradient" x1="0" y1="00%" x2 ="0" y2="100%">
+					<stop stop-color="black" offset="0"/>
+					<stop stop-color="white" offset="1"/>
+				  </linearGradient>
+		    <mask id="masking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+					<circle  id='preload' fill='black' cx="250" cy="200" r="150"/>
+					<circle  id='preload' fill='white' cx="250" cy="200" r="200"/>
+					<!-- <rect y="0.3" width="1" height=".7" fill="url(#gradient)" />
+					<circle cx=".5" cy=".5" r=".35" fill="white" /> -->
+				  </mask>
+			<clipPath id="circClip" >
+					<circle  id='preload' cx="250" cy="200" r="150"/>
+				</clipPath>	
 	<clipPath id="clipPolygon" >
+
 			<polygon id='myPoly' points="4 339,517 337,327 3,250 135,179 2">
 				</polygon>
 			<!-- <circle id='myCircle' cx="250" cy="85" r="50" fill="#FFFFFF" /> -->
-		    <g
+		    <!-- <g
      id="g208"
      transform="matrix(2.5312448,0,0,0.99832061,-613.7855,-129.27254)">
     <path
@@ -24,7 +71,7 @@
        d="M 773.79883 0.26953125 C 773.79883 0.26953125 847.56462 146.23791 656.16211 233.43164 C 465.56472 146.2044 539.16992 0.55859375 539.16992 0.55859375 L 3.7089844 442.29102 L 657.08984 286.16016 L 1309.2598 442 L 773.79883 0.26953125 z "
        transform="matrix(0.39506254,0,0,1.0016822,242.48366,129.49)"
        id="path138-3-6-5" />
-  </g>
+  </g> -->
 		</clipPath>
 		
 	</defs>
@@ -39,9 +86,11 @@
  </g> -->
 	<!-- <polygon id='myPoly' points="4 339,517 337,327 3,250 135,179 2">
 		</polygon> -->
-		<!-- <circle id='myCircle' cx="250" cy="85" r="50" fill="#FFFFFF" /> -->
 
-				<image width="500" height="500" xlink:href="assets/logo-otherthanM.png" />
+		<!-- <circle id='myCircle' cx="250" cy="85" r="50" fill="#FFFFFF" /> -->
+		<!-- <circle id='cir' fill='black' cx="245" cy="204" r="160"/> -->
+		<!-- 135 to  -->
+		<image width="500" height="500" xlink:href="assets/logo-circle.png" mask='url(#mask2)' />
 				<image width="500" height="500" xlink:href="assets/logo-M.png" clip-path='url(#clipPolygon)' />
 	  </svg>
 
@@ -69,4 +118,5 @@
 	<!-- </div> -->
 	
 	<app-timer></app-timer>
+	  
 </div>

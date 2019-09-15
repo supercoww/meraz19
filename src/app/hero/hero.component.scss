@@ -6,6 +6,151 @@
 	scroll-snap-align: start;
 	
 }
+
+#rectGrow{
+	animation: 3s linear infinite rectG;
+	transform-origin: 50% 50%;
+}
+@keyframes rectG{
+	0%{
+		x: 5;
+		// width : 5;
+		transform: scaleX(1);
+	}
+	50%{
+		x: 500;
+		// width : 100;
+		transform: scaleX(1.5);
+	}
+	100%{
+		x: 5;
+		// width : 5;
+		transform: scaleX(1);
+
+	}
+}
+#cir{
+	// animation: 2s linear infinite circleGrow;
+}
+@keyframes circleGrow{
+	0%{
+		r : 130;
+	}
+	50%{
+		r : 160;
+	}
+	100%{
+		r : 130;
+	}
+}
+
+// // SVG styles.
+// svg {
+// 	animation: 2s linear infinite svg-animation;
+// 	max-width: 100px;
+// 	overflow: visible;
+//   }
+  
+//   // SVG animation.
+//   @keyframes svg-animation {
+// 	0% {
+// 	  transform: rotateZ(0deg);
+// 	}
+// 	100% {
+// 	  transform: rotateZ(360deg)
+// 	}
+//   }
+  
+//   // Circle styles.
+//   circle {
+// 	animation: 1.4s ease-in-out infinite both circle-animation;
+// 	display: block;
+// 	fill: transparent;
+// 	stroke: #2f3d4c;
+// 	stroke-linecap: round;
+// 	stroke-dasharray: 283;
+// 	stroke-dashoffset: 280;
+// 	stroke-width: 10px;
+// 	transform-origin: 50% 50%;
+//   }
+  
+//   // Circle animation.
+//   @keyframes circle-animation {
+// 	0%,
+// 	25% {
+// 	  stroke-dashoffset: 280;
+// 	  transform: rotate(0);
+// 	}
+	
+// 	50%,
+// 	75% {
+// 	  stroke-dashoffset: 75;
+// 	  transform: rotate(45deg);
+// 	}
+	
+// 	100% {
+// 	  stroke-dashoffset: 280;
+// 	  transform: rotate(360deg);
+// 	}
+//   }
+
+@function get-dash-value($radius, $percentage) {
+	// Using $radius, calculate circumference.
+	$circumference: 2 * 3.1415927 * $radius;
+	
+	// Convert percentage to decimal.
+	// i.e. 50% = 0.5.
+	$percentage-as-decimal: $percentage / 100%;
+	
+	// Return unit value.
+	@return $circumference * $percentage-as-decimal;
+  }
+
+  $circle-radius : 150px;
+#preload{
+// fill: transparent;
+  stroke: #2f3d4c;
+  stroke-linecap: round;
+//   stroke-dasharray: get-dash-value(150px,10);
+  stroke-dasharray: get-dash-value($circle-radius, 80%);
+  stroke-dashoffset: get-dash-value($circle-radius, 75%);
+  stroke-width: 10px;
+  transform-origin: 50% 50%;
+  animation: 1.4s ease-in-out infinite both preload-circ;
+}
+@keyframes preload-circ{
+	0%{
+		stroke-dashoffset: get-dash-value($circle-radius, 0%);
+	}
+	50%{
+		stroke-dashoffset: get-dash-value($circle-radius, 100%);
+
+	}
+	100%{
+		stroke-dashoffset: get-dash-value($circle-radius, 0%);
+	}
+}
+@keyframes circle-animation {
+	0%,
+	25% {
+	  stroke-dashoffset: 280;
+	  transform: rotate(0);
+	}
+	
+	50%,
+	75% {
+	  stroke-dashoffset: 75;
+	  transform: rotate(45deg);
+	}
+	
+	100% {
+	  stroke-dashoffset: 280;
+	  transform: rotate(360deg);
+	}
+  }
+  
+
+
 #meraz_m{
 	background: url('../../assets/logo-otherthanM.png');
 	// -webkit-clip-path: polygon(38px 297px,468px 296px,347px 3px,256px 149px,161px 11px);

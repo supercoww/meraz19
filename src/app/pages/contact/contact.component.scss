@@ -3,19 +3,25 @@
 	scroll-margin-top: 75px;
 	margin-top: 75px;
 	display: flex;
-	
 } 
+
 iframe{
 	width: 100%;
 	margin : 12px;
 	height: 460px;
 }
+@media(min-width:720px){
+	.parent{
+		margin: 75px;
+	}
+}
 @media(max-width:720px){
 	.parent{
-		display: block;
+		flex-direction: column;
 	}
 	iframe{
-		width: 95%;
+		width: 90%;
+		margin: 5%;
 	}
 
 }
