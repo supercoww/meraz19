@@ -36,3 +36,19 @@ h1 {
 	scroll-snap-align: start;
 	scroll-margin-top: 75px;
 }
+
+h1{
+	background: url('../../../assets/gold-texture.jpg');
+	font-family: 'Metal Mania', cursive;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size: 2em;
+
+	color: transparent;
+	-webkit-font-smoothing: antialiased;
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

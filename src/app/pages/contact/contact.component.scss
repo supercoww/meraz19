@@ -9,6 +9,12 @@ iframe {
 	width: 100%;
 	margin: 12px;
 	height: 460px;
+	
+	
+	object-fit: cover;
+	border: gold 3px ridge;
+	border-radius: 12px;
+	cursor: pointer;
 }
 @media (min-width: 720px) {
 	.parent {

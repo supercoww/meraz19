@@ -1,7 +1,9 @@
 {
   "name": "meraz19",
   "version": "0.0.0",
+  "homepage":"https://kshivendu.github.io/meraz19/",
   "scripts": {
+    "deploy" : "gh-pages -d dist/meraz19",
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
@@ -23,6 +25,7 @@
     "@angular/router": "~8.2.0",
     "angular-particle": "^1.0.4",
     "animejs": "^3.1.0",
+    "gh-pages": "^2.1.1",
     "imagesloaded": "^4.1.4",
     "install": "^0.13.0",
     "rxjs": "~6.4.0",
