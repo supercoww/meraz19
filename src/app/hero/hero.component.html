@@ -34,7 +34,9 @@
 		<circle  id='preload' cx="250" cy="200" r="5"/> -->
 		<!-- <rect id='rectGrow' x="240" y="50" width="1" height="350" fill='black' > -->
 				<!-- <rect id='rectGrow' x="240" y="50" width="5" height="350" fill='black' /> -->
-				
+				<circle  id='preload' fill='black' cx="250" cy="200" r="150"/>
+				<circle  id='preload' fill='white' cx="245" cy="205" r="160"/>
+
 	<defs>	
 		<mask id='mask2'>
 				<rect id='rectGrow' x="240" y="50" width="50" height="350" fill='white' >
@@ -45,10 +47,7 @@
 				<!-- <circle id='cir' fill='white' cx="245" cy="204" r="160"/> -->
 				<circle id='head' fill='white' cx='245' cy='350' r='10'></circle>
 			</mask>
-			<linearGradient id="gradient" x1="0" y1="00%" x2 ="0" y2="100%">
-					<stop stop-color="black" offset="0"/>
-					<stop stop-color="white" offset="1"/>
-				  </linearGradient>
+			
 		    <mask id="masking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
 					<circle  id='preload' fill='black' cx="250" cy="200" r="150"/>
 					<circle  id='preload' fill='white' cx="250" cy="200" r="200"/>
@@ -88,7 +87,8 @@
 		</polygon> -->
 
 		<!-- <circle id='myCircle' cx="250" cy="85" r="50" fill="#FFFFFF" /> -->
-		<!-- <circle id='cir' fill='black' cx="245" cy="204" r="160"/> -->
+		<circle id='cir' fill='black' cx="245" cy="204" r="135"/>
+		<!-- 160 -->
 		<!-- 135 to  -->
 		<image width="500" height="500" xlink:href="assets/logo-circle.png" mask='url(#mask2)' />
 				<image width="500" height="500" xlink:href="assets/logo-M.png" clip-path='url(#clipPolygon)' />

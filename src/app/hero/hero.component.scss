@@ -29,6 +29,7 @@
 
 	}
 }
+
 #cir{
 	// animation: 2s linear infinite circleGrow;
 }
@@ -108,6 +109,7 @@
 
   $circle-radius : 150px;
 #preload{
+	// filter: brightness(300%);
 // fill: transparent;
   stroke: #2f3d4c;
   stroke-linecap: round;
@@ -117,6 +119,9 @@
   stroke-width: 10px;
   transform-origin: 50% 50%;
   animation: 1.4s ease-in-out infinite both preload-circ;
+  -webkit-mask-box-image: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
+  mask-border: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
+
 }
 @keyframes preload-circ{
 	0%{
