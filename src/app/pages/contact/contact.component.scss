@@ -3,31 +3,32 @@
 	scroll-margin-top: 75px;
 	margin-top: 75px;
 	display: flex;
-} 
+}
 
-iframe{
+iframe {
 	width: 100%;
-	margin : 12px;
+	margin: 12px;
 	height: 460px;
 }
-@media(min-width:720px){
-	.parent{
+@media (min-width: 720px) {
+	.parent {
 		margin: 75px;
 	}
 }
-@media(max-width:720px){
-	.parent{
+@media (max-width: 720px) {
+	.parent {
 		flex-direction: column;
 	}
-	iframe{
+	iframe {
 		width: 90%;
 		margin: 5%;
 	}
-
 }
 
 .contact-info {
-	text-align: center;
+	padding: 15px;
+	scroll-snap-align: start;
+	scroll-margin-top: 75px;
 }
 
 ul {
