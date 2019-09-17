@@ -7,6 +7,8 @@
 .reg-form {
 	padding: 5%;
 	align-content: center;
+	background: rgb(66, 66, 66, 40%);
+	border-radius: 12px;
 
 	// background-image: linear-gradient(
 	// 		90deg,
@@ -37,7 +39,7 @@ h1 {
 	scroll-margin-top: 75px;
 }
 
-h1{
+h1 {
 	background: url('../../../assets/gold-texture.jpg');
 	font-family: 'Metal Mania', cursive;
 	letter-spacing: 2px;
