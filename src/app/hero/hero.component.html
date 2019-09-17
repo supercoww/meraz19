@@ -34,18 +34,25 @@
 		<circle  id='preload' cx="250" cy="200" r="5"/> -->
 		<!-- <rect id='rectGrow' x="240" y="50" width="1" height="350" fill='black' > -->
 				<!-- <rect id='rectGrow' x="240" y="50" width="5" height="350" fill='black' /> -->
-				<circle  id='preload' fill='black' cx="250" cy="200" r="150"/>
-				<circle  id='preload' fill='white' cx="245" cy="205" r="160"/>
+				<!-- <circle  id='preload' fill='black' cx="250" cy="200" r="150"/>
+				<circle  id='preload' fill='white' cx="245" cy="205" r="160"/> -->
+				<path id='pathArc'fill="black" stroke="white" stroke-width="20" />
 
 	<defs>	
+		<clipPath id='newArc'>
+				<path id='pathArc'/>
+				<path d="M10,10 q60,60 100,0 q50,50 50,50 l40,0 l-40,40 l-100,-20"/>
+
+		</clipPath>
 		<mask id='mask2'>
 				<rect id='rectGrow' x="240" y="50" width="50" height="350" fill='white' >
+
 						<!-- <animate attributeName="width" from="0" to="100" begin= "0s" dur="5s"/>
 						<animateTransform attributeName="transform" type="scale" from="0" to="1" dur="3s"/> -->
 				</rect>
 
 				<!-- <circle id='cir' fill='white' cx="245" cy="204" r="160"/> -->
-				<circle id='head' fill='white' cx='245' cy='350' r='10'></circle>
+				<!-- <circle id='head' fill='white' cx='245' cy='350' r='10'></circle> -->
 			</mask>
 			
 		    <mask id="masking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
@@ -87,10 +94,10 @@
 		</polygon> -->
 
 		<!-- <circle id='myCircle' cx="250" cy="85" r="50" fill="#FFFFFF" /> -->
-		<circle id='cir' fill='black' cx="245" cy="204" r="135"/>
+		<!-- <circle id='cir' fill='black' cx="245" cy="204" r="135"/> -->
 		<!-- 160 -->
 		<!-- 135 to  -->
-		<image width="500" height="500" xlink:href="assets/logo-circle.png" mask='url(#mask2)' />
+		<image width="500" height="500" xlink:href="assets/logo-circle.png" clip-path='url(#newArc)' />
 				<image width="500" height="500" xlink:href="assets/logo-M.png" clip-path='url(#clipPolygon)' />
 	  </svg>
 
