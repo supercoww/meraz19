@@ -157,7 +157,7 @@ $pi: 3.14159265359;
   }
 
 #meraz_m{
-	background: url('../../assets/logo-otherthanM.png');
+	background-image: url('../../assets/logo-otherthanM.png');
 	// -webkit-clip-path: polygon(38px 297px,468px 296px,347px 3px,256px 149px,161px 11px);
 	clip-path: url("#clipPolygon");
 }

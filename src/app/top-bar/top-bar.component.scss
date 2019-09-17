@@ -1,24 +1,14 @@
 @import 'src/theme';
 
 
-// li{
-//   padding: 5px;
-//   font-family: 'Syncopate', sans-serif;
-//   background: radial-gradient(
-//     circle farthest-corner at center center,
-//     gold,
-//     #111
-//   ) no-repeat;
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-// }
 li{
+
+	background-image: url('../../assets/gold-texture.jpg');
 	font-family: 'Metal Mania', cursive;
 	font-size: 1.1em;
 	letter-spacing: 2px;
 	font-weight: bold;
 
-	background: url('../../assets/gold-texture.jpg');
 	text-transform: uppercase;
 	text-align: center;
 	color: transparent;
@@ -48,7 +38,7 @@ h1 {
 	font-family: nouty;
 	letter-spacing: 5px;
 
-	background: url('../../assets/gold-texture.jpg');
+	background-image: url('../../assets/gold-texture.jpg');
 	text-transform: uppercase;
 	text-align: center;
 	color: transparent;
