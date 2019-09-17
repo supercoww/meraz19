@@ -3,6 +3,11 @@
 	scroll-margin-top: 75px;
 	margin-top: 75px;
 	display: flex;
+
+	object-fit: cover;
+	border: gold 3px ridge;
+	border-radius: 12px;
+	cursor: pointer;
 }
 
 iframe {
@@ -11,10 +16,10 @@ iframe {
 	height: 460px;
 	
 	
-	object-fit: cover;
-	border: gold 3px ridge;
-	border-radius: 12px;
-	cursor: pointer;
+	// object-fit: cover;
+	// border: gold 3px ridge;
+	// border-radius: 12px;
+	// cursor: pointer;
 }
 @media (min-width: 720px) {
 	.parent {
