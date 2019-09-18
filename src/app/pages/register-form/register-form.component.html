@@ -1,29 +1,28 @@
-<div
-	class="register-form"
-	style="scroll-snap-align: start;
-scroll-padding-top: 75px;height: 100%;"
->
-	<div class="reg-form">
-		<h1 style="color:rgb(250, 211, 0)">Register Here</h1>
-		<form class="example-form">
-			<mat-form-field class="example-form">
-				<input matInput placeholder="Name" />
-			</mat-form-field>
-			<br />
-			<mat-form-field class="example-full-width">
-				<input matInput placeholder="Email" />
-			</mat-form-field>
-			<mat-form-field class="example-full-width">
-				<input matInput placeholder="Phone" />
-			</mat-form-field>
-			<mat-form-field class="example-full-width">
-				<input matInput placeholder="College" />
-			</mat-form-field>
-			<mat-form-field class="example-full-width">
-				<textarea matInput placeholder="Leave a comment"></textarea>
-			</mat-form-field>
-		</form>
+<div class="reg-form">
+	<h1 style="color:rgb(250, 211, 0)">Register Here</h1>
+	<form class="example-form">
+		<mat-form-field class="example-form">
+			<input type="text" matInput placeholder="Name" required />
+		</mat-form-field>
 
-		<button mat-raised-button color="primary">I'm in !</button>
-	</div>
+		<mat-form-field class="example-full-width">
+			<input type="email" matInput placeholder="Email" required />
+		</mat-form-field>
+
+		<mat-form-field class="example-full-width">
+			<input type="tel" matInput placeholder="Phone" required />
+		</mat-form-field>
+
+		<mat-form-field class="example-full-width">
+			<input type="text" matInput placeholder="College" required />
+		</mat-form-field>
+
+		<mat-form-field class="example-full-width">
+			<textarea matInput placeholder="Leave a comment"></textarea>
+		</mat-form-field>
+
+		<button type="submit" mat-raised-button color="primary">
+			I'm in !
+		</button>
+	</form>
 </div>
