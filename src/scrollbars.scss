@@ -18,14 +18,14 @@
 		background: $background-color;
 	}
 
-	::-webkit-scrollbar-thumb {
+	::-webkit-scrollbar-thumb,
+	::-webkit-scrollbar-thumb:hover {
 		background: $foreground-color;
 		border-radius: 10px;
 	}
 
 	::-webkit-scrollbar-track {
 		background: $background-color;
-		border-radius: 10px;
 	}
 
 	// For Internet Explorer
