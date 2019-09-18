@@ -1,13 +1,19 @@
-<div class="container">
+<div class="parent">
 	<ng-container *ngFor="let category of categories$ | async">
-		<div
-			class="{{ event.imageSize }}"
-			[routerLink]="['/events', event.name]"
-			*ngFor="let event of category.events"
-			style="cursor: pointer;"
-		>
-			<img src="assets/event-images/{{ event.image }}" />
-			<span class="event-title">{{ event.name }}</span>
+		<h1>{{ category.name }}</h1>
+		<div class="container">
+			<div
+				class="{{ event.imageSize }} event-item"
+				[routerLink]="['/events', event.name]"
+				*ngFor="let event of category.events"
+				style="cursor: pointer;"
+			>
+				<img
+					class="event-img"
+					src="assets/event-images/{{ event.image }}"
+				/>
+				<span class="event-title">{{ event.name }}</span>
+			</div>
 		</div>
 	</ng-container>
 </div>
