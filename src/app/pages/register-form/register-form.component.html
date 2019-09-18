@@ -1,27 +1,65 @@
 <div class="reg-form">
 	<h1 style="color:rgb(250, 211, 0)">Register Here</h1>
-	<form class="example-form">
+	<form class="example-form" [formGroup]="registerForm">
 		<mat-form-field class="example-form">
-			<input type="text" matInput placeholder="Name" required />
+			<input
+				type="text"
+				matInput
+				placeholder="Name"
+				name="name"
+				formControlName="name"
+				required
+			/>
 		</mat-form-field>
 
 		<mat-form-field class="example-full-width">
-			<input type="email" matInput placeholder="Email" required />
+			<input
+				type="email"
+				matInput
+				placeholder="Email"
+				name="email"
+				formControlName="email"
+				required
+			/>
 		</mat-form-field>
 
 		<mat-form-field class="example-full-width">
-			<input type="tel" matInput placeholder="Phone" required />
+			<input
+				type="tel"
+				matInput
+				placeholder="Phone"
+				name="phone"
+				formControlName="phone"
+				required
+			/>
 		</mat-form-field>
 
 		<mat-form-field class="example-full-width">
-			<input type="text" matInput placeholder="College" required />
+			<input
+				type="text"
+				matInput
+				placeholder="College"
+				name="college"
+				formControlName="college"
+				required
+			/>
 		</mat-form-field>
 
 		<mat-form-field class="example-full-width">
-			<textarea matInput placeholder="Leave a comment"></textarea>
+			<textarea
+				matInput
+				placeholder="Leave a comment"
+				name="comment"
+				formControlName="comment"
+			></textarea>
 		</mat-form-field>
 
-		<button type="submit" mat-raised-button color="primary">
+		<button
+			type="submit"
+			[disabled]="registerForm.invalid"
+			mat-raised-button
+			color="primary"
+		>
 			I'm in !
 		</button>
 	</form>

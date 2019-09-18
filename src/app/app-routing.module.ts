@@ -8,11 +8,27 @@ import { RegisterFormComponent } from './pages/register-form/register-form.compo
 import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
-	{ path: 'register', component: RegisterFormComponent },
-	{ path: 'contact', component: ContactComponent },
-	{ path: 'events', component: EventListComponent },
-	{ path: 'events/:name', component: EventComponent },
-	{ path: '', component: HomeComponent },
+	{
+		path: 'register',
+		component: RegisterFormComponent,
+		data: { animation: 'register' }
+	},
+	{
+		path: 'contact',
+		component: ContactComponent,
+		data: { animation: 'contact' }
+	},
+	{
+		path: 'events',
+		component: EventListComponent,
+		data: { animation: 'events' }
+	},
+	{
+		path: 'events/:name',
+		component: EventComponent,
+		data: { animation: 'event-info' }
+	},
+	{ path: '', component: HomeComponent, data: { animation: 'home' } },
 	{ path: '**', redirectTo: '' }
 ];
 

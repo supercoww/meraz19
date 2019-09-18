@@ -12,8 +12,8 @@ export class AppComponent {
 	prepareRoute(outlet: RouterOutlet) {
 		return (
 			outlet &&
-			outlet.activatedRoute &&
-			outlet.activatedRoute.snapshot.url.toString()
+			outlet.activatedRouteData &&
+			outlet.activatedRouteData.animation
 		);
 	}
 }

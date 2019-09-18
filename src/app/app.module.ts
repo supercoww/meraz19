@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -44,6 +45,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 		CoreModule,
 		HttpClientModule,
 		AppRoutingModule,
+		ReactiveFormsModule,
 		ParticlesModule,
 		NoopAnimationsModule,
 		MatButtonModule,
