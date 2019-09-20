@@ -1,0 +1,43 @@
+[debug] [2019-09-20T05:01:21.227Z] ----------------------------------------------------------------------
+[debug] [2019-09-20T05:01:21.231Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only functions
+[debug] [2019-09-20T05:01:21.232Z] CLI Version:   7.3.2
+[debug] [2019-09-20T05:01:21.232Z] Platform:      linux
+[debug] [2019-09-20T05:01:21.232Z] Node Version:  v10.15.2
+[debug] [2019-09-20T05:01:21.343Z] Time:          Fri Sep 20 2019 10:31:21 GMT+0530 (India Standard Time)
+[debug] [2019-09-20T05:01:21.343Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-20T05:01:21.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-20T05:01:21.407Z] > authorizing via signed-in user
+[debug] [2019-09-20T05:01:21.407Z] [iam] checking project meraz-d165d for permissions ["firebase.projects.get"]
+[debug] [2019-09-20T05:01:21.410Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-09-20T05:01:21.411Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-09-20T05:01:22.839Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-20T05:01:22.920Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/meraz-d165d:testIamPermissions  
+
+[debug] [2019-09-20T05:01:27.963Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-20T05:01:27.968Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/meraz-d165d  
+ 
+[debug] [2019-09-20T05:01:30.423Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "10"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "/home/krshivendu/meraz19/functions" for Cloud Functions...
+[debug] [2019-09-20T05:01:31.762Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/krshivendu/meraz19/functions","node_version":"10.15.2"}
+[debug] [2019-09-20T05:01:31.763Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-09-20T05:01:31.802Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.5.0","resolution":"/home/krshivendu/meraz19/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-09-20T05:01:31.828Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/krshivendu/meraz19/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-09-20T05:01:31.830Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/krshivendu/meraz19/functions/node_modules/firebase-functions/lib/index.js"}
+[warn] ⚠  Error: Cannot find module '/home/krshivendu/meraz19/functions'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at /usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:677:33
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/local/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:4:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+[warn] ⚠  We were unable to load your functions code. (see above)
+   - It appears your code is written in Typescript, which must be compiled before emulation.
+   - You may be able to run "npm run build" in your functions directory to resolve this.
