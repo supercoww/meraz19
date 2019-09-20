@@ -4,10 +4,9 @@
 >
 	<i
 		class="fa fa-bars fa-2x"
-		onclick='
-		document.getElementsByClassName("container")[0].removeAttribute("hidden");
-		document.getElementsByClassName("container")[0].style.left = "240px";
-		document.getElementsByTagName("app-top-bar")[0].style.display = "none";'
+		onclick='document.getElementById("sidebar").classList.toggle("open");
+		document.getElementById("barwrapper").classList.toggle("open");
+		document.getElementsByClassName("app-bar")[0].style.display = "none";'
 	></i>
 	
 	<h1><a routerLink="">MERAZ</a></h1>

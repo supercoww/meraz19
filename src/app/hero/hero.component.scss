@@ -6,7 +6,21 @@
 	scroll-snap-align: start;
 	
 }
-
+svg{
+	// border: 2px solid red;
+	padding-top: 45px;
+	position: absolute;
+	left : 30vw;
+	width: 100vw;
+	height: 500px;
+	overflow: hidden;
+}
+@media(max-width:500px){
+	svg{
+		left: -18vw;
+		overflow: visible;
+	}
+}
 #rectGrow{
 	animation: 3s linear infinite rectG;
 	transform-origin: 50% 50%;

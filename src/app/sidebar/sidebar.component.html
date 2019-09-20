@@ -1,22 +1,20 @@
-<div
-	class="container"
-	style="left: 0;"
-	hidden="true"
-	onclick="
-			document.getElementsByClassName('container')[0].style.left = '0px';
-setTimeout(() => {
-document
-.getElementsByTagName('app-top-bar')[0]
-.setAttribute('style', 'display:flex;');
-document
-.getElementsByClassName('container')[0]
-.setAttribute('hidden','');
-},420);
 
-"
+<div class="wrapper" id="barwrapper"
+onclick='document.getElementById("sidebar").classList.toggle("open");
+document.getElementById("barwrapper").classList.toggle("open");
+document.getElementsByClassName("app-bar")[0].style.display = "flex";'
 >
-	<nav class="app-bar" id="sidebar" class="sidebar">
+
+<nav class="app-bar" id="sidebar" class="sidebar"
+	onclick='document.getElementById("sidebar").classList.toggle("open");
+	document.getElementById("barwrapper").classList.toggle("open");
+		document.getElementsByClassName("app-bar")[0].style.display = "flex";'
+	>
 		<ul class="links">
+			<br><br>			<br><br>
+
+				<!-- <li><a routerLink="events" routerLinkActive="active"></a></li> -->
+
 			<li>
 				<a
 					routerLink=""

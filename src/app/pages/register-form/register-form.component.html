@@ -1,6 +1,6 @@
 <div class="reg-form">
 	<h1 style="color:rgb(250, 211, 0)">Register Here</h1>
-	<form class="example-form" [formGroup]="registerForm">
+	<form class="example-form" [formGroup]="registerForm" action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld" method="POST">
 		<mat-form-field class="example-form">
 			<input
 				type="text"
@@ -46,7 +46,7 @@
 
 		<mat-form-field class="example-full-width">
 			<input
-				type="text"
+				type="tel"
 				matInput
 				placeholder="Your Whatsapp Number"
 				name="whatsapp"
@@ -82,8 +82,11 @@
 				placeholder="College"
 				name="college"
 				formControlName="college"
+				required
 			/>
+			<mat-error>College name is required</mat-error>
 		</mat-form-field>
+		
 
 		<mat-form-field class="example-full-width">
 			<textarea
