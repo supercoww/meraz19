@@ -16,6 +16,9 @@ export class RegisterFormComponent implements OnInit {
 			name: ['', Validators.required],
 			email: ['', [Validators.required, Validators.email]],
 			phone: ['', Validators.required],
+			whatsapp: '',
+			address1: '',
+			address2: '',
 			college: [''],
 			comment: ''
 		});
