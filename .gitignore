@@ -12,6 +12,7 @@
 
 #firebase
 .firebase
+firebase-debug.log
 
 # profiling files
 chrome-profiler-events*.json
