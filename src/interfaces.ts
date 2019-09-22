@@ -16,3 +16,8 @@ export interface Time {
 	minutes: number;
 	seconds: number;
 }
+
+export interface SponsorInfo {
+	imageUrl: string;
+	link: string;
+}

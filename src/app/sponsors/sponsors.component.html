@@ -1,0 +1,13 @@
+<div style="margin: 0px 30px;">
+	<h2>Sponsors</h2>
+	<ng-container *ngFor="let sponsor of sponsors">
+		<div class="sponsor-ad">
+			<a [href]="sponsor.link" target="_blank" rel="noopener">
+				<img
+					[src]="sponsor.imageUrl"
+					alt="Top UI &amp; UX Design Agencies"
+				/>
+			</a>
+		</div>
+	</ng-container>
+</div>
