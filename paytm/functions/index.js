@@ -2,8 +2,11 @@ const functions = require('firebase-functions');
 const express = require('express');
 const app = express();
 const port = 8080;
-//const bodyParser = require('body-parser');
 const https = require('https');
+//const bodyParser = require('body-parser');
+const admin = require('firebase-admin');
+admin.initializeApp(functions.config().firebase);
+let db = admin.firestore();
 //const http = require('http');
 //const https = require('https');
 //const checksum_lib = require('checksum.js');
@@ -23,14 +26,60 @@ response.send('Hello from Firebase! ' + request);
 //app.use(bodyParser);
 
 app.get('/',async(req,res) => {
+
+	let docRef = db.collection('users').doc('alovelace');
+let setAda = docRef.set({
+  first: 'Ada',
+  last: 'Lovelace',
+  born: 1815
+});
+
+let aTuringRef = db.collection('users').doc('aturing');
+let setAlan = aTuringRef.set({
+  'first': 'Alan',
+  'middle': 'Mathison',
+  'last': 'Turing',
+  'born': 1912
+});
+
   console.log("Main page accesed");
   res.send('Hello World!');
 });
 
+app.get('/readDB',async(req,res) => {
+	let ret = ''
+	db.collection('users').get()
+	.then((snapshot) => {
+	  snapshot.forEach((doc) => {
+		ret += JSON.stringify(doc.data());
+	  });
+	  res.send(ret);
+	  return 0;
+	})
+	.catch((err) => {
+	  console.log('Error getting documents', err);
+	});
+})
+
 
 app.get('/api/pay/',async (req,res) => {
   console.log("API/PAY is being accessed");
-  res.status(200).json({head:"Something",mess:"Message"})
+//   res.status(200).json({head:"Something",mess:"Message"});
+  
+  let testRef = db.collection('registered').doc('test');
+	let response_Data = testRef.set({
+	//   PAYTMParams: params,
+	'name': 'NAME',
+	'email': 'email@xyz.com',
+	'phone': '3123123121',
+	'whatsapp': '3123123121',
+	'address1': '3123123121',
+	'address2': '3123123121',
+	'college': 'IIT Bhilai',
+	'comment': 'Some comment'
+	});
+	res.status(200).json(response_Data);
+	console.log(response_Data);
 });
 
 
@@ -79,6 +128,19 @@ checksum_lib.genchecksum(params, PaytmConfig.key, (err, checksum) => {
         res.type('.html');
 				res.send('<html><head><title>Merchant Checkout Page</title></head><body><center><h1>Please do not refresh this page...</h1></center><form method="post" action="'+txn_url+'" name="f1">'+form_fields+'</form><script type="text/javascript">document.f1.submit();</script></body></html>');
   //res.end();
+  let aTuringRef = db.collection('registered').doc(params['CUST_ID']);
+let setAlan = aTuringRef.set({
+//   PAYTMParams: params,
+  'name': 'NAME',
+  'email': 'email@xyz.com',
+  'phone': '3123123121',
+  'whatsapp': '3123123121',
+  'address1': '3123123121',
+  'address2': '3123123121',
+  'college': 'IIT Bhilai',
+  'comment': 'Some comment'
+});
+
 			});
 
 });
@@ -172,89 +234,4 @@ app.post('/api/payDone',async(req,res)=>{
   //console.log("\n\nresponse had this params: " , req.params);
 //*/
 
-app.get('/api/payDone/',async (req,res) => {
-  console.log("Get Request on PayDone");
-  res.send("Payment Is Done");
-    /*
-			var body = '';
-	        
-  req.on('data', (data) => {
-	            body += data;
-	        });
 
-  req.on('end', () => {
-				var html = "";
-				var post_data = qs.parse(body);
-
-
-				// received params in callback
-				console.log('Callback Response: ', post_data, "\n");
-				html += "<b>Callback Response</b><br>";
-				for(var x in post_data){
-					html += x + " => " + post_data[x] + "<br/>";
-				}
-				html += "<br/><br/>";
-
-
-				// verify the checksum
-				var checksumhash = post_data.CHECKSUMHASH;
-				// delete post_data.CHECKSUMHASH;
-				var result = checksum_lib.verifychecksum(post_data, PaytmConfig.key, checksumhash);
-				console.log("Checksum Result => ", result, "\n");
-				html += "<b>Checksum Result</b> => " + (result? "True" : "False");
-				html += "<br/><br/>";
-
-
-
-				// Send Server-to-Server request to verify Order Status
-				var params = {"MID": PaytmConfig.mid, "ORDERID": post_data.ORDERID};
-
-            checksum_lib.genchecksum(params, PaytmConfig.key, (err, checksum) => {
-
-              console.log("Error is :"+err);
-					params.CHECKSUMHASH = checksum;
-					post_data = 'JsonData='+JSON.stringify(params);
-
-					var options = {
-						hostname: 'securegw-stage.paytm.in', // for staging
-						// hostname: 'securegw.paytm.in', // for production
-						port: 443,
-						path: '/merchant-status/getTxnStatus',
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/x-www-form-urlencoded',
-							'Content-Length': post_data.length
-						}
-					};
-
-
-					// Set up the request
-					var response = "";
-              var post_req = https.request(options, (post_res) => {
-                post_res.on('data', (chunk) =>{
-							response += chunk;
-						});
-
-                post_res.on('end', () => {
-							console.log('S2S Response: ', response, "\n");
-
-							var _result = JSON.parse(response);
-							html += "<b>Status Check Response</b><br>";
-							for(var x in _result){
-								html += x + " => " + _result[x] + "<br/>";
-							}
-
-                  res.type('.html');
-                  //res.writeHead(200, {'Content-Type': 'text/html'});
-                  res.send(html);
-                  //							res.write(html);
-						});
-					});
-
-					// post the data
-					post_req.write(post_data);
-					post_req.end();
-				});
-	        })
-*/
-});

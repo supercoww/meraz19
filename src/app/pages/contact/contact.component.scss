@@ -5,9 +5,19 @@
 	display: flex;
 
 	object-fit: cover;
-	border: gold 3px ridge;
+	// border: gold 3px ridge;
 	border-radius: 12px;
-	cursor: pointer;
+	// cursor: pointer;
+
+
+	border-width: 3px;
+	border-style: solid;
+	border-image: 
+    linear-gradient(135deg, #ff2600,yellow,yellow ,#ff2600)
+    //   to bottom, 
+    //   gold, 
+    //   #ff4000)
+     1 round;
 }
 
 iframe {
