@@ -21,6 +21,10 @@ div:focus {
 	scroll-snap-align: start;
 	scroll-margin-top: 75px;
 	position: relative;
+	transition: transform 0.2s ease-in-out;
+}
+.event-item:hover {
+	transform: translateY(-10px);
 }
 .event-title {
 	font-family: 'Metal Mania', cursive;

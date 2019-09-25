@@ -3,7 +3,8 @@
 	<form
 		class="example-form"
 		[formGroup]="registerForm"
-		action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld"
+		(ngSubmit)="onSubmit($event)"
+		action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect"
 		method="POST"
 	>
 		<mat-form-field class="example-form">

@@ -23,4 +23,8 @@ export class RegisterFormComponent implements OnInit {
 			comment: ''
 		});
 	}
+
+	onSubmit(e) {
+		e.target.submit();
+	}
 }
