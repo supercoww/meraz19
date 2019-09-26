@@ -1,3 +1,41 @@
+@media only screen and (max-width: 480px) {
+	.show-mobile {
+	  display: block;
+	}
+	.hide-mobile {
+	  display: none;
+	}
+  }
+
+@media only screen and (min-width: 481px) {
+	.show-mobile {
+	  display: none;
+	}
+	.hide-mobile {
+	  display: block;
+	  img{
+		  position: absolute;
+		  border : 2px solid red;
+		  left: 31%;
+		  top: 5%;
+		  z-index: 5;
+		  width: 35%;
+		  transform-origin: 50% 50%;
+		  
+		  
+		//   animation: 2s sample ease-in-out infinite;
+		//   clip-path: url(#clipPolygon);
+		  .merazO{
+			clip-path: url(#clipPolygon);
+		  }
+		  .merazM{
+			clip-path: url(#newArc);
+		  }
+	  }
+	}
+  }
+
+
 .hero {
 	width: 100%;
 	height: 100vh;
@@ -15,9 +53,10 @@ svg{
 	height: 500px;
 	overflow: hidden;
 }
+
 @media(max-width:500px){
 	svg{
-		left: -18vw;
+		left: 4vw;
 		overflow: visible;
 	}
 }
