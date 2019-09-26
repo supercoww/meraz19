@@ -1,6 +1,12 @@
 <app-sidebar> </app-sidebar>
 <app-top-bar></app-top-bar>
 <main [@routeAnimations]="prepareRoute(outlet)">
+		<particles
+		[params]="myParams"
+		[style]="myStyle"
+		[width]="width"
+		[height]="height"
+	></particles>
 	<router-outlet #outlet="outlet"></router-outlet>
 </main>
 <app-footer></app-footer>

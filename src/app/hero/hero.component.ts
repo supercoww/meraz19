@@ -4,7 +4,7 @@ import { ParticlesModule } from "angular-particle";
 @Component({
 	selector: "app-hero",
 	templateUrl: "./hero.component.html",
-	styleUrls: ["./hero.component.scss", "./particles.scss"]
+	styleUrls: ["./hero.component.scss"]
 })
 export class HeroComponent implements OnInit {
 	myStyle: object = {};
@@ -73,7 +73,7 @@ export class HeroComponent implements OnInit {
 					image: { src: "img/github.svg", width: 100, height: 100 }
 				},
 				opacity: {
-					value: 0.5,
+					value: 0.7,
 					random: true,
 					anim: {
 						enable: false,
@@ -96,7 +96,7 @@ export class HeroComponent implements OnInit {
 				},
 				move: {
 					enable: true,
-					speed: 10,
+					speed: 6.5,
 					direction: "top-left",
 					random: true,
 					straight: false,
