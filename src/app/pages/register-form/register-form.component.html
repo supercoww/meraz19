@@ -4,9 +4,11 @@
 		class="example-form"
 		[formGroup]="registerForm"
 		(ngSubmit)="onSubmit($event)"
-		action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect"
+
+		action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect2"
 		method="POST"
 	>
+	<!-- action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2" -->
 		<mat-form-field class="example-form">
 			<input
 				type="text"

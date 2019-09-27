@@ -8,22 +8,33 @@ section {
 	flex-direction: column;
 
 	.title {
-		background-image: url('../../../assets/gold-texture.jpg');
+		// background-image: url('../../../assets/gold-texture.jpg');
 		text-align: center;
 		color: transparent;
-		-webkit-font-smoothing: antialiased;
+		// -webkit-font-smoothing: antialiased;
 
-		background-clip: text;
-		-webkit-background-clip: text;
-		-moz-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		// background-clip: text;
+		// -webkit-background-clip: text;
+		// -moz-background-clip: text;
+		// -webkit-text-fill-color: transparent;
 		
 		// font-family: 'Audiowide', cursive;
 		// font-family: 'Cinzel Decorative', cursive;
-		font-family: 'Metal Mania', cursive;
+		font-family: 'Metal Mania';
+
 
 		letter-spacing: 3px;
-		font-size: 1.2em;
+		
+		font-size: 1.3rem;
+		background-position: -5px ;
+		h1,a{
+			background: -webkit-linear-gradient(gold,gold, red);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		}
+		h1{
+			font-size: 2rem;
+		}
 
 		display: flex;
 		margin: 0px 30px;
