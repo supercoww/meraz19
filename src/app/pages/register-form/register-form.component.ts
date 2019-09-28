@@ -24,7 +24,7 @@ export class RegisterFormComponent implements OnInit {
 		});
 	}
 
-	onSubmit(e) {
-		e.target.submit();
+	onSubmit(e: Event) {
+		(e.target as HTMLFormElement).submit();
 	}
 }
