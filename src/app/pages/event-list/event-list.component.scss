@@ -23,9 +23,9 @@ div:focus {
 	position: relative;
 	transition: transform 0.2s ease-in-out;
 }
-.event-item:hover {
-	transform: translateY(-10px);
-}
+// .event-item:hover {
+// 	transform: translateY(-10px);
+// }
 .event-title {
 	font-family: 'Metal Mania', cursive;
 	position: absolute;
@@ -45,9 +45,71 @@ h1 {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	border: gold 2px ridge;
-	border-radius: 10px;
+	// border: gold 2px ridge;
+	// border-radius: 10px;
 	cursor: pointer;
+}
+$yellow: gold;
+
+.event-item{
+	&::before,
+  &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  transition: .5s color ease-in-out;
+
+  
+	&:hover {
+		color: $yellow;
+		
+	  }
+	
+	  // Start ::after in same position as ::before
+	  &::before,&::after {
+		border: 2px solid transparent;
+		border-radius: 0px;
+		width: 0;
+		height: 0;	
+		top: 0;
+		left: 0;
+	  }
+	  &:hover::before,
+	  &:hover::after {
+		width: 100%;
+		height: 100%;
+	  }
+
+	  ::before{
+		transition:
+      width 0.25s ease-out, // Width expands first
+	  height 0.25s ease-out 0.25s;
+	  }
+
+	  // Change colors
+	  &:hover::before {
+		border-top-color: $yellow;
+		border-right-color: $yellow;
+		-webkit-transition: border-radius 1s;
+		transition:
+      width 0.25s ease-out, // Width expands first
+	  height 0.25s ease-out 0.25s,
+	  border-radius 0.6s; // And then height
+
+	  }
+	
+	  &:hover::after {
+		border-bottom-color: $yellow;
+		border-left-color: $yellow;
+		transition: // Animate height first, then width
+		  height 0.25s ease-out,
+		  width 0.25s ease-out 0.25s;
+	  }
+
+
 }
 
 .horizontal {
