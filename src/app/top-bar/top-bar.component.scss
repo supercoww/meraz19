@@ -18,10 +18,10 @@ li {
 	-webkit-text-fill-color: transparent;
 }
 
-@font-face {
-	font-family: nouty;
-	src: url('../../assets/nouty\ stamp.otf');
-}
+// @font-face {
+// 	font-family: nouty;
+// 	src: url('../../assets/nouty\ stamp.otf');
+// }
 @media (max-width: 720px) {
 	h1 {
 		position: relative;
@@ -33,19 +33,22 @@ h1 {
 	// font-weight: bold;
 	font-size: 2em;
 	margin: 10px;
-	font-family: nouty;
+	font-family: 'Metal Mania', cursive;
+	font-weight: normal;
 	letter-spacing: 5px;
+	background: -webkit-linear-gradient(gold,gold, red);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	// background-image: url('../../assets/gold-texture.jpg');
+	// text-transform: uppercase;
+	// text-align: center;
+	// color: transparent;
+	// -webkit-font-smoothing: antialiased;
 
-	background-image: url('../../assets/gold-texture.jpg');
-	text-transform: uppercase;
-	text-align: center;
-	color: transparent;
-	-webkit-font-smoothing: antialiased;
-
-	background-clip: text;
-	-webkit-background-clip: text;
-	-moz-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	// background-clip: text;
+	// -webkit-background-clip: text;
+	// -moz-background-clip: text;
+	// -webkit-text-fill-color: transparent;
 }
 
 .app-bar {

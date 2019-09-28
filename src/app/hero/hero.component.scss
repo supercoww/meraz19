@@ -15,7 +15,7 @@
 		display: block;
 		img {
 			position: absolute;
-			border: 2px solid red;
+			//   border : 2px solid red;
 			left: 31%;
 			top: 5%;
 			z-index: 5;
@@ -32,6 +32,15 @@
 			}
 		}
 	}
+}
+
+//   animation: 2s sample ease-in-out infinite;
+//   clip-path: url(#clipPolygon);
+.merazO {
+	clip-path: url(#clipPolygon);
+}
+.merazM {
+	clip-path: url(#newArc);
 }
 
 .register-button {

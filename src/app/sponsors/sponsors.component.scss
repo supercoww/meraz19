@@ -7,3 +7,19 @@
 	max-width: 180px;
 	max-height: 100%;
 }
+
+h1{
+	font-family: 'Metal Mania', cursive;
+	background: -webkit-linear-gradient(gold,gold, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	letter-spacing: 3px;
+	font-size: 2rem ;
+	-webkit-font-smoothing: antialiased;
+	// font-family: 'Audiowide', cursive;
+	// font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Metal Mania', cursive;
+
+	letter-spacing: 3px;
+}

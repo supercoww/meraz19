@@ -7,7 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
 	constructor() {}
-	hideSidebar() {}
+	sidebar:HTMLElement = document.getElementById("sidebar");
+	barWrapper:HTMLElement = document.getElementById("barWrapper");
+	app_bar:HTMLElement = document.getElementsByClassName("app-bar")[0] as HTMLElement;
+	toggleSidebar(){
+		this.sidebar.classList.toggle("open");
+		this.barWrapper.classList.toggle("open");
+		this.app_bar.style.display = "flex";
+	}
 	ngOnInit() {}
 }
 

@@ -9,9 +9,7 @@ document.getElementsByClassName("app-bar")[0].style.display = "flex";'
 		class="app-bar"
 		id="sidebar"
 		class="sidebar"
-		onclick='document.getElementById("sidebar").classList.toggle("open");
-	document.getElementById("barwrapper").classList.toggle("open");
-		document.getElementsByClassName("app-bar")[0].style.display = "flex";'
+		(click)="toggleSidebar()"
 	>
 		<ul class="links">
 			<li>
@@ -19,18 +17,19 @@ document.getElementsByClassName("app-bar")[0].style.display = "flex";'
 					routerLink=""
 					routerLinkActive="active"
 					[routerLinkActiveOptions]="{ exact: true }"
+					(click)="toggleSidebar()"
 				>
 					Home
 				</a>
 			</li>
 			<li>
-				<a routerLink="events" routerLinkActive="active">Events</a>
+				<a routerLink="events" routerLinkActive="active" (click)="toggleSidebar()">Events</a>
 			</li>
 			<li>
-				<a routerLink="contact" routerLinkActive="active">Contact</a>
+				<a routerLink="contact" routerLinkActive="active" (click)="toggleSidebar()">Contact</a>
 			</li>
 			<li>
-				<a routerLink="register" routerLinkActive="active">Register</a>
+				<a routerLink="register" routerLinkActive="active" (click)="toggleSidebar()">Register</a>
 			</li>
 		</ul>
 	</nav>
