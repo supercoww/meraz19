@@ -17,13 +17,13 @@
 	}
 	}
 	.hide-mobile {
-	  display: none;
+		display: none;
 	}
-  }
+}
 
 @media only screen and (min-width: 481px) {
 	.show-mobile {
-	  display: none;
+		display: none;
 	}
 	.hide-mobile {
 	  display: block;
@@ -36,10 +36,10 @@
 		  top: 6%;
 		  z-index: 5;
 		  width: 35%;
-		  
+
 		  transform-origin: 50% 50%;
-		  
-		  
+
+
 		//   animation: 2s sample ease-in-out infinite;
 		//   clip-path: url(#clipPolygon);
 		  .merazO{
@@ -53,66 +53,79 @@
 	}
   }
 
+//   animation: 2s sample ease-in-out infinite;
+//   clip-path: url(#clipPolygon);
+.merazO {
+	clip-path: url(#clipPolygon);
+}
+.merazM {
+	clip-path: url(#newArc);
+}
 
+.register-button {
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	color: white;
+	padding: 10px 30px;
+	font-family: 'Metal Mania';
+}
 .hero {
 	width: 100%;
 	height: 100vh;
 	position: relative;
 	text-align: center;
 	scroll-snap-align: start;
-	
 }
-svg{
+svg {
 	// border: 2px solid red;
 	padding-top: 45px;
 	position: absolute;
-	left : 30vw;
+	left: 30vw;
 	width: 100vw;
 	height: 500px;
 	overflow: hidden;
 }
 
-@media(max-width:500px){
-	svg{
+@media (max-width: 500px) {
+	svg {
 		left: 4vw;
 		overflow: visible;
 	}
 }
-#rectGrow{
+#rectGrow {
 	animation: 3s linear infinite rectG;
 	transform-origin: 50% 50%;
 }
-@keyframes rectG{
-	0%{
+@keyframes rectG {
+	0% {
 		x: 5;
 		// width : 5;
 		transform: scaleX(1);
 	}
-	50%{
+	50% {
 		x: 500;
 		// width : 100;
 		transform: scaleX(1.5);
 	}
-	100%{
+	100% {
 		x: 5;
 		// width : 5;
 		transform: scaleX(1);
-
 	}
 }
 
-#cir{
-	// animation: 2s linear infinite circleGrow;
-}
-@keyframes circleGrow{
-	0%{
-		r : 130;
+// #cir {
+// animation: 2s linear infinite circleGrow;
+// }
+@keyframes circleGrow {
+	0% {
+		r: 130;
 	}
-	50%{
-		r : 160;
+	50% {
+		r: 160;
 	}
-	100%{
-		r : 130;
+	100% {
+		r: 130;
 	}
 }
 
@@ -122,7 +135,7 @@ svg{
 // 	max-width: 100px;
 // 	overflow: visible;
 //   }
-  
+
 //   // SVG animation.
 //   @keyframes svg-animation {
 // 	0% {
@@ -132,7 +145,7 @@ svg{
 // 	  transform: rotateZ(360deg)
 // 	}
 //   }
-  
+
 //   // Circle styles.
 //   circle {
 // 	animation: 1.4s ease-in-out infinite both circle-animation;
@@ -145,7 +158,7 @@ svg{
 // 	stroke-width: 10px;
 // 	transform-origin: 50% 50%;
 //   }
-  
+
 //   // Circle animation.
 //   @keyframes circle-animation {
 // 	0%,
@@ -153,13 +166,13 @@ svg{
 // 	  stroke-dashoffset: 280;
 // 	  transform: rotate(0);
 // 	}
-	
+
 // 	50%,
 // 	75% {
 // 	  stroke-dashoffset: 75;
 // 	  transform: rotate(45deg);
 // 	}
-	
+
 // 	100% {
 // 	  stroke-dashoffset: 280;
 // 	  transform: rotate(360deg);
@@ -170,83 +183,83 @@ $pi: 3.14159265359;
 @function get-dash-value($radius, $percentage) {
 	// Using $radius, calculate circumference.
 	$circumference: 2 * $pi * $radius;
-	
+
 	// Convert percentage to decimal.
 	// i.e. 50% = 0.5.
 	$percentage-as-decimal: $percentage / 100%;
-	
+
 	// Return unit value.
 	@return $circumference * $percentage-as-decimal;
-  }
-
-  $circle-radius : 150px;
-
-#preload{
-	// filter: brightness(300%);
-// fill: transparent;
-  stroke: #2f3d4c;
-  stroke-linecap: round;
-//   stroke-dasharray: get-dash-value(150px,10);
-  stroke-dasharray: get-dash-value($circle-radius, 80%);
-  stroke-dashoffset: get-dash-value($circle-radius, 75%);
-  stroke-width: 10px;
-  transform-origin: 50% 50%;
-  animation: 1.4s ease-in-out infinite both preload-circ;
-//   -webkit-mask-box-image: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
-//   mask-border: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
-
 }
-@keyframes preload-circ{
-	0%{
+
+$circle-radius: 150px;
+
+#preload {
+	// filter: brightness(300%);
+	// fill: transparent;
+	stroke: #2f3d4c;
+	stroke-linecap: round;
+	//   stroke-dasharray: get-dash-value(150px,10);
+	stroke-dasharray: get-dash-value($circle-radius, 80%);
+	stroke-dashoffset: get-dash-value($circle-radius, 75%);
+	stroke-width: 10px;
+	transform-origin: 50% 50%;
+	animation: 1.4s ease-in-out infinite both preload-circ;
+	//   -webkit-mask-box-image: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
+	//   mask-border: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
+}
+@keyframes preload-circ {
+	0% {
 		stroke-dashoffset: get-dash-value($circle-radius, 0%);
 	}
-	50%{
+	50% {
 		stroke-dashoffset: get-dash-value($circle-radius, 100%);
-
 	}
-	100%{
+	100% {
 		stroke-dashoffset: get-dash-value($circle-radius, 0%);
 	}
 }
 @keyframes circle-animation {
 	0%,
 	25% {
-	  stroke-dashoffset: 280;
-	  transform: rotate(0);
+		stroke-dashoffset: 280;
+		transform: rotate(0);
 	}
-	
+
 	50%,
 	75% {
-	  stroke-dashoffset: 75;
-	  transform: rotate(45deg);
+		stroke-dashoffset: 75;
+		transform: rotate(45deg);
 	}
-	
-	100% {
-	  stroke-dashoffset: 280;
-	  transform: rotate(360deg);
-	}
-  }
 
-#meraz_m{
+	100% {
+		stroke-dashoffset: 280;
+		transform: rotate(360deg);
+	}
+}
+
+#meraz_m {
 	background-image: url('../../assets/logo-otherthanM.png');
 	// -webkit-clip-path: polygon(38px 297px,468px 296px,347px 3px,256px 149px,161px 11px);
-	clip-path: url("#clipPolygon");
+	clip-path: url('#clipPolygon');
 }
 
 @keyframes movePoly {
-	0% {transform : translateY(250px);} 
-	100%  {transform : translateY(0px);}
+	0% {
+		transform: translateY(250px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
 	// 100%  {transform : translateY(250px);}
 }
 
-#myPoly{
+#myPoly {
 	animation: movePoly 10s infinite;
 }
-#myCircle{
+#myCircle {
 	animation: movePoly 10s infinite;
 }
-
-
 
 .hero-img {
 	width: auto;
@@ -257,7 +270,7 @@ $pi: 3.14159265359;
 	left: 50vw;
 	transform: translate(-50%, 0px);
 }
-app-timer {
+.bottom {
 	position: absolute;
 	width: fit-content;
 	margin: 0px;
@@ -266,11 +279,11 @@ app-timer {
 	min-width: 50%;
 	transform: translate(-50%, 0px);
 }
-@media (max-width: 720px) {
-	app-timer {
-		bottom: 15%;
-	}
-}
+// @media (max-width: 720px) {
+// 	.bottom {
+// 		bottom: 15%;
+// 	}
+// }
 
 /* ---- reset ---- */
 // body {

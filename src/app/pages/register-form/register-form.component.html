@@ -4,11 +4,10 @@
 		class="example-form"
 		[formGroup]="registerForm"
 		(ngSubmit)="onSubmit($event)"
-
 		action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect2"
 		method="POST"
 	>
-	<!-- action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2" -->
+		<!-- action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2" -->
 		<mat-form-field class="example-form">
 			<input
 				type="text"
@@ -17,7 +16,7 @@
 				name="name"
 				formControlName="name"
 				required
-				value='name'
+				value="name"
 			/>
 			<mat-error>Name is required</mat-error>
 		</mat-form-field>
@@ -30,7 +29,7 @@
 				name="email"
 				formControlName="email"
 				required
-				value='xyz@example.com'
+				value="xyz@example.com"
 			/>
 			<mat-error
 				*ngIf="registerForm.controls['email'].hasError('required')"
@@ -50,7 +49,7 @@
 				name="phone"
 				formControlName="phone"
 				required
-				value='XXXXXXX'
+				value="XXXXXXX"
 			/>
 			<mat-error>Phone is required</mat-error>
 		</mat-form-field>
@@ -62,7 +61,7 @@
 				placeholder="Your Whatsapp Number"
 				name="whatsapp"
 				formControlName="whatsapp"
-				value='XXXXXXX'
+				value="XXXXXXX"
 			/>
 		</mat-form-field>
 
@@ -73,7 +72,7 @@
 				placeholder="Your Address"
 				name="address1"
 				formControlName="address1"
-				value='address1'
+				value="address1"
 			/>
 		</mat-form-field>
 
@@ -84,7 +83,7 @@
 				placeholder="Your Address Line 2"
 				name="address2"
 				formControlName="address2"
-				value='address2'
+				value="address2"
 			/>
 		</mat-form-field>
 
@@ -96,7 +95,7 @@
 				name="college"
 				formControlName="college"
 				required
-				value='MIT'
+				value="MIT"
 			/>
 			<mat-error>College name is required</mat-error>
 		</mat-form-field>
@@ -111,17 +110,12 @@
 				placeholder="Leave a comment"
 				name="comment"
 				formControlName="comment"
-				value='some comment'
+				value="some comment"
 			></textarea>
 		</mat-form-field>
 
-		<button
-			type="submit"
-			mat-raised-button
-			color="primary"
-		>
-
-		<!-- [disabled]="registerForm.invalid" -->
+		<button type="submit" mat-raised-button color="primary">
+			<!-- [disabled]="registerForm.invalid" -->
 			I'm in !
 		</button>
 	</form>
