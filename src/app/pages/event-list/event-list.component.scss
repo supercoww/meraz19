@@ -50,6 +50,17 @@ h1 {
 	cursor: pointer;
 }
 $yellow: gold;
+$border-width : 2px;
+@media(max-width: 500px){
+	$border-width : 0px;
+	.event-item{
+		border-width: 2px;
+		border-style: solid;
+		border-image: 
+		linear-gradient(135deg, #ff2600,yellow,yellow ,#ff2600) 1 round;
+	}
+}
+
 
 .event-item{
 	&::before,
@@ -70,7 +81,7 @@ $yellow: gold;
 	
 	  // Start ::after in same position as ::before
 	  &::before,&::after {
-		border: 2px solid transparent;
+		border: $border-width solid transparent;
 		border-radius: 0px;
 		width: 0;
 		height: 0;	
@@ -91,8 +102,13 @@ $yellow: gold;
 
 	  // Change colors
 	  &:hover::before {
-		border-top-color: $yellow;
-		border-right-color: $yellow;
+		border-width: $border-width;
+		border-style: solid;
+		border-image: 
+		linear-gradient(135deg, #ff2600,yellow,yellow ,#ff2600) 1 round;
+		
+		border-width: $border-width $border-width 0px 0px;
+
 		-webkit-transition: border-radius 1s;
 		transition:
       width 0.25s ease-out, // Width expands first
@@ -102,14 +118,18 @@ $yellow: gold;
 	  }
 	
 	  &:hover::after {
-		border-bottom-color: $yellow;
-		border-left-color: $yellow;
+		// border-bottom-color: $yellow;
+		// border-left-color: $yellow;
+		border-width: $border-width;
+		border-style: solid;
+		border-image: 
+		linear-gradient(135deg, #ff2600,yellow,yellow ,#ff2600) 1 round;
+		
+		border-width: 0px 0px $border-width $border-width;
 		transition: // Animate height first, then width
 		  height 0.25s ease-out,
 		  width 0.25s ease-out 0.25s;
 	  }
-
-
 }
 
 .horizontal {

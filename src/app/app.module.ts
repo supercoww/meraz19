@@ -26,6 +26,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { RegisterFormComponent } from './pages/register-form/register-form.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
 	declarations: [
@@ -40,7 +41,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 		SidebarComponent,
 		RegisterFormComponent,
 		ContactComponent,
-		SponsorsComponent
+		SponsorsComponent,
+		LoaderComponent
 	],
 	imports: [
 		BrowserModule,
