@@ -5,7 +5,14 @@ const port = 8080;
 const https = require('https');
 //const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
-admin.initializeApp(functions.config().firebase);
+// admin.initializeApp(functions.config().firebase);
+
+let serviceAccount = require('./meraz-d165d-13bf8e4dbf85.json');
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
+
 let db = admin.firestore();
 //const http = require('http');
 
@@ -68,9 +75,8 @@ app.get('/api/pay/', async (req, res) => {
 	console.log('API/PAY is being accessed');
 	//   res.status(200).json({head:"Something",mess:"Message"});
 
-	let testRef = db.collection('registered').doc('test2');
+	let testRef = db.collection('users').doc('test5');
 	let response_Data = testRef.set({
-		//   PAYTMParams: params,
 		name: 'NAME',
 		email: 'email@xyz.com',
 		phone: '3123123121',
@@ -86,7 +92,7 @@ app.get('/api/pay/', async (req, res) => {
 		console.log("Error in adding to database: ",err);
 	});
 
-	res.status(200).json({"name":"Uou"});
+	res.status(200).json({"name":"Uodqwdwqu"});
 });
 
 exports.helloWorld = functions.https.onRequest(app);
@@ -103,7 +109,7 @@ app.post('/api/redirect2/', async (req, res) => {
 	console.log(req.body.email);
 	console.log(JSON.stringify(req.body));
 	// res.send(JSON.stringify(req.body));
-	
+
 	var ID = new Date().getTime();
 	var params = {};
 	params['MID'] = PaytmConfig.mid;
@@ -113,8 +119,9 @@ app.post('/api/redirect2/', async (req, res) => {
 	params['ORDER_ID'] = 'TEST_' + ID;
 	params['CUST_ID'] = 'Entry_' + ID;
 	params['TXN_AMOUNT'] = '1000';
-	params['CALLBACK_URL'] ='https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/payDone';
-		// 'http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/payDone';
+	params['CALLBACK_URL'] = 'http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/payDone';
+	// 'https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/payDone';
+
 	//
 
 	//'http://localhost:'+port+'/callback';
@@ -125,6 +132,7 @@ app.post('/api/redirect2/', async (req, res) => {
 	let testRef = db.collection('registered').doc(params['CUST_ID']);
 	const { name ,email,phone,whatsapp,address1,address2,college,comment} = req.body;
 	let datFire = {
+		identity : ID + "_" +  email,
 		normu : "Some text",
 		reg_name: name,
 		reg_email: email,
@@ -135,7 +143,7 @@ app.post('/api/redirect2/', async (req, res) => {
 		reg_college: college,
 		reg_comment: comment
 	};
-	
+
 	console.log("Printing database values  \n",datFire);
 	let response_Data = testRef.set(datFire).then(()=>{
 		console.log("Successfully added");
@@ -300,6 +308,19 @@ app.post('/api/payDone', async (req, res) => {
 				html += '<b>Status Check Response</b><br>';
 				for (var x in _result) {
 					html += x + ' => ' + _result[x] + '<br/>';
+				}
+				if(_result['STATUS'] === "TXN_SUCCESS"){
+					html += "<b>Transation Successful!!</b>";
+					let docRef = db.collection('users').doc('alovelace');
+					let updateSingle = docRef.update({born: 2001}).then(()=>{
+						console.log("Successfully updated");
+						return 0;
+					}).catch(err=>{
+						console.log("Error: ",err);
+					});
+				}
+				else{
+					html += "<b>Failed TXN</b>";
 				}
 
 				res.type('.html');
