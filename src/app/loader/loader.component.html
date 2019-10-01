@@ -1,6 +1,7 @@
-<!-- <source media="(min-width: 200px)" srcset="../../assets/Logo_Center.gif">
-<video src="../../assets/Logo_Center.gif"></video> -->
-<!-- <div class="anim">
-	<img src="../../assets/Logo_ring.gif" alt="">
-			<img src="../../assets/Logo_Center.gif" alt="" srcset="" >
-</div> -->
+<div *ngIf="loading" class="loader">
+	<img src="../../assets/Logo_Center.gif" />
+	<img
+		src="../../assets/Logo_ring.gif"
+		[ngStyle]="{ display: ringDisplay }"
+	/>
+</div>

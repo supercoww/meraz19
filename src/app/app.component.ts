@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { slideIn } from './route-animations';
 import { RouterOutlet } from '@angular/router';
 
-import { ParticlesModule } from "angular-particle";
+import { ParticlesModule } from 'angular-particle';
 
 @Component({
 	selector: 'app-root',
@@ -10,11 +10,12 @@ import { ParticlesModule } from "angular-particle";
 	styleUrls: ['./app.component.scss'],
 	animations: [slideIn]
 })
-export class AppComponent {
+export class AppComponent implements OnInit, AfterViewInit {
 	myStyle: object = {};
 	myParams: object = {};
-	width: number = 100;
-	height: number = 100;
+	width = 100;
+	height = 100;
+
 	prepareRoute(outlet: RouterOutlet) {
 		return (
 			outlet &&
@@ -22,15 +23,16 @@ export class AppComponent {
 			outlet.activatedRouteData.animation
 		);
 	}
+
 	ngOnInit(): void {
-		//Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-		//Add 'implements OnInit' to the class.
-		console.log("Trying to use ParticlesJS libray");
+		// Called after the constructor, initializing input properties, and the first call to ngOnChanges.
+		// Add 'implements OnInit' to the class.
+		console.log('Trying to use ParticlesJS libray');
 		this.myStyle = {
-			position: "fixed",
-			width: "100%",
-			height: "100%",
-			"z-index": -1,
+			position: 'fixed',
+			width: '100%',
+			height: '100%',
+			'z-index': -1,
 			top: 0,
 			left: 0,
 			right: 0,
@@ -42,12 +44,12 @@ export class AppComponent {
 					value: 400,
 					density: { enable: true, value_area: 3000 }
 				},
-				color: { value: "#fc0000" },
+				color: { value: '#fc0000' },
 				shape: {
-					type: "circle",
-					stroke: { width: 0, color: "#fc1919" },
+					type: 'circle',
+					stroke: { width: 0, color: '#fc1919' },
 					polygon: { nb_sides: 3 },
-					image: { src: "img/github.svg", width: 100, height: 100 }
+					image: { src: 'img/github.svg', width: 100, height: 100 }
 				},
 				opacity: {
 					value: 0.7,
@@ -67,26 +69,26 @@ export class AppComponent {
 				line_linked: {
 					enable: false,
 					distance: 500,
-					color: "#ff0000",
+					color: '#ff0000',
 					opacity: 0.4,
 					width: 2
 				},
 				move: {
 					enable: true,
 					speed: 6.5,
-					direction: "top-left",
+					direction: 'top-left',
 					random: true,
 					straight: false,
-					out_mode: "out",
+					out_mode: 'out',
 					bounce: false,
 					attract: { enable: false, rotateX: 600, rotateY: 1200 }
 				}
 			},
 			interactivity: {
-				detect_on: "canvas",
+				detect_on: 'canvas',
 				events: {
-					onhover: { enable: false, mode: "bubble" },
-					onclick: { enable: false, mode: "repulse" },
+					onhover: { enable: false, mode: 'bubble' },
+					onclick: { enable: false, mode: 'repulse' },
 					resize: true
 				},
 				modes: {
@@ -106,5 +108,8 @@ export class AppComponent {
 			retina_detect: true
 		};
 	}
-}
 
+	ngAfterViewInit(): void {
+		console.log(1);
+	}
+}
