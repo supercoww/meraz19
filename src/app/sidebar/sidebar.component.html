@@ -5,31 +5,19 @@
 document.getElementById("barwrapper").classList.toggle("open");
 document.getElementsByClassName("app-bar")[0].style.display = "flex";'
 >
-	<nav
-		class="app-bar"
-		id="sidebar"
-		class="sidebar"
-		(click)="toggleSidebar()"
-	>
+	<nav class="app-bar" id="sidebar" class="sidebar">
 		<ul class="links">
 			<li>
-				<a
-					routerLink=""
-					routerLinkActive="active"
-					[routerLinkActiveOptions]="{ exact: true }"
-					(click)="toggleSidebar()"
-				>
-					Home
-				</a>
+				<a routerLink="">Home</a>
 			</li>
 			<li>
-				<a routerLink="events" routerLinkActive="active" (click)="toggleSidebar()">Events</a>
+				<a routerLink="events">Events</a>
 			</li>
 			<li>
-				<a routerLink="contact" routerLinkActive="active" (click)="toggleSidebar()">Contact</a>
+				<a routerLink="contact">Contact</a>
 			</li>
 			<li>
-				<a routerLink="register" routerLinkActive="active" (click)="toggleSidebar()">Register</a>
+				<a routerLink="register">Register</a>
 			</li>
 		</ul>
 	</nav>
