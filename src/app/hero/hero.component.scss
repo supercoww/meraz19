@@ -1,73 +1,31 @@
-@media only screen and (max-width: 480px) {
-	.show-mobile {
-	  display: block;
-	  position: absolute;
-	  top : 15%;
-	  left: 2%;
-	  width: 100%;
-	  height: 100%;
-	  img{
-		position: absolute;
-	  //   border : 2px solid red;
-		left: 0%;
-		top: 0%;
-		z-index: 2;
-		width: 100%;
-		transform-origin: 50% 50%;
-	}
-	}
-	.hide-mobile {
-		display: none;
+img {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 500px;
+}
+@media(max-width:500px){
+	img{
+		width: 350px;
 	}
 }
-
-@media only screen and (min-width: 481px) {
-	.show-mobile {
-		display: none;
-	}
-	.hide-mobile {
+.show-mobile {
+	display: block;
+  }
+  .hide-mobile {
 	  display: block;
-	  .mob-size{
-		  border: 2px solid red;
-	  img{
-		  position: absolute;
-		//   border : 2px solid red;
-		  left: 31%;
-		  top: 6%;
-		  z-index: 5;
-		  width: 35%;
-
-		  transform-origin: 50% 50%;
-
-
-		//   animation: 2s sample ease-in-out infinite;
-		//   clip-path: url(#clipPolygon);
-		  .merazO{
-			clip-path: url(#clipPolygon);
-		  }
-		  .merazM{
-			clip-path: url(#newArc);
-		  }
-	  }
-	}
-	}
   }
 
-//   animation: 2s sample ease-in-out infinite;
-//   clip-path: url(#clipPolygon);
-.merazO {
-	clip-path: url(#clipPolygon);
-}
-.merazM {
-	clip-path: url(#newArc);
-}
-
 .register-button {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 2px;
-	color: white;
+	color: #111111;
+
 	padding: 10px 30px;
 	font-family: 'Metal Mania';
+	background-image: url('../../assets/gold-texture.jpg');
+
 }
 .hero {
 	width: 100%;
@@ -76,200 +34,8 @@
 	text-align: center;
 	scroll-snap-align: start;
 }
-svg {
-	// border: 2px solid red;
-	padding-top: 45px;
-	position: absolute;
-	left: 30vw;
-	width: 100vw;
-	height: 500px;
-	overflow: hidden;
-}
 
-@media (max-width: 500px) {
-	svg {
-		left: 4vw;
-		overflow: visible;
-	}
-}
-#rectGrow {
-	animation: 3s linear infinite rectG;
-	transform-origin: 50% 50%;
-}
-@keyframes rectG {
-	0% {
-		x: 5;
-		// width : 5;
-		transform: scaleX(1);
-	}
-	50% {
-		x: 500;
-		// width : 100;
-		transform: scaleX(1.5);
-	}
-	100% {
-		x: 5;
-		// width : 5;
-		transform: scaleX(1);
-	}
-}
 
-// #cir {
-// animation: 2s linear infinite circleGrow;
-// }
-@keyframes circleGrow {
-	0% {
-		r: 130;
-	}
-	50% {
-		r: 160;
-	}
-	100% {
-		r: 130;
-	}
-}
-
-// // SVG styles.
-// svg {
-// 	animation: 2s linear infinite svg-animation;
-// 	max-width: 100px;
-// 	overflow: visible;
-//   }
-
-//   // SVG animation.
-//   @keyframes svg-animation {
-// 	0% {
-// 	  transform: rotateZ(0deg);
-// 	}
-// 	100% {
-// 	  transform: rotateZ(360deg)
-// 	}
-//   }
-
-//   // Circle styles.
-//   circle {
-// 	animation: 1.4s ease-in-out infinite both circle-animation;
-// 	display: block;
-// 	fill: transparent;
-// 	stroke: #2f3d4c;
-// 	stroke-linecap: round;
-// 	stroke-dasharray: 283;
-// 	stroke-dashoffset: 280;
-// 	stroke-width: 10px;
-// 	transform-origin: 50% 50%;
-//   }
-
-//   // Circle animation.
-//   @keyframes circle-animation {
-// 	0%,
-// 	25% {
-// 	  stroke-dashoffset: 280;
-// 	  transform: rotate(0);
-// 	}
-
-// 	50%,
-// 	75% {
-// 	  stroke-dashoffset: 75;
-// 	  transform: rotate(45deg);
-// 	}
-
-// 	100% {
-// 	  stroke-dashoffset: 280;
-// 	  transform: rotate(360deg);
-// 	}
-//   }
-
-$pi: 3.14159265359;
-@function get-dash-value($radius, $percentage) {
-	// Using $radius, calculate circumference.
-	$circumference: 2 * $pi * $radius;
-
-	// Convert percentage to decimal.
-	// i.e. 50% = 0.5.
-	$percentage-as-decimal: $percentage / 100%;
-
-	// Return unit value.
-	@return $circumference * $percentage-as-decimal;
-}
-
-$circle-radius: 150px;
-
-#preload {
-	// filter: brightness(300%);
-	// fill: transparent;
-	stroke: #2f3d4c;
-	stroke-linecap: round;
-	//   stroke-dasharray: get-dash-value(150px,10);
-	stroke-dasharray: get-dash-value($circle-radius, 80%);
-	stroke-dashoffset: get-dash-value($circle-radius, 75%);
-	stroke-width: 10px;
-	transform-origin: 50% 50%;
-	animation: 1.4s ease-in-out infinite both preload-circ;
-	//   -webkit-mask-box-image: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
-	//   mask-border: url("https://www.html5rocks.com/en/tutorials/masking/adobe/stamp.svg") 35 repeat;
-}
-@keyframes preload-circ {
-	0% {
-		stroke-dashoffset: get-dash-value($circle-radius, 0%);
-	}
-	50% {
-		stroke-dashoffset: get-dash-value($circle-radius, 100%);
-	}
-	100% {
-		stroke-dashoffset: get-dash-value($circle-radius, 0%);
-	}
-}
-@keyframes circle-animation {
-	0%,
-	25% {
-		stroke-dashoffset: 280;
-		transform: rotate(0);
-	}
-
-	50%,
-	75% {
-		stroke-dashoffset: 75;
-		transform: rotate(45deg);
-	}
-
-	100% {
-		stroke-dashoffset: 280;
-		transform: rotate(360deg);
-	}
-}
-
-#meraz_m {
-	background-image: url('../../assets/logo-otherthanM.png');
-	// -webkit-clip-path: polygon(38px 297px,468px 296px,347px 3px,256px 149px,161px 11px);
-	clip-path: url('#clipPolygon');
-}
-
-@keyframes movePoly {
-	0% {
-		transform: translateY(250px);
-	}
-	100% {
-		transform: translateY(0px);
-	}
-	// 100%  {transform : translateY(250px);}
-}
-
-#myPoly {
-	animation: movePoly 10s infinite;
-}
-#myCircle {
-	animation: movePoly 10s infinite;
-}
-
-.hero-img {
-	width: auto;
-	max-width: 100%;
-	max-height: 80vh;
-	position: absolute;
-	top: 50px;
-	left: 50vw;
-	transform: translate(-50%, 0px);
-}
 .bottom {
 	position: absolute;
 	width: fit-content;
@@ -279,6 +45,7 @@ $circle-radius: 150px;
 	min-width: 50%;
 	transform: translate(-50%, 0px);
 }
+
 // @media (max-width: 720px) {
 // 	.bottom {
 // 		bottom: 15%;
