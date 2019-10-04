@@ -10,19 +10,12 @@ img {
 		width: 350px;
 	}
 }
-.show-mobile {
-	display: block;
-  }
-  .hide-mobile {
-	  display: block;
-  }
 
 .register-button {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	letter-spacing: 2px;
 	color: #111111;
-
-	padding: 10px 30px;
+	padding: 5px 15px;
 	font-family: 'Metal Mania';
 	background-image: url('../../assets/gold-texture.jpg');
 
@@ -37,116 +30,11 @@ img {
 
 
 .bottom {
-	position: absolute;
 	width: fit-content;
 	margin: 0px;
-	bottom: 20px;
+	position: absolute;
+	bottom: 3%;
 	left: 50%;
-	min-width: 50%;
 	transform: translate(-50%, 0px);
+	min-width: 50%;
 }
-
-// @media (max-width: 720px) {
-// 	.bottom {
-// 		bottom: 15%;
-// 	}
-// }
-
-/* ---- reset ---- */
-// body {
-// 	margin: 0;
-// 	font: normal 75% Arial, Helvetica, sans-serif;
-// }
-// canvas {
-// 	display: block;
-// 	vertical-align: bottom;
-// }
-/* ---- particles.js container ---- */
-// #particles-js {
-// 	position: absolute;
-// 	width: 100%;
-// 	height: 100%;
-// 	background-color: #232741;
-// 	background-repeat: no-repeat;
-// 	background-size: 20%;
-// 	background-position: 50% 50%;
-// } /* ---- stats.js ---- */
-// .count-particles {
-// 	background: #000022;
-// 	position: absolute;
-// 	top: 48px;
-// 	left: 0;
-// 	width: 80px;
-// 	color: #13e8e9;
-// 	font-size: 0.8em;
-// 	text-align: left;
-// 	text-indent: 4px;
-// 	line-height: 14px;
-// 	padding-bottom: 2px;
-// 	font-family: Helvetica, Arial, sans-serif;
-// 	font-weight: bold;
-// }
-// .js-count-particles {
-// 	font-size: 1.1em;
-// }
-// #stats,
-// .count-particles {
-// 	-webkit-user-select: none;
-// 	margin-top: 5px;
-// 	margin-left: 5px;
-// }
-// #stats {
-// 	border-radius: 3px 3px 0 0;
-// 	overflow: hidden;
-// }
-// .count-particles {
-// 	border-radius: 0 0 3px 3px;
-// }
-
-// Code for foggy background
-// * {
-// 	padding: 0;
-// 	margin: 0;
-// 	box-sizing: border-box;
-// }
-// body {
-// 	background-color: black;
-// }
-
-// #fog {
-// 	position: absolute;
-// 	top: 0;
-// 	left: 0;
-// 	width: 100vw;
-// 	height: 100vh;
-// 	overflow: hidden;
-// 	pointer-events: none;
-// 	&:before,
-// 	&:after {
-// 		content: "";
-// 		position: absolute;
-// 		top: 0;
-// 		left: 0;
-// 		height: 100%;
-// 		width: 300%;
-// 		background-size: contain;
-// 		background-position: center;
-// 		background-repeat: repeat-x;
-// 	}
-// 	&:before {
-// 		background-image: url("https://res.cloudinary.com/dkr52htco/image/upload/v1536173269/fog-3.png");
-// 		animation: drift 60s linear 0s infinite;
-// 	}
-// 	&:after {
-// 		background-image: url("./fog-1.png");
-// 		animation: drift 25s linear 0s infinite;
-// 	}
-// 	@keyframes drift {
-// 		from {
-// 			transform: translate3d(0, 0, 0);
-// 		}
-// 		to {
-// 			transform: translate3d(-200vw, 0, 0);
-// 		}
-// 	}
-// }
