@@ -17,14 +17,14 @@ section {
 		// -webkit-background-clip: text;
 		// -moz-background-clip: text;
 		// -webkit-text-fill-color: transparent;
-		
+
 		// font-family: 'Audiowide', cursive;
 		// font-family: 'Cinzel Decorative', cursive;
 		font-family: 'Metal Mania';
 
 
 		letter-spacing: 3px;
-		
+
 		font-size: 1.3rem;
 		background-position: -5px ;
 		h1,a{
@@ -61,12 +61,21 @@ section {
 			position: relative;
 			border: 3px outset goldenrod;
 
+			transition: .25s color ease-in-out;
+			transition: .25s transform ease-in-out;
+			&:hover {
+				color:gold;
+				transform: scale(1.03);
+			  }
+
+
+
 			span {
 				font-family: 'Metal Mania', cursive;
 				text-shadow: 2px solid red;
 				letter-spacing: 3px;
 				// font-size: 1.2em;
-		
+
 				font-size: 1.7em;
 				position: absolute;
 				bottom: 20px;
