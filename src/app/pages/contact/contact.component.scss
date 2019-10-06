@@ -12,20 +12,42 @@
 	margin-right : 10px;
 	border-width: 3px;
 	border-style: solid;
-	border-image: 
+	border-image:
     linear-gradient(135deg, #ff2600,yellow,yellow ,#ff2600)
-    //   to bottom, 
-    //   gold, 
+    //   to bottom,
+    //   gold,
     //   #ff4000)
      1 round;
+}
+h2{
+	font-weight: normal;
+	font-family: 'Metal Mania', cursive;
+	color:gold;
+	span{
+	color:transparent;
+	background: -webkit-linear-gradient(gold, gold, red);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	}
+}
+li{
+	color:gold;
+	a{
+		color:#edca0e;
+	}
+}
+.campusAddress{
+	color: #edca0e;
+
 }
 
 iframe {
 	width: 100%;
 	margin: 12px;
 	height: 460px;
-	
-	
+
+
 	// object-fit: cover;
 	// border: gold 3px ridge;
 	// border-radius: 12px;
