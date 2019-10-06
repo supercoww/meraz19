@@ -27,7 +27,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 	ngOnInit(): void {
 		// Called after the constructor, initializing input properties, and the first call to ngOnChanges.
 		// Add 'implements OnInit' to the class.
-		console.log('Trying to use ParticlesJS libray');
+
 		this.myStyle = {
 			position: 'fixed',
 			width: '100%',
@@ -110,6 +110,6 @@ export class AppComponent implements OnInit, AfterViewInit {
 	}
 
 	ngAfterViewInit(): void {
-		console.log(1);
+		// console.log(1);
 	}
 }
