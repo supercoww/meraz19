@@ -41,7 +41,6 @@ h1 {
 }
 
 h1 {
-	background-image: url('../../../assets/gold-texture.jpg');
 	font-family: 'Metal Mania', cursive;
 	letter-spacing: 2px;
 	font-weight: normal;
@@ -51,8 +50,14 @@ h1 {
 	color: transparent;
 	-webkit-font-smoothing: antialiased;
 
+	// background-image: url('../../../assets/gold-texture.jpg');
+	// background-clip: text;
+	// -webkit-background-clip: text;
+	// -moz-background-clip: text;
+	// -webkit-text-fill-color: transparent;
+
+	background: -webkit-linear-gradient(gold, gold, red);
 	background-clip: text;
 	-webkit-background-clip: text;
-	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

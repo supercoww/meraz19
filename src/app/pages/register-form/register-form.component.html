@@ -1,12 +1,13 @@
 <div class="reg-form">
-	<h1 style="color:rgb(250, 211, 0)">Register Here</h1>
+	<h1>Registrations Starting Soon</h1>
 	<form
 		class="example-form"
 		[formGroup]="registerForm"
 		(ngSubmit)="onSubmit($event)"
 		method="POST"
-		action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2"
+		action="http://www.meraz.in/api/redirect"
 	>
+	<!-- action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2" -->
 	<!-- action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect2" -->
 
 		<mat-form-field class="example-form">
@@ -17,7 +18,6 @@
 				name="name"
 				formControlName="name"
 				required
-				value="name"
 			/>
 			<mat-error>Name is required</mat-error>
 		</mat-form-field>
@@ -30,7 +30,6 @@
 				name="email"
 				formControlName="email"
 				required
-				value="xyz@example.com"
 			/>
 			<mat-error
 				*ngIf="registerForm.controls['email'].hasError('required')"
@@ -50,10 +49,21 @@
 				name="phone"
 				formControlName="phone"
 				required
-				value="XXXXXXX"
 			/>
 			<mat-error>Phone is required</mat-error>
 		</mat-form-field>
+		<mat-form-field class="example-full-width">
+			<input
+				type="text"
+				matInput
+				placeholder="College"
+				name="college"
+				formControlName="college"
+				required
+			/>
+			<mat-error>College name is required</mat-error>
+		</mat-form-field>
+
 
 		<mat-form-field class="example-full-width">
 			<input
@@ -62,7 +72,6 @@
 				placeholder="Your Whatsapp Number"
 				name="whatsapp"
 				formControlName="whatsapp"
-				value="XXXXXXX"
 			/>
 		</mat-form-field>
 
@@ -73,7 +82,6 @@
 				placeholder="Your Address"
 				name="address1"
 				formControlName="address1"
-				value="address1"
 			/>
 		</mat-form-field>
 
@@ -84,22 +92,10 @@
 				placeholder="Your Address Line 2"
 				name="address2"
 				formControlName="address2"
-				value="address2"
 			/>
 		</mat-form-field>
 
-		<mat-form-field class="example-full-width">
-			<input
-				type="text"
-				matInput
-				placeholder="College"
-				name="college"
-				formControlName="college"
-				required
-				value="MIT"
-			/>
-			<mat-error>College name is required</mat-error>
-		</mat-form-field>
+
 
 		<mat-form-field class="example-full-width">
 			<textarea
@@ -111,13 +107,13 @@
 				placeholder="Leave a comment"
 				name="comment"
 				formControlName="comment"
-				value="some comment"
+
 			></textarea>
 		</mat-form-field>
 
-		<button type="submit" mat-raised-button color="primary">
+		<button type="submit" mat-raised-button color="primary" disabled>
 			<!-- [disabled]="registerForm.invalid" -->
-			I'm in !
+			Starting Soon
 		</button>
 	</form>
 </div>
