@@ -22,17 +22,17 @@ section {
 		// font-family: 'Cinzel Decorative', cursive;
 		font-family: 'Metal Mania';
 
-
 		letter-spacing: 3px;
 
 		font-size: 1.3rem;
-		background-position: -5px ;
-		h1,a{
-			background: -webkit-linear-gradient(gold,gold, red);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
+		background-position: -5px;
+		h1,
+		a {
+			background: -webkit-linear-gradient(gold, gold, red);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 		}
-		h1{
+		h1 {
 			font-size: 2rem;
 		}
 
@@ -86,14 +86,21 @@ section {
 	}
 }
 
-
 .pronite-image:nth-child(1) {
-	background:  linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
+	background: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0),
+			rgba(0, 0, 0, 0.9)
+		),
 		url('../../../assets/event-images/rock.jpeg');
 	background-position: top !important;
 }
 .pronite-image:nth-child(2) {
-	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)),
+	background: linear-gradient(
+			to bottom,
+			rgba(255, 255, 255, 0),
+			rgba(0, 0, 0, 0.9)
+		),
 		url('../../../assets/event-images/stand.jpg');
 }
 .pronite-image:nth-child(3) {
