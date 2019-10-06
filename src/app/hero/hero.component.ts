@@ -1,10 +1,10 @@
-import { Component, OnInit } from "@angular/core";
-import { ParticlesModule } from "angular-particle";
+import { Component, OnInit } from '@angular/core';
+import { ParticlesModule } from 'angular-particle';
 
 @Component({
-	selector: "app-hero",
-	templateUrl: "./hero.component.html",
-	styleUrls: ["./hero.component.scss"]
+	selector: 'app-hero',
+	templateUrl: './hero.component.html',
+	styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
 	myStyle: object = {};
@@ -13,47 +13,57 @@ export class HeroComponent implements OnInit {
 	height: number = 100;
 
 	constructor() {}
-	showCoords(event:any) :void {
+	showCoords(event: any): void {
 		console.log(event);
 		var x = event.clientX;
 		var y = event.clientY;
-		var coords = "X coords: " + x + ", Y coords: " + y;
+		var coords = 'X coords: ' + x + ', Y coords: ' + y;
 		console.log(coords);
-	  }
+	}
 
-	   polarToCartesian(centerX, centerY, radius, angleInDegrees) {
-		var angleInRadians = (angleInDegrees-90) * Math.PI / 180.0;
-	  
+	polarToCartesian(centerX, centerY, radius, angleInDegrees) {
+		var angleInRadians = ((angleInDegrees - 90) * Math.PI) / 180.0;
+
 		return {
-		  x: centerX + (radius * Math.cos(angleInRadians)),
-		  y: centerY + (radius * Math.sin(angleInRadians))
+			x: centerX + radius * Math.cos(angleInRadians),
+			y: centerY + radius * Math.sin(angleInRadians)
 		};
-	  }
-	  
-	  describeArc(x, y, radius, startAngle, endAngle){
-	  
-		  var start = this.polarToCartesian(x, y, radius, endAngle);
-		  var end = this.polarToCartesian(x, y, radius, startAngle);
-	  
-		  var largeArcFlag = endAngle - startAngle <= 180 ? "0" : "1";
-	  
-		  var d = [
-			  "M", start.x, start.y, 
-			  "A", radius, radius, 0, largeArcFlag, 0, end.x, end.y
-		  ].join(" ");
-	  
-		  return d;       
-	  }
-	  
-	ngOnInit() {
-		document.getElementById("pathArc").setAttribute("d", this.describeArc(245, 205, 150, 0, 270));
+	}
 
-		console.log("Trying to use ParticlesJS libray");
+	describeArc(x, y, radius, startAngle, endAngle) {
+		var start = this.polarToCartesian(x, y, radius, endAngle);
+		var end = this.polarToCartesian(x, y, radius, startAngle);
+
+		var largeArcFlag = endAngle - startAngle <= 180 ? '0' : '1';
+
+		var d = [
+			'M',
+			start.x,
+			start.y,
+			'A',
+			radius,
+			radius,
+			0,
+			largeArcFlag,
+			0,
+			end.x,
+			end.y
+		].join(' ');
+
+		return d;
+	}
+
+	ngOnInit() {
+		document
+			.getElementById('pathArc')
+			.setAttribute('d', this.describeArc(245, 205, 150, 0, 270));
+
+		console.log('Trying to use ParticlesJS libray');
 		this.myStyle = {
-			position: "fixed",
-			width: "100%",
-			height: "100%",
-			"z-index": -1,
+			position: 'fixed',
+			width: '100%',
+			height: '100%',
+			'z-index': -1,
 			top: 0,
 			left: 0,
 			right: 0,
@@ -65,12 +75,12 @@ export class HeroComponent implements OnInit {
 					value: 400,
 					density: { enable: true, value_area: 3000 }
 				},
-				color: { value: "#fc0000" },
+				color: { value: '#fc0000' },
 				shape: {
-					type: "circle",
-					stroke: { width: 0, color: "#fc1919" },
+					type: 'circle',
+					stroke: { width: 0, color: '#fc1919' },
 					polygon: { nb_sides: 3 },
-					image: { src: "img/github.svg", width: 100, height: 100 }
+					image: { src: 'img/github.svg', width: 100, height: 100 }
 				},
 				opacity: {
 					value: 0.7,
@@ -90,26 +100,26 @@ export class HeroComponent implements OnInit {
 				line_linked: {
 					enable: false,
 					distance: 500,
-					color: "#ff0000",
+					color: '#ff0000',
 					opacity: 0.4,
 					width: 2
 				},
 				move: {
 					enable: true,
 					speed: 6.5,
-					direction: "top-left",
+					direction: 'top-left',
 					random: true,
 					straight: false,
-					out_mode: "out",
+					out_mode: 'out',
 					bounce: false,
 					attract: { enable: false, rotateX: 600, rotateY: 1200 }
 				}
 			},
 			interactivity: {
-				detect_on: "canvas",
+				detect_on: 'canvas',
 				events: {
-					onhover: { enable: false, mode: "bubble" },
-					onclick: { enable: false, mode: "repulse" },
+					onhover: { enable: false, mode: 'bubble' },
+					onclick: { enable: false, mode: 'repulse' },
 					resize: true
 				},
 				modes: {
