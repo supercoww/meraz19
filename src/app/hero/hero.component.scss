@@ -3,10 +3,11 @@ img {
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 500px;
+	width: 400px;
+	max-width: 85%;
 }
-@media(max-width:500px){
-	img{
+@media (max-width: 1100px) {
+	img {
 		width: 350px;
 	}
 }
@@ -18,7 +19,7 @@ img {
 	padding: 5px 15px;
 	font-family: 'Metal Mania';
 	background-image: url('../../assets/gold-texture.jpg');
-
+	margin-bottom: 20px;
 }
 .hero {
 	width: 100%;
@@ -28,7 +29,6 @@ img {
 	scroll-snap-align: start;
 }
 
-
 .bottom {
 	width: fit-content;
 	margin: 0px;
@@ -37,4 +37,5 @@ img {
 	left: 50%;
 	transform: translate(-50%, 0px);
 	min-width: 50%;
+	max-width: 100%;
 }
