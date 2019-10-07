@@ -16,7 +16,7 @@ export const slideIn = trigger('routeAnimations', [
 	transition('* <=> *', slideTo('left'))
 ]);
 
-function slideTo(direction) {
+export function slideTo(direction) {
 	return [
 		query(':enter, :leave', style({ position: 'fixed', width: '100%' }), {
 			optional: true
