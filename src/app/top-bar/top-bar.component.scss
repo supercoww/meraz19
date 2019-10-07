@@ -52,6 +52,8 @@ h1 {
 	// -webkit-text-fill-color: transparent;
 }
 
+
+
 .app-bar {
 	position: fixed;
 	z-index: 10;
@@ -80,6 +82,7 @@ h1 {
 	// letter-spacing: 2px;
 	display: none;
 	align-items: center;
+	padding-inline-start: 3px;
 	li {
 		display: inline-block;
 		margin-left: 2em;
