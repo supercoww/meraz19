@@ -10,7 +10,7 @@ import { ParticlesModule } from 'angular-particle';
 	styleUrls: ['./app.component.scss'],
 	animations: [slideIn]
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class AppComponent implements OnInit {
 	myStyle: object = {};
 	myParams: object = {};
 	width = 100;
@@ -107,9 +107,5 @@ export class AppComponent implements OnInit, AfterViewInit {
 			},
 			retina_detect: true
 		};
-	}
-
-	ngAfterViewInit(): void {
-		// console.log(1);
 	}
 }
