@@ -10,107 +10,174 @@
 			},
 			{
 				"name": "Dancing Duos",
-				"image": "fashion.jpg",
+				"image": "dancingduos.jpg",
 				"descriptionFile": "dancingduos.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Depth Of Dance",
-				"image": "fashion.jpg",
+				"image": "dod.jpg",
 				"descriptionFile": "dod.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Euphony",
-				"image": "fashion.jpg",
+				"image": "euphony.jpg",
 				"descriptionFile": "euphony.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Foto Hue",
-				"image": "fashion.jpg",
+				"image": "foto-hue.jpg",
 				"descriptionFile": "foto-hue.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Glass Painting",
-				"image": "fashion.jpg",
+				"image": "glass-painting.jpg",
 				"descriptionFile": "glass-painting.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Hue Tube",
-				"image": "fashion.jpg",
+				"image": "hue-tube.jpg",
 				"descriptionFile": "hue-tube.html",
 				"imageSize": ""
 			},
 			{
 				"name": "In10sity",
-				"image": "fashion.jpg",
+				"image": "intensity.jpg",
 				"descriptionFile": "intensity.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Mono Logue",
-				"image": "fashion.jpg",
+				"image": "monologue.jpg",
 				"descriptionFile": "monologue.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Murder Mystery",
-				"image": "fashion.jpg",
+				"image": "murder-mystery.jpg",
 				"descriptionFile": "murder-mystery.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Nukkad Natak",
-				"image": "fashion.jpg",
+				"image": "nukkad.jpg",
 				"descriptionFile": "nukkad.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Photo Of the Day",
-				"image": "fashion.jpg",
+				"image": "photo-of-the-day.jpg",
 				"descriptionFile": "photo-of-the-day.html",
 				"imageSize": ""
 			},
 			{
 				"name": "PhotoWalk",
-				"image": "fashion.jpg",
+				"image": "phootowalk.jpg",
 				"descriptionFile": "phootowalk.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Picturesque Gallery",
-				"image": "fashion.jpg",
+				"image": "picturesque-gallery.jpg",
 				"descriptionFile": "picturesque-gallery.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Short Movie",
-				"image": "fashion.jpg",
+				"image": "short-movie.jpg",
 				"descriptionFile": "short-movie.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Street Maniacs",
-				"image": "fashion.jpg",
+				"image": "street-maniacs.jpg",
 				"descriptionFile": "street-maniacs.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Shredded",
-				"image": "shred.jpg",
+				"image": "shredded.jpg",
 				"descriptionFile": "shredded.html",
 				"imageSize": "big"
 			},
 			{
 				"name": "The Whirl",
-				"image": "whirl.jpg",
+				"image": "someFile.jpg",
 				"descriptionFile": "someFile.html",
 				"imageSize": ""
+			},
+			{
+				"name": "Handi-Crafts",
+				"image": "HandiCrafts.jpg",
+				"descriptionFile": "HandiCrafts.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Final Masquerade",
+				"image": "FinalMasquerade.jpg",
+				"descriptionFile": "FinalMasquerade.html",
+				"imageSize": ""	
+			},
+			{
+				"name": "Motification",
+				"image": "Motification.jpg",
+				"descriptionFile": "Motification.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Stand up Comedy",
+				"image": "StandUpComedy.jpg",
+				"descriptionFile": "StandUpComedy.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Speed Dating",
+				"image": "speedDating.jpg",
+				"descriptionFile": "speedDating.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Dare to Dare",
+				"image": "daretodare.jpg",
+				"descriptionFile": "daretodare.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Central Radio",
+				"image": "centralRadio.jpg",
+				"descriptionFile": "centralRadio.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Love Letter Writing",
+				"image": "loveLetter.jpg",
+				"descriptionFile": "loveLetter.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Housie",
+				"image": "housie.jpg",
+				"descriptionFile": "housie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Beg Borrow steal",
+				"image": "BegBorrowSteal.jpg",
+				"descriptionFile": "BegBorrowSteal.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Tattoo",
+				"image": "Tatoo.jpg",
+				"descriptionFile": "Tatoo.html",
+				"imageSize": ""
 			}
-		]
+		
+		]	
 	},
 	{
 		"name": "Gaming",
