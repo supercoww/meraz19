@@ -5,8 +5,14 @@
 			{
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
+				"descriptionFile": "viva-la-vida.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "SurReal",
+				"image": "surreal.jpg",
 				"descriptionFile": "surreal.html",
-				"imageSize": ""
+				"imageSize": "big"
 			},
 			{
 				"name": "Dancing Duos",
@@ -120,7 +126,7 @@
 				"name": "Final Masquerade",
 				"image": "FinalMasquerade.jpg",
 				"descriptionFile": "FinalMasquerade.html",
-				"imageSize": ""	
+				"imageSize": ""
 			},
 			{
 				"name": "Motification",
@@ -176,8 +182,8 @@
 				"descriptionFile": "Tatoo.html",
 				"imageSize": ""
 			}
-		
-		]	
+
+		]
 	},
 	{
 		"name": "Gaming",
@@ -191,13 +197,13 @@
 			{
 				"name": "FIFA 18",
 				"image": "fifa.jpg",
-				"descriptionFile": "someFile.html",
+				"descriptionFile": "fifa.html",
 				"imageSize": ""
 			},
 			{
 				"name": "NFS",
 				"image": "nfs.jpg",
-				"descriptionFile": "someFile.html",
+				"descriptionFile": "nfs.html",
 				"imageSize": "horizontal"
 			}
 		]
@@ -215,6 +221,24 @@
 				"name": "Real Steel",
 				"image": "real_steel.jpg",
 				"descriptionFile": "someFile.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Robo Kabaddi",
+				"image": "real_steel.jpg",
+				"descriptionFile": "RoboKabadi.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Robo Soccer",
+				"image": "real_steel.jpg",
+				"descriptionFile": "RoboSoccer.html",
+				"imageSize": ""
+			},
+			{
+				"name": "SES Drone Flight",
+				"image": "real_steel.jpg",
+				"descriptionFile": "SesDroneFlight.html",
 				"imageSize": ""
 			}
 		]
