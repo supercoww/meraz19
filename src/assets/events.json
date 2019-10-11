@@ -9,6 +9,12 @@
 				"imageSize": "big"
 			},
 			{
+				"name": "Casino",
+				"image": "casino.jpg",
+				"descriptionFile": "casino.html",
+				"imageSize": "big"
+			},
+			{
 				"name": "SurReal",
 				"image": "surreal.jpg",
 				"descriptionFile": "surreal.html",
