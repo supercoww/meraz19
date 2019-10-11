@@ -5,8 +5,9 @@
 		[formGroup]="registerForm"
 		(ngSubmit)="onSubmit($event)"
 		method="POST"
-		action="http://www.meraz.in/api/redirect"
+		action="https://meraz.in/api/redirect"
 	>
+<!-- action="http://www.meraz.in/api/redirect" -->
 	<!-- action="http://localhost:5000/meraz-d165d/us-central1/helloWorld/api/redirect2" -->
 	<!-- action="https://us-central1-meraz-d165d.cloudfunctions.net/helloWorld/api/redirect2" -->
 
@@ -111,7 +112,7 @@
 			></textarea>
 		</mat-form-field>
 
-		<button type="submit" mat-raised-button color="primary" disabled>
+		<button type="submit" mat-raised-button color="primary" >
 			<!-- [disabled]="registerForm.invalid" -->
 			Starting Soon
 		</button>
