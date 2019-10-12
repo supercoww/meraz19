@@ -5,7 +5,7 @@
 			{
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
-				"descriptionFile": "viva-la-vida.html",
+				"descriptionFile": "vivaLaVida.html",
 				"imageSize": "big"
 			},
 			{
@@ -40,7 +40,7 @@
 			},
 			{
 				"name": "Foto Hue",
-				"image": "foto-hue.jpg",
+				"image": "foto-hue.jpeg",
 				"descriptionFile": "foto-hue.html",
 				"imageSize": ""
 			},
@@ -82,7 +82,7 @@
 			},
 			{
 				"name": "Photo Of the Day",
-				"image": "photo-of-the-day.jpg",
+				"image": "photo-of-the-day.jpeg",
 				"descriptionFile": "photo-of-the-day.html",
 				"imageSize": ""
 			},
