@@ -205,6 +205,11 @@
 				"image": "fifa.jpg",
 				"descriptionFile": "fifa.html",
 				"imageSize": ""
+			},{
+				"name": "PUBG",
+				"image": "pubg.jpg",
+				"descriptionFile": "pubgMobile.html",
+				"imageSize": "big"
 			},
 			{
 				"name": "NFS",
@@ -224,27 +229,39 @@
 				"imageSize": ""
 			},
 			{
-				"name": "Real Steel",
-				"image": "real_steel.jpg",
-				"descriptionFile": "someFile.html",
-				"imageSize": ""
-			},
-			{
 				"name": "Robo Kabaddi",
-				"image": "real_steel.jpg",
+				"image": "Robokabadi.jpg",
 				"descriptionFile": "RoboKabadi.html",
 				"imageSize": ""
 			},
 			{
 				"name": "Robo Soccer",
-				"image": "real_steel.jpg",
+				"image": "Robosoccer.jpg",
 				"descriptionFile": "RoboSoccer.html",
 				"imageSize": ""
 			},
 			{
 				"name": "SES Drone Flight",
-				"image": "real_steel.jpg",
+				"image": "SesDroneFlight.jpg",
 				"descriptionFile": "SesDroneFlight.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Arena Hastle",
+				"image": "AreanaHaste.jpg",
+				"descriptionFile": "AreanaHaste.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Code Crusade",
+				"image": "CodeCrusade.png",
+				"descriptionFile": "CodeCrusade.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Tech Riddles",
+				"image": "real_steel.jpg",
+				"descriptionFile": "TechRiddles.html",
 				"imageSize": ""
 			}
 		]
