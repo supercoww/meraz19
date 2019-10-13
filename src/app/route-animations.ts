@@ -7,7 +7,9 @@ import {
 	animate
 } from '@angular/animations';
 
-export const slideIn = trigger('routeAnimations', [
+const isPhone = window.innerWidth <= 700;
+
+const slideInDesktop = trigger('routeAnimations', [
 	transition('* => home', slideTo('right')),
 	transition('contact => events', slideTo('right')),
 	transition('register => events', slideTo('right')),
@@ -15,6 +17,12 @@ export const slideIn = trigger('routeAnimations', [
 	transition('event-info => events', slideTo('right')),
 	transition('* <=> *', slideTo('left'))
 ]);
+
+const slideInPhone = trigger('routeAnimations', [
+	transition('* <=> *', slideTo('left'))
+]);
+
+export const slideIn = isPhone ? slideInPhone : slideInDesktop;
 
 export function slideTo(direction) {
 	return [
