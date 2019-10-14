@@ -27,6 +27,7 @@ import { RegisterFormComponent } from './pages/register-form/register-form.compo
 import { ContactComponent } from './pages/contact/contact.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LoaderComponent } from './loader/loader.component';
+import { DoneComponent } from './pages/done/done.component';
 
 @NgModule({
 	declarations: [
@@ -42,7 +43,8 @@ import { LoaderComponent } from './loader/loader.component';
 		RegisterFormComponent,
 		ContactComponent,
 		SponsorsComponent,
-		LoaderComponent
+		LoaderComponent,
+		DoneComponent
 	],
 	imports: [
 		BrowserModule,

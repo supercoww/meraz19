@@ -6,7 +6,7 @@ import { EventListComponent } from './pages/event-list/event-list.component';
 import { EventComponent } from './pages/event/event.component';
 import { RegisterFormComponent } from './pages/register-form/register-form.component';
 import { ContactComponent } from './pages/contact/contact.component';
-
+import {DoneComponent} from './pages/done/done.component'
 const routes: Routes = [
 	{
 		path: 'register',
@@ -26,6 +26,11 @@ const routes: Routes = [
 	{
 		path: 'events/:name',
 		component: EventComponent,
+		data: { animation: 'event-info' }
+	},
+	{
+		path: 'done/:ID',
+		component: DoneComponent,
 		data: { animation: 'event-info' }
 	},
 	{ path: '', component: HomeComponent, data: { animation: 'home' } },
