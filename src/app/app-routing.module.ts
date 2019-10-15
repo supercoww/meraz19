@@ -29,7 +29,7 @@ const routes: Routes = [
 		data: { animation: 'event-info' }
 	},
 	{
-		path: 'done/:ID',
+		path: 'done/:status',
 		component: DoneComponent,
 		data: { animation: 'event-info' }
 	},

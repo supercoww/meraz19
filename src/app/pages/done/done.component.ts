@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-done',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./done.component.scss']
 })
 export class DoneComponent implements OnInit {
+status: string;
+private sub: any;
 
-  constructor() { }
+constructor(private route: ActivatedRoute) { }
 
-  ngOnInit() {
-  }
+ngOnInit() {
+	this.sub = this.route.params.subscribe(params => {
+		this.status = params['status'];
+	});
+
+}
+
+ngOnDestroy() {
+	this.sub.unsubscribe();
+}
 
 }

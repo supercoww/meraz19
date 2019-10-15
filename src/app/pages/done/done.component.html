@@ -1,4 +1,10 @@
-<div>
-	<h1>Registered Successfully</h1>
-	<h3>Cheers !! You will soon recieve an email from the Meraz team </h3>
+<div *ngIf="this.status== 'success'">
+<h1>Registered Successfully</h1>
+<h3>Cheers !! You will soon recieve an email from the Meraz team </h3>
 </div>
+
+<div *ngIf="this.status== 'failed'">
+<h1>Registration Failed</h1>
+<h3>Alas !! Try again later and contact meraz team if problem persists</h3>
+</div>
+
