@@ -37,6 +37,19 @@
 				"image": "foto-hue.jpeg",
 				"descriptionFile": "foto-hue.html",
 				"imageSize": "vertical"
+
+			},
+			{
+				"name": "Glass Painting",
+				"image": "GlassPainting.jpeg",
+				"descriptionFile": "glass-painting.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Hue Tube",
+				"image": "hue-tube.jpg",
+				"descriptionFile": "hue-tube.html",
+				"imageSize": ""
 			},
 			{
 				"name": "In10sity",
@@ -112,7 +125,7 @@
 		"events" : [
 			{
 				"name": "Casino",
-				"image": "casino.jpg",
+				"image": "Casino.jpeg",
 				"descriptionFile": "casino.html",
 				"imageSize": "big"
 			},
@@ -124,7 +137,7 @@
 			},
 			{
 				"name": "Glass Painting",
-				"image": "glass-painting.jpg",
+				"image": "GlassPainting.jpeg",
 				"descriptionFile": "glass-painting.html",
 				"imageSize": ""
 			},
@@ -142,7 +155,7 @@
 			},
 			{
 				"name": "Beg Borrow steal",
-				"image": "BegBorrowSteal.jpg",
+				"image": "BigBorrow.jpeg",
 				"descriptionFile": "BegBorrowSteal.html",
 				"imageSize": ""
 			},
@@ -154,7 +167,7 @@
 			},
 			{
 				"name": "Love Letter Writing",
-				"image": "loveLetter.jpg",
+				"image": "loveletterwritting.jpeg",
 				"descriptionFile": "loveLetter.html",
 				"imageSize": ""
 			},
@@ -163,7 +176,8 @@
 				"image": "centralRadio.jpg",
 				"descriptionFile": "centralRadio.html",
 				"imageSize": "horizontal"
-			},{
+			},
+			{
 				"name": "Handi-Crafts",
 				"image": "HandiCrafts.jpg",
 				"descriptionFile": "HandiCrafts.html",
@@ -249,6 +263,7 @@
 				"image": "techriddle.jpg",
 				"descriptionFile": "TechRiddles.html",
 				"imageSize": "big"
+
 			},
 			{
 				"name": "SES Drone Flight",
@@ -270,9 +285,15 @@
 			},
 			{
 				"name": "Robo Soccer",
-				"image": "Robosoccer.jpg",
+				"image": "RoboSoccor.jpeg",
 				"descriptionFile": "RoboSoccer.html",
 				"imageSize": "big"
+			},
+			{
+				"name": "Tech Riddles",
+				"image": "real_steel.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "techriddle.jpeg"
 			}
 		]
 	}
