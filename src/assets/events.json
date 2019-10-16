@@ -103,7 +103,7 @@
 				"name": "Street Maniacs",
 				"image": "street-maniacs.jpg",
 				"descriptionFile": "street-maniacs.html",
-				"imageSize": ""
+				"imageSize": "vertical"
 			},
 			{
 				"name": "Shredded",
@@ -116,6 +116,94 @@
 				"name": "Stand up Comedy",
 				"image": "StandUpComedy.jpg",
 				"descriptionFile": "StandUpComedy.html",
+				"imageSize": "horizontal"
+			}
+		]
+	},
+	{
+		"name": "gaming",
+		"events": [
+			{
+				"name": "CS:GO",
+				"image": "go.jpg",
+				"descriptionFile": "cs-go.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "FIFA 19",
+				"image": "fifa.jpg",
+				"descriptionFile": "fifa.html",
+				"imageSize": "horizontal"
+			},{
+				"name": "PUBG",
+				"image": "pubg.jpg",
+				"descriptionFile": "pubgMobile.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "NFS",
+				"image": "nfs.jpg",
+				"descriptionFile": "nfs.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "PUBG Mobile",
+				"image": "pubgmobile.jpg",
+				"descriptionFile": "pubgmobile.html",
+				"imageSize": "horizontal"
+			}
+		]
+	},
+	{
+		"name": "Technical",
+		"events": [
+			{
+				"name": "Code Crusade",
+				"image": "CodeCrusade.png",
+				"descriptionFile": "CodeCrusade.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "App Hackathon",
+				"image": "apphackathon.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Data Science and ML Hackathon",
+				"image": "datasciencehack.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Tech Riddles",
+				"image": "techriddle.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "big"
+
+			},
+			{
+				"name": "SES Drone Flight",
+				"image": "SesDroneFlight.jpg",
+				"descriptionFile": "SesDroneFlight.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Arena Haste",
+				"image": "AreanaHaste.jpg",
+				"descriptionFile": "AreanaHaste.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "Robo Kabaddi",
+				"image": "Robokabadi.jpg",
+				"descriptionFile": "RoboKabadi.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "Robo Soccer",
+				"image": "RoboSoccor.jpeg",
+				"descriptionFile": "RoboSoccer.html",
 				"imageSize": "big"
 			}
 		]
@@ -200,100 +288,6 @@
 				"image": "daretodare.jpg",
 				"descriptionFile": "daretodare.html",
 				"imageSize": ""
-			}
-		]
-	},
-	{
-		"name": "gaming",
-		"events": [
-			{
-				"name": "CS:GO",
-				"image": "go.jpg",
-				"descriptionFile": "cs-go.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "FIFA 19",
-				"image": "fifa.jpg",
-				"descriptionFile": "fifa.html",
-				"imageSize": "horizontal"
-			},{
-				"name": "PUBG",
-				"image": "pubg.jpg",
-				"descriptionFile": "pubgMobile.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "NFS",
-				"image": "nfs.jpg",
-				"descriptionFile": "nfs.html",
-				"imageSize": "horizontal"
-			},
-			{
-				"name": "PUBG Mobile",
-				"image": "pubgmobile.jpg",
-				"descriptionFile": "pubgmobile.html",
-				"imageSize": "horizontal"
-			}
-		]
-	},
-	{
-		"name": "Technical",
-		"events": [
-			{
-				"name": "Code Crusade",
-				"image": "CodeCrusade.png",
-				"descriptionFile": "CodeCrusade.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "App Hackathon",
-				"image": "apphackathon.jpg",
-				"descriptionFile": "TechRiddles.html",
-				"imageSize": "horizontal"
-			},
-			{
-				"name": "Data Science and ML Hackathon",
-				"image": "real_steel.jpg",
-				"descriptionFile": "TechRiddles.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "Tech Riddles",
-				"image": "techriddle.jpg",
-				"descriptionFile": "TechRiddles.html",
-				"imageSize": "big"
-
-			},
-			{
-				"name": "SES Drone Flight",
-				"image": "SesDroneFlight.jpg",
-				"descriptionFile": "SesDroneFlight.html",
-				"imageSize": "horizontal"
-			},
-			{
-				"name": "Arena Haste",
-				"image": "AreanaHaste.jpg",
-				"descriptionFile": "AreanaHaste.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "Robo Kabaddi",
-				"image": "Robokabadi.jpg",
-				"descriptionFile": "RoboKabadi.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "Robo Soccer",
-				"image": "RoboSoccor.jpeg",
-				"descriptionFile": "RoboSoccer.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "Tech Riddles",
-				"image": "real_steel.jpg",
-				"descriptionFile": "TechRiddles.html",
-				"imageSize": "techriddle.jpeg"
 			}
 		]
 	}
