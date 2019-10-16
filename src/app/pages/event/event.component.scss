@@ -23,7 +23,6 @@ h1 {
 
 img {
 	max-width: 90vw;
-	max-width: 50vw;
 	scroll-snap-align: start;
 	scroll-margin-top: 75px;
 	border-radius: 30px;
@@ -34,6 +33,7 @@ img {
 	img{
 	position: sticky;
 	top: 20%;
+	max-width: 40vw;
 	}
 
 }
