@@ -9,8 +9,8 @@
 				"imageSize": "big"
 			},
 			{
-				"name": "Casino",
-				"image": "casino.jpg",
+				"name": "Casino Royal",
+				"image": "Casino.jpeg",
 				"descriptionFile": "casino.html",
 				"imageSize": "big"
 			},
@@ -46,7 +46,7 @@
 			},
 			{
 				"name": "Glass Painting",
-				"image": "glass-painting.jpg",
+				"image": "GlassPainting.jpeg",
 				"descriptionFile": "glass-painting.html",
 				"imageSize": ""
 			},
@@ -166,7 +166,7 @@
 			},
 			{
 				"name": "Love Letter Writing",
-				"image": "loveLetter.jpg",
+				"image": "loveletterwritting.jpeg",
 				"descriptionFile": "loveLetter.html",
 				"imageSize": ""
 			},
@@ -178,7 +178,7 @@
 			},
 			{
 				"name": "Beg Borrow steal",
-				"image": "BegBorrowSteal.jpg",
+				"image": "BigBorrow.jpeg",
 				"descriptionFile": "BegBorrowSteal.html",
 				"imageSize": ""
 			},
@@ -236,7 +236,7 @@
 			},
 			{
 				"name": "Robo Soccer",
-				"image": "Robosoccer.jpg",
+				"image": "RoboSoccor.jpeg",
 				"descriptionFile": "RoboSoccer.html",
 				"imageSize": ""
 			},
@@ -262,7 +262,7 @@
 				"name": "Tech Riddles",
 				"image": "real_steel.jpg",
 				"descriptionFile": "TechRiddles.html",
-				"imageSize": ""
+				"imageSize": "techriddle.jpeg"
 			}
 		]
 	}
