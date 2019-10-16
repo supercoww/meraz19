@@ -89,7 +89,7 @@
 			{
 				"name": "PhotoWalk",
 				"image": "phootowalk.jpg",
-				"descriptionFile": "photowalk.html",
+				"descriptionFile": "phootowalk.html",
 				"imageSize": ""
 			},
 			{
@@ -115,6 +115,12 @@
 				"image": "shredded.jpg",
 				"descriptionFile": "shredded.html",
 				"imageSize": "big"
+			},
+			{
+				"name": "The Whirl",
+				"image": "someFile.jpg",
+				"descriptionFile": "someFile.html",
+				"imageSize": ""
 			},
 			{
 				"name": "Handi-Crafts",
@@ -181,13 +187,8 @@
 				"image": "Tatoo.jpg",
 				"descriptionFile": "Tatoo.html",
 				"imageSize": ""
-			},
-			{
-				"name": "Sit And Pop Balloon",
-				"image": "sitPopBallon.jpg",
-				"descriptionFile": "sitPopBallon.html",
-				"imageSize": ""
 			}
+
 		]
 	},
 	{
