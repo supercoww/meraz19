@@ -10,6 +10,8 @@ div{
 	margin: 75px auto;
 	max-width: 90%;
 	text-align: center;
+	scroll-snap-align: start;
+	scroll-padding-top: 75px;
 
 }
 
@@ -27,4 +29,6 @@ h1 {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+
+
 }

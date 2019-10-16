@@ -119,6 +119,11 @@ a.more-link{
 		url('../../../assets/event-images/edm.jpg');
 }
 
+iframe{
+	margin: auto;
+	margin-bottom : 5%;
+}
+
 @media screen and (max-width: 1060px) {
 	section > div.images {
 		flex-direction: column;

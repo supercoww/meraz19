@@ -20,6 +20,7 @@ export class RegisterFormComponent implements OnInit {
 			address1: 'Add1',
 			address2: 'Add2',
 			college: ['IIT Bhilai'],
+			coupon: '211YAZPV',
 			comment: 'Some Comment'
 		});
 	}

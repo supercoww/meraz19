@@ -96,7 +96,15 @@
 			/>
 		</mat-form-field>
 
-
+		<mat-form-field class="example-full-width">
+				<input
+					type="text"
+					matInput
+					placeholder="Coupon (If Any)"
+					name="coupon"
+					formControlName="coupon"
+				/>
+			</mat-form-field>
 
 		<mat-form-field class="example-full-width">
 			<textarea
@@ -112,7 +120,7 @@
 			></textarea>
 		</mat-form-field>
 
-		<button type="submit" mat-raised-button color="primary" disabled>
+		<button type="submit" mat-raised-button color="primary">
 			<!-- [disabled]="registerForm.invalid" -->
 			Starting Soon
 		</button>
