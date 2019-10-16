@@ -7,6 +7,7 @@
 a > span{
 	text-decoration: underline !important;
 }
+
 h1 {
 	text-align: center;
 	letter-spacing: 2px;
@@ -27,6 +28,14 @@ img {
 	scroll-snap-align: start;
 	scroll-margin-top: 75px;
 	border-radius: 30px;
+}
+@media(min-width: 426px){
+	img{
+	position: sticky;
+	top: 20%;
+
+	}
+
 }
 .description {
 	padding-left: 15px;

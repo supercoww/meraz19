@@ -1,3 +1,4 @@
+
 section {
 	height: 100vh;
 	padding-top: 75px;
@@ -31,6 +32,7 @@ section {
 			background: -webkit-linear-gradient(gold, gold, red);
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
+
 		}
 		h1 {
 			font-size: 2rem;
@@ -46,6 +48,12 @@ section {
 		}
 	}
 
+a.more-link{
+	border : 0px solid red;
+	border-bottom-width: 1px;
+	border-image:
+	linear-gradient(90deg, #ff2600,gold,gold,#ff2600) 1 round;
+}
 	div.images {
 		height: 100%;
 		display: flex;
@@ -84,6 +92,9 @@ section {
 			}
 		}
 	}
+}
+.pronite-image{
+	cursor: pointer;
 }
 
 .pronite-image:nth-child(1) {
