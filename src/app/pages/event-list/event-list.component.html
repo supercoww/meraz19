@@ -1,6 +1,6 @@
 <div class="parent">
 	<ng-container *ngFor="let category of categories$ | async">
-		<h1>{{ category.name }}</h1>
+		<h1><a name='{{ category.name }}'>{{ category.name }}</a></h1>
 		<div class="container">
 			<div
 				class="{{ event.imageSize }} event-item"

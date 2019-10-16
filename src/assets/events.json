@@ -1,17 +1,11 @@
 [
 	{
-		"name": "Cultural",
+		"name": "cultural",
 		"events": [
 			{
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
 				"descriptionFile": "vivaLaVida.html",
-				"imageSize": "big"
-			},
-			{
-				"name": "Casino",
-				"image": "casino.jpg",
-				"descriptionFile": "casino.html",
 				"imageSize": "big"
 			},
 			{
@@ -24,13 +18,13 @@
 				"name": "Dancing Duos",
 				"image": "dancingduos.jpg",
 				"descriptionFile": "dancingduos.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Depth Of Dance",
 				"image": "dod.jpg",
 				"descriptionFile": "dod.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Euphony",
@@ -42,19 +36,7 @@
 				"name": "Foto Hue",
 				"image": "foto-hue.jpeg",
 				"descriptionFile": "foto-hue.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Glass Painting",
-				"image": "glass-painting.jpg",
-				"descriptionFile": "glass-painting.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Hue Tube",
-				"image": "hue-tube.jpg",
-				"descriptionFile": "hue-tube.html",
-				"imageSize": ""
+				"imageSize": "vertical"
 			},
 			{
 				"name": "In10sity",
@@ -116,13 +98,72 @@
 				"descriptionFile": "shredded.html",
 				"imageSize": "big"
 			},
+
 			{
-				"name": "The Whirl",
-				"image": "someFile.jpg",
-				"descriptionFile": "someFile.html",
+				"name": "Stand up Comedy",
+				"image": "StandUpComedy.jpg",
+				"descriptionFile": "StandUpComedy.html",
+				"imageSize": "big"
+			}
+		]
+	},
+	{
+		"name": "informals",
+		"events" : [
+			{
+				"name": "Casino",
+				"image": "casino.jpg",
+				"descriptionFile": "casino.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "Hue Tube",
+				"image": "hue-tube.jpg",
+				"descriptionFile": "hue-tube.html",
 				"imageSize": ""
 			},
 			{
+				"name": "Glass Painting",
+				"image": "glass-painting.jpg",
+				"descriptionFile": "glass-painting.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Speed Dating",
+				"image": "speedDating.jpg",
+				"descriptionFile": "speedDating.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Tattoo",
+				"image": "Tatoo.jpg",
+				"descriptionFile": "Tatoo.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Beg Borrow steal",
+				"image": "BegBorrowSteal.jpg",
+				"descriptionFile": "BegBorrowSteal.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Housie",
+				"image": "housie.jpg",
+				"descriptionFile": "housie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Love Letter Writing",
+				"image": "loveLetter.jpg",
+				"descriptionFile": "loveLetter.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Central Radio",
+				"image": "centralRadio.jpg",
+				"descriptionFile": "centralRadio.html",
+				"imageSize": "horizontal"
+			},{
 				"name": "Handi-Crafts",
 				"image": "HandiCrafts.jpg",
 				"descriptionFile": "HandiCrafts.html",
@@ -141,58 +182,15 @@
 				"imageSize": ""
 			},
 			{
-				"name": "Stand up Comedy",
-				"image": "StandUpComedy.jpg",
-				"descriptionFile": "StandUpComedy.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Speed Dating",
-				"image": "speedDating.jpg",
-				"descriptionFile": "speedDating.html",
-				"imageSize": ""
-			},
-			{
 				"name": "Dare to Dare",
 				"image": "daretodare.jpg",
 				"descriptionFile": "daretodare.html",
 				"imageSize": ""
-			},
-			{
-				"name": "Central Radio",
-				"image": "centralRadio.jpg",
-				"descriptionFile": "centralRadio.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Love Letter Writing",
-				"image": "loveLetter.jpg",
-				"descriptionFile": "loveLetter.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Housie",
-				"image": "housie.jpg",
-				"descriptionFile": "housie.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Beg Borrow steal",
-				"image": "BegBorrowSteal.jpg",
-				"descriptionFile": "BegBorrowSteal.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Tattoo",
-				"image": "Tatoo.jpg",
-				"descriptionFile": "Tatoo.html",
-				"imageSize": ""
 			}
-
 		]
 	},
 	{
-		"name": "Gaming",
+		"name": "gaming",
 		"events": [
 			{
 				"name": "CS:GO",
@@ -201,10 +199,10 @@
 				"imageSize": "big"
 			},
 			{
-				"name": "FIFA 18",
+				"name": "FIFA 19",
 				"image": "fifa.jpg",
 				"descriptionFile": "fifa.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},{
 				"name": "PUBG",
 				"image": "pubg.jpg",
@@ -216,6 +214,12 @@
 				"image": "nfs.jpg",
 				"descriptionFile": "nfs.html",
 				"imageSize": "horizontal"
+			},
+			{
+				"name": "PUBG Mobile",
+				"image": "pubgmobile.jpg",
+				"descriptionFile": "pubgmobile.html",
+				"imageSize": "horizontal"
 			}
 		]
 	},
@@ -223,46 +227,52 @@
 		"name": "Technical",
 		"events": [
 			{
-				"name": "Fireball",
-				"image": "fireball.jpg",
-				"descriptionFile": "someFile.html",
-				"imageSize": ""
+				"name": "Code Crusade",
+				"image": "CodeCrusade.png",
+				"descriptionFile": "CodeCrusade.html",
+				"imageSize": "big"
 			},
 			{
-				"name": "Robo Kabaddi",
-				"image": "Robokabadi.jpg",
-				"descriptionFile": "RoboKabadi.html",
-				"imageSize": ""
+				"name": "App Hackathon",
+				"image": "apphackathon.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "horizontal"
 			},
 			{
-				"name": "Robo Soccer",
-				"image": "Robosoccer.jpg",
-				"descriptionFile": "RoboSoccer.html",
-				"imageSize": ""
+				"name": "Data Science and ML Hackathon",
+				"image": "real_steel.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "big"
+			},
+			{
+				"name": "Tech Riddles",
+				"image": "techriddle.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "big"
 			},
 			{
 				"name": "SES Drone Flight",
 				"image": "SesDroneFlight.jpg",
 				"descriptionFile": "SesDroneFlight.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
-				"name": "Arena Hastle",
+				"name": "Arena Haste",
 				"image": "AreanaHaste.jpg",
 				"descriptionFile": "AreanaHaste.html",
-				"imageSize": ""
+				"imageSize": "big"
 			},
 			{
-				"name": "Code Crusade",
-				"image": "CodeCrusade.png",
-				"descriptionFile": "CodeCrusade.html",
-				"imageSize": ""
+				"name": "Robo Kabaddi",
+				"image": "Robokabadi.jpg",
+				"descriptionFile": "RoboKabadi.html",
+				"imageSize": "big"
 			},
 			{
-				"name": "Tech Riddles",
-				"image": "real_steel.jpg",
-				"descriptionFile": "TechRiddles.html",
-				"imageSize": ""
+				"name": "Robo Soccer",
+				"image": "Robosoccer.jpg",
+				"descriptionFile": "RoboSoccer.html",
+				"imageSize": "big"
 			}
 		]
 	}
