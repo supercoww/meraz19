@@ -12,7 +12,7 @@
 				"name": "SurReal",
 				"image": "surreal.jpg",
 				"descriptionFile": "surreal.html",
-				"imageSize": "big"
+				"imageSize": "vertical"
 			},
 			{
 				"name": "Dancing Duos",
@@ -24,7 +24,7 @@
 				"name": "Depth Of Dance",
 				"image": "dod.jpg",
 				"descriptionFile": "dod.html",
-				"imageSize": "horizontal"
+				"imageSize": "big"
 			},
 			{
 				"name": "Euphony",
@@ -82,6 +82,12 @@
 				"imageSize": ""
 			},
 			{
+				"name": "Shredded",
+				"image": "shred.jpg",
+				"descriptionFile": "shredded.html",
+				"imageSize": "big"
+			},
+			{
 				"name": "Short Movie",
 				"image": "short-movie.jpg",
 				"descriptionFile": "short-movie.html",
@@ -91,15 +97,8 @@
 				"name": "Street Maniacs",
 				"image": "street-maniacs.jpg",
 				"descriptionFile": "street-maniacs.html",
-				"imageSize": "vertical"
+				"imageSize": "horizontal"
 			},
-			{
-				"name": "Shredded",
-				"image": "shred.jpg",
-				"descriptionFile": "shredded.html",
-				"imageSize": "big"
-			},
-
 			{
 				"name": "Stand up Comedy",
 				"image": "StandUpComedy.jpg",
@@ -121,11 +120,6 @@
 				"name": "FIFA 19",
 				"image": "fifa.jpg",
 				"descriptionFile": "fifa.html",
-				"imageSize": "horizontal"
-			},{
-				"name": "PUBG",
-				"image": "pubg.jpg",
-				"descriptionFile": "pubgEmulator.html",
 				"imageSize": "big"
 			},
 			{
@@ -139,6 +133,11 @@
 				"image": "pubgmobile.jpg",
 				"descriptionFile": "pubgmobile.html",
 				"imageSize": "horizontal"
+			},{
+				"name": "PUBG",
+				"image": "pubg.jpg",
+				"descriptionFile": "pubgEmulator.html",
+				"imageSize": "vertical"
 			}
 		]
 	},
@@ -180,19 +179,19 @@
 				"name": "Arena Haste",
 				"image": "AreanaHaste.jpg",
 				"descriptionFile": "AreanaHaste.html",
-				"imageSize": "big"
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Robo Kabaddi",
 				"image": "Robokabadi.jpg",
 				"descriptionFile": "RoboKabadi.html",
-				"imageSize": "big"
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Robo Soccer",
 				"image": "RoboSoccor.jpeg",
 				"descriptionFile": "RoboSoccer.html",
-				"imageSize": "big"
+				"imageSize": "horizontal"
 			}
 		]
 	},
@@ -209,7 +208,7 @@
 				"name": "Hue Tube",
 				"image": "hue-tube.jpg",
 				"descriptionFile": "hue-tube.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Glass Painting",
@@ -275,7 +274,7 @@
 				"name": "Dare to Dare",
 				"image": "daretodare.jpg",
 				"descriptionFile": "daretodare.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Balloon Butt Pop",
