@@ -120,8 +120,9 @@ a.more-link{
 }
 
 iframe{
-	margin: auto;
-	margin-bottom : 5%;
+	margin: 1% auto ;
+	width: 90vw;
+	height: 80vh;
 }
 
 @media screen and (max-width: 1060px) {
@@ -132,5 +133,14 @@ iframe{
 			margin-top: 10px;
 			margin-bottom: 10px;
 		}
+	}
+	iframe{
+		height: 30vh;
+		width: 90vw;
+		margin-top: 5vh;
+		margin-bottom: 0px;
+	}
+	.glimpses{
+		height: 70vh ;
 	}
 }
