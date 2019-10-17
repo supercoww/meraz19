@@ -40,18 +40,6 @@
 
 			},
 			{
-				"name": "Glass Painting",
-				"image": "GlassPainting.jpeg",
-				"descriptionFile": "glass-painting.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Hue Tube",
-				"image": "hue-tube.jpg",
-				"descriptionFile": "hue-tube.html",
-				"imageSize": ""
-			},
-			{
 				"name": "In10sity",
 				"image": "intensity.jpg",
 				"descriptionFile": "intensity.html",
@@ -76,7 +64,7 @@
 				"imageSize": ""
 			},
 			{
-				"name": "Photo Of the Day",
+				"name": "Photo Of the Fest",
 				"image": "photo-of-the-day.jpeg",
 				"descriptionFile": "photo-of-the-day.html",
 				"imageSize": ""
@@ -137,7 +125,7 @@
 			},{
 				"name": "PUBG",
 				"image": "pubg.jpg",
-				"descriptionFile": "pubgMobile.html",
+				"descriptionFile": "pubgEmulator.html",
 				"imageSize": "big"
 			},
 			{
@@ -164,22 +152,22 @@
 				"imageSize": "big"
 			},
 			{
-				"name": "App Hackathon",
+				"name": "CODE HACK",
 				"image": "apphackathon.jpg",
-				"descriptionFile": "TechRiddles.html",
+				"descriptionFile": "apphackathon.html",
 				"imageSize": "horizontal"
 			},
 			{
-				"name": "Data Science and ML Hackathon",
+				"name": "F1 Boost",
 				"image": "datasciencehack.jpg",
-				"descriptionFile": "TechRiddles.html",
+				"descriptionFile": "datasciencehack.html",
 				"imageSize": "horizontal"
 			},
 			{
 				"name": "Tech Riddles",
 				"image": "techriddle.jpg",
 				"descriptionFile": "TechRiddles.html",
-				"imageSize": "big"
+				"imageSize": "horizontal"
 
 			},
 			{
@@ -225,7 +213,7 @@
 			},
 			{
 				"name": "Glass Painting",
-				"image": "GlassPainting.jpeg",
+				"image": "glass-painting.jpg",
 				"descriptionFile": "glass-painting.html",
 				"imageSize": ""
 			},
@@ -236,7 +224,7 @@
 				"imageSize": "horizontal"
 			},
 			{
-				"name": "Tattoo",
+				"name": "Intrepide",
 				"image": "Tatoo.jpg",
 				"descriptionFile": "Tatoo.html",
 				"imageSize": ""
@@ -287,6 +275,12 @@
 				"name": "Dare to Dare",
 				"image": "daretodare.jpg",
 				"descriptionFile": "daretodare.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Balloon Butt Pop",
+				"image": "sitPopBallon.jpg",
+				"descriptionFile": "sitPopBallon.html",
 				"imageSize": ""
 			}
 		]

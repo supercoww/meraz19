@@ -13,15 +13,15 @@ export class RegisterFormComponent implements OnInit {
 
 	ngOnInit() {
 		this.registerForm = this.fb.group({
-			name: ['name', Validators.required],
-			email: ['name@iitbhilai.ac.in', [Validators.required, Validators.email]],
-			phone: ['1234567890', Validators.required],
-			whatsapp: '1234567890',
-			address1: 'Add1',
-			address2: 'Add2',
-			college: ['IIT Bhilai'],
-			coupon: '211YAZPV',
-			comment: 'Some Comment'
+			name: ['', Validators.required],
+			email: ['', [Validators.required, Validators.email]],
+			phone: ['', Validators.required],
+			whatsapp: '',
+			address1: '',
+			address2: '',
+			college: [''],
+			coupon: '',
+			comment: ''
 		});
 	}
 
