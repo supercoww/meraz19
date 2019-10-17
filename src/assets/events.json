@@ -158,9 +158,9 @@
 				"imageSize": "horizontal"
 			},
 			{
-				"name": "Data Science and ML Hackathon",
+				"name": "F1 Boost",
 				"image": "datasciencehack.jpg",
-				"descriptionFile": "TechRiddles.html",
+				"descriptionFile": "datasciencehack.html",
 				"imageSize": "horizontal"
 			},
 			{
