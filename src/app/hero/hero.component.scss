@@ -30,7 +30,7 @@ img {
 }
 @media (max-width: 425px) {
 	img {
-		width: 85vw;
+		width: 300px;
 		top: 38%;
 	}
 	.bottom {
@@ -48,7 +48,6 @@ img {
 	&:hover {
 		transform: scale(1.1);
 	}
-
 	margin-bottom: 4px;
 }
 .hero {
