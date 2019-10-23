@@ -1,4 +1,4 @@
-<div class="parent">
+<div class="parent" *ngIf="!complete; else completionMessage">
 	<div class="box">
 		{{ (remainingTimeSubject | async).days }}
 		<span>Days</span>
@@ -16,3 +16,8 @@
 		<span>Seconds</span>
 	</div>
 </div>
+
+<ng-template #completionMessage>
+	<!-- TODO: Change completion message -->
+	<div class="complete-message">Nov 8-10, 2019</div>
+</ng-template>
