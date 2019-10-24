@@ -8,3 +8,13 @@
 <h3>Alas !! Try again later and contact meraz team if problem persists</h3>
 </div>
 
+<div *ngIf="this.status== 'emailerror'">
+<h1>Email Sending Error</h1>
+<h3>Your registration is successful. But, we couldn't send you the email. Contact Meraz Team for this problem</h3>
+</div>
+
+<div *ngIf="this.status== 'validationerror'">
+<h1>Validation Error</h1>
+<h3>Please check the details you have submitted for registration</h3>
+</div>
+
