@@ -3,11 +3,15 @@
 .parent {
 	display: flex;
 	justify-content: space-around;
+	margin: 0;
+}
+
+.complete-message,
+.parent {
 	color: $primary;
 	font-family: 'Metal Mania', cursive;
 
 	letter-spacing: 3px;
-	font-size: 1.2em;
 
 	// font-family: nouty;
 	// letter-spacing: 3px;
@@ -15,7 +19,7 @@
 	background-image: url('../../assets/gold-texture.jpg');
 	background-repeat: repeat-x;
 	background-position: 0 0;
-	font-size: 200px;
+	font-size: 1.9rem;
 	text-transform: uppercase;
 	text-align: center;
 	color: transparent;
@@ -25,13 +29,16 @@
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	margin: 0;
 
 	-webkit-animation: BackgroundAnimated 10s linear infinite;
 	-moz-animation: BackgroundAnimated 10s linear infinite;
 	-ms-animation: BackgroundAnimated 10s linear infinite;
 	-o-animation: BackgroundAnimated 10s linear infinite;
 	animation: BackgroundAnimated 10s linear infinite;
+}
+
+.complete-message {
+	padding-top: 30px;
 }
 
 @keyframes BackgroundAnimated {
