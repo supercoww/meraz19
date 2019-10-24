@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { Time } from '../../interfaces';
 
-const END_TIME: number = new Date('Nov 8, 2018 00:00:00').getTime(); // End time of timer
+const END_TIME: number = new Date('Nov 8, 2019 00:00:00').getTime(); // End time of timer
 const TIMER_INTERVAL = 1000;
 
 @Component({
