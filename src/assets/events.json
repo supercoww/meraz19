@@ -37,6 +37,7 @@
 				"image": "foto-hue.jpeg",
 				"descriptionFile": "foto-hue.html",
 				"imageSize": "vertical"
+
 			},
 			{
 				"name": "In10sity",
@@ -132,8 +133,7 @@
 				"image": "pubgmobile.jpg",
 				"descriptionFile": "pubgmobile.html",
 				"imageSize": "horizontal"
-			},
-			{
+			},{
 				"name": "PUBG",
 				"image": "pubg.jpg",
 				"descriptionFile": "pubgEmulator.html",
@@ -151,7 +151,7 @@
 				"imageSize": "big"
 			},
 			{
-				"name": "Appening",
+				"name": "CODE HACK",
 				"image": "apphackathon.jpg",
 				"descriptionFile": "apphackathon.html",
 				"imageSize": "horizontal"
@@ -167,6 +167,7 @@
 				"image": "techriddle.jpg",
 				"descriptionFile": "TechRiddles.html",
 				"imageSize": "horizontal"
+
 			},
 			{
 				"name": "SES Drone Flight",
@@ -196,7 +197,7 @@
 	},
 	{
 		"name": "informals",
-		"events": [
+		"events" : [
 			{
 				"name": "Casino",
 				"image": "Casino.jpeg",
