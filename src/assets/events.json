@@ -98,12 +98,6 @@
 				"image": "street-maniacs.jpg",
 				"descriptionFile": "street-maniacs.html",
 				"imageSize": "horizontal"
-			},
-			{
-				"name": "Stand up Comedy",
-				"image": "StandUpComedy.jpg",
-				"descriptionFile": "StandUpComedy.html",
-				"imageSize": "horizontal"
 			}
 		]
 	},
@@ -151,7 +145,7 @@
 				"imageSize": "big"
 			},
 			{
-				"name": "CODE HACK",
+				"name": "App-etite",
 				"image": "apphackathon.jpg",
 				"descriptionFile": "apphackathon.html",
 				"imageSize": "horizontal"
