@@ -1,5 +1,5 @@
 <div class="reg-form">
-	<h1>Registrations Starting Soon</h1>
+	<h1>Registrations Open</h1>
 	<form
 		class="example-form"
 		[formGroup]="registerForm"
@@ -120,9 +120,8 @@
 			></textarea>
 		</mat-form-field>
 
-		<button type="submit" mat-raised-button color="primary" disabled>
-			<!-- [disabled]="registerForm.invalid" -->
-			Coming Soon
+		<button type="submit" mat-raised-button color="primary"  [disabled]="registerForm.invalid" >
+			Pay and Register
 		</button>
 	</form>
 </div>
