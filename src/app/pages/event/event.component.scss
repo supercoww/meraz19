@@ -20,6 +20,19 @@ h1 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+.register-button {
+	font-size: 1.7rem;
+	letter-spacing: 2px;
+	color: #111111;
+	padding: 5px 15px;
+	font-family: 'Metal Mania';
+	background-image: url('src/assets/gold-texture.jpg');
+	transition: 0.25s transform ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
+	margin-bottom: 4px;
+}
 
 img {
 	width: 90vw;

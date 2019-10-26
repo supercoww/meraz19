@@ -4,15 +4,33 @@
 		<div style="flex:0.8;">
 			<img [src]="'assets/event-images/' + event.image" />
 		</div>
-		<div
+		<div *ngIf="descriptionObservable | async ; else loadingtext"
 			class="description"
 			style="flex:1"
-			[innerHTML]="descriptionObservable | async"
-		></div>
+
+		>
+		<div [innerHTML]="descriptionObservable | async"></div>
+		<div style='text-align:center' *ngIf="event.registerUrl">
+			<a
+			href='{{ event.registerUrl }}'
+			mat-raised-button
+			color="primary"
+			class="register-button"
+		>
+		Register
+		</a>
+		</div>
+	</div>
 
 	</div>
+
 </div>
 
 <ng-template #loading>
 	<div class='parent'><h1>Loading...</h1></div>
 </ng-template>
+
+<ng-template #loadingtext>
+	<!-- <div class='parent'><h1>Loading...</h1></div> -->
+</ng-template>
+

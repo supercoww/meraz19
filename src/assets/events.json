@@ -6,31 +6,22 @@
 				"name": "Viva La Vida",
 				"image": "fashion.jpg",
 				"descriptionFile": "vivaLaVida.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl": "https://forms.gle/rnztrVKyd6DGxmT38"
 			},
 			{
 				"name": "SurReal",
 				"image": "surreal.jpg",
 				"descriptionFile": "surreal.html",
-				"imageSize": "vertical"
-			},
-			{
-				"name": "Dancing Duos",
-				"image": "dancingduos.jpg",
-				"descriptionFile": "dancingduos.html",
-				"imageSize": "horizontal"
-			},
-			{
-				"name": "Depth Of Dance",
-				"image": "dod.jpg",
-				"descriptionFile": "dod.html",
-				"imageSize": "big"
+				"imageSize": "vertical",
+				"registerUrl": "https://qrgo.page.link/7xTyx"
 			},
 			{
 				"name": "Euphony",
 				"image": "euphony.jpg",
 				"descriptionFile": "euphony.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/q2Gi6JaJ3siW4a6H6"
 			},
 			{
 				"name": "Foto Hue",
@@ -85,19 +76,14 @@
 				"name": "Shredded",
 				"image": "shred.jpg",
 				"descriptionFile": "shredded.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl":"https://tinyurl.com/meraz-battle-of-bands-form"
 			},
 			{
 				"name": "Short Movie",
 				"image": "short-movie.jpg",
 				"descriptionFile": "short-movie.html",
 				"imageSize": ""
-			},
-			{
-				"name": "Street Maniacs",
-				"image": "street-maniacs.jpg",
-				"descriptionFile": "street-maniacs.html",
-				"imageSize": "horizontal"
 			}
 		]
 	},
@@ -126,7 +112,8 @@
 				"name": "PUBG Mobile",
 				"image": "pubgmobile.jpg",
 				"descriptionFile": "pubgmobile.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/Dh2h4Fea2dr7z63L7"
 			},{
 				"name": "PUBG",
 				"image": "pubg.jpg",
@@ -160,7 +147,8 @@
 				"name": "Tech Riddles",
 				"image": "techriddle.jpg",
 				"descriptionFile": "TechRiddles.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/XoQTony4hmQFWimm7"
 
 			},
 			{
@@ -170,22 +158,25 @@
 				"imageSize": "horizontal"
 			},
 			{
-				"name": "Arena Haste",
+				"name": "Areana Haste",
 				"image": "AreanaHaste.jpg",
 				"descriptionFile": "AreanaHaste.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl" : "https://forms.gle/XCDWu7XHwspbVhYy9"
 			},
 			{
 				"name": "Robo Kabaddi",
 				"image": "Robokabadi.jpg",
 				"descriptionFile": "RoboKabadi.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/tfaSxpGnHKXUTau99"
 			},
 			{
 				"name": "Robo Soccer",
 				"image": "RoboSoccor.jpeg",
 				"descriptionFile": "RoboSoccer.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/GCpCT2MYHHnPzZpD7"
 			}
 		]
 	},

@@ -18,3 +18,8 @@
 <h3>Please check the details you have submitted for registration</h3>
 </div>
 
+<div *ngIf="this.status== 'docerr'">
+<h1>Validation Error</h1>
+<h3>We couldn't verify your identity in our database. </h3>
+</div>
+
