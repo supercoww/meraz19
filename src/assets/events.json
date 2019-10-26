@@ -63,7 +63,7 @@
 			{
 				"name": "PhotoWalk",
 				"image": "phootowalk.jpg",
-				"descriptionFile": "phootowalk.html",
+				"descriptionFile": "photowalk.html",
 				"imageSize": ""
 			},
 			{
@@ -83,6 +83,18 @@
 				"name": "Short Movie",
 				"image": "short-movie.jpg",
 				"descriptionFile": "short-movie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "All Rounder's Quiz",
+				"image": "all rounder.png",
+				"descriptionFile": "allroundersquiz.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Pop Culture Quiz",
+				"image": "pop culture.jpeg",
+				"descriptionFile": "popculture.html",
 				"imageSize": ""
 			}
 		]
