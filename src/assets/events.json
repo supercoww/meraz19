@@ -43,6 +43,12 @@
 				"imageSize": ""
 			},
 			{
+				"name": "Final Masquerade",
+				"image": "FinalMasquerade.jpg",
+				"descriptionFile": "FinalMasquerade.html",
+				"imageSize": ""
+			},
+			{
 				"name": "Murder Mystery",
 				"image": "murder-mystery.jpg",
 				"descriptionFile": "murder-mystery.html",
@@ -67,10 +73,22 @@
 				"imageSize": ""
 			},
 			{
+				"name": "Glass Painting",
+				"image": "glass-painting.jpg",
+				"descriptionFile": "glass-painting.html",
+				"imageSize": ""
+			},
+			{
 				"name": "Picturesque Gallery",
 				"image": "picturesque-gallery.jpg",
 				"descriptionFile": "picturesque-gallery.html",
 				"imageSize": ""
+			},
+			{
+				"name": "Hue Tube",
+				"image": "hue-tube.jpg",
+				"descriptionFile": "hue-tube.html",
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Shredded",
@@ -78,6 +96,19 @@
 				"descriptionFile": "shredded.html",
 				"imageSize": "big",
 				"registerUrl":"https://tinyurl.com/meraz-battle-of-bands-form"
+			},
+			{
+				"name": "Handi-Crafts",
+				"image": "HandiCrafts.jpg",
+				"descriptionFile": "HandiCrafts.html",
+				"imageSize": ""
+			},
+
+			{
+				"name": "Motification",
+				"image": "Motification.jpg",
+				"descriptionFile": "Motification.html",
+				"imageSize": ""
 			},
 			{
 				"name": "Short Movie",
@@ -201,18 +232,8 @@
 				"descriptionFile": "casino.html",
 				"imageSize": "big"
 			},
-			{
-				"name": "Hue Tube",
-				"image": "hue-tube.jpg",
-				"descriptionFile": "hue-tube.html",
-				"imageSize": "horizontal"
-			},
-			{
-				"name": "Glass Painting",
-				"image": "glass-painting.jpg",
-				"descriptionFile": "glass-painting.html",
-				"imageSize": ""
-			},
+
+
 			{
 				"name": "Speed Dating",
 				"image": "speedDating.jpg",
@@ -223,7 +244,8 @@
 				"name": "Intrepide",
 				"image": "Tatoo.jpg",
 				"descriptionFile": "Tatoo.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl" : "https://docs.google.com/forms/d/e/1FAIpQLSeCtv37kT-c02neEqUe1My1yf6czh0h6kf8wpHQZKKDWVDGdw/viewform?usp=sf_link"
 			},
 			{
 				"name": "Beg Borrow steal",
@@ -249,24 +271,7 @@
 				"descriptionFile": "centralRadio.html",
 				"imageSize": "horizontal"
 			},
-			{
-				"name": "Handi-Crafts",
-				"image": "HandiCrafts.jpg",
-				"descriptionFile": "HandiCrafts.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Final Masquerade",
-				"image": "FinalMasquerade.jpg",
-				"descriptionFile": "FinalMasquerade.html",
-				"imageSize": ""
-			},
-			{
-				"name": "Motification",
-				"image": "Motification.jpg",
-				"descriptionFile": "Motification.html",
-				"imageSize": ""
-			},
+
 			{
 				"name": "Dare to Dare",
 				"image": "daretodare.jpg",

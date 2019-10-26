@@ -1,7 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 functions/node_modules/
 # compiled output
-/dist
+/dist/meraz19/
+/dist/meraz19.zip
+/dist/meraz-d165d-13bf8e4dbf85.json
 /tmp
 /out-tsc
 # Only exists if Bazel was run
