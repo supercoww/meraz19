@@ -27,14 +27,15 @@
 				"name": "Foto Hue",
 				"image": "foto-hue.jpeg",
 				"descriptionFile": "foto-hue.html",
-				"imageSize": "vertical"
+				"imageSize": "vertical",
+				"registerUrl": "https://forms.gle/wSrpjzT4WiCdoXk6A"
 
 			},
 			{
 				"name": "In10sity",
 				"image": "intensity.jpg",
 				"descriptionFile": "intensity.html",
-				"imageSize": ""
+				"imageSize": "big"
 			},
 			{
 				"name": "Mono Logue",
@@ -58,7 +59,7 @@
 				"name": "Nukkad Natak",
 				"image": "nukkad.jpg",
 				"descriptionFile": "nukkad.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Photo Of the Fest",
@@ -82,7 +83,8 @@
 				"name": "Picturesque Gallery",
 				"image": "picturesque-gallery.jpg",
 				"descriptionFile": "picturesque-gallery.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/bqGXoXttXJixfSPb8"
 			},
 			{
 				"name": "Hue Tube",
@@ -94,7 +96,7 @@
 				"name": "Shredded",
 				"image": "shred.jpg",
 				"descriptionFile": "shredded.html",
-				"imageSize": "big",
+				"imageSize": "horizontal",
 				"registerUrl":"https://tinyurl.com/meraz-battle-of-bands-form"
 			},
 			{
@@ -120,13 +122,15 @@
 				"name": "All Rounder's Quiz",
 				"image": "all rounder.png",
 				"descriptionFile": "allroundersquiz.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/xnQzLfhHGymgzos26"
 			},
 			{
 				"name": "Pop Culture Quiz",
 				"image": "pop culture.jpeg",
 				"descriptionFile": "popculture.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl": "https://forms.gle/kqyXiYMoyLmegBjb8"
 			}
 		]
 	},
@@ -137,19 +141,22 @@
 				"name": "CS:GO",
 				"image": "go.jpg",
 				"descriptionFile": "cs-go.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl":"https://forms.gle/7WyqLkqJWjQB8bFv8"
 			},
 			{
 				"name": "FIFA 19",
 				"image": "fifa.jpg",
 				"descriptionFile": "fifa.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl":"https://forms.gle/fDo6qcyxxuJ5vCHLA"
 			},
 			{
 				"name": "NFS",
 				"image": "nfs.jpg",
 				"descriptionFile": "nfs.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/it1fxW2D7QqSaU2L9"
 			},
 			{
 				"name": "PUBG Mobile",
@@ -184,7 +191,8 @@
 				"name": "F1 Boost",
 				"image": "datasciencehack.jpg",
 				"descriptionFile": "datasciencehack.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/8rKAgVXu7RSU56kg9"
 			},
 			{
 				"name": "Tech Riddles",
@@ -245,7 +253,7 @@
 				"image": "Tatoo.jpg",
 				"descriptionFile": "Tatoo.html",
 				"imageSize": "",
-				"registerUrl" : "https://docs.google.com/forms/d/e/1FAIpQLSeCtv37kT-c02neEqUe1My1yf6czh0h6kf8wpHQZKKDWVDGdw/viewform?usp=sf_link"
+				"registerUrl" : "https://docs.google.com/forms/d/e/1FAIpQLSeCtv37kT-c02neEqUe1My1yf6czh0h6kf8wpHQZKKDWVDGdw/viewform?usp=sf_linkn"
 			},
 			{
 				"name": "Beg Borrow steal",
@@ -261,9 +269,9 @@
 			},
 			{
 				"name": "Love Letter Writing",
-				"image": "loveletterwritting.jpeg",
+				"image": "loveLetter.jpg",
 				"descriptionFile": "loveLetter.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Central Radio",
