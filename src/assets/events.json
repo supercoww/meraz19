@@ -185,7 +185,8 @@
 				"name": "App-etite",
 				"image": "apphackathon.jpg",
 				"descriptionFile": "apphackathon.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdoUZDc6v-PtPsSzwuAD8Aynjh4OOfqZUw7QbWEhtkmfWbX9A/viewform"
 			},
 			{
 				"name": "F1 Boost",
