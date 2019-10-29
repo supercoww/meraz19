@@ -108,19 +108,6 @@
 				/>
 			</mat-form-field>
 
-		<mat-form-field class="example-full-width">
-			<textarea
-				matInput
-				cdkTextareaAutosize
-				#autosize="cdkTextareaAutosize"
-				cdkAutosizeMinRows="1"
-				cdkAutosizeMaxRows="5"
-				placeholder="Leave a comment"
-				name="comment"
-				formControlName="comment"
-
-			></textarea>
-		</mat-form-field>
 		<button type="submit" mat-raised-button color="primary"  [disabled]="registerForm.invalid" >
 			Pay and Register
 		</button>
