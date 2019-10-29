@@ -105,7 +105,12 @@
 				"descriptionFile": "HandiCrafts.html",
 				"imageSize": ""
 			},
-
+			{
+				"name": "Depth of Dance",
+				"image": "dod.jpg",
+				"descriptionFile": "depthofdance.html",
+				"imageSize": ""
+			},
 			{
 				"name": "Motification",
 				"image": "Motification.jpg",
@@ -164,11 +169,6 @@
 				"descriptionFile": "pubgmobile.html",
 				"imageSize": "horizontal",
 				"registerUrl": "https://forms.gle/Dh2h4Fea2dr7z63L7"
-			},{
-				"name": "PUBG",
-				"image": "pubg.jpg",
-				"descriptionFile": "pubgEmulator.html",
-				"imageSize": "vertical"
 			}
 		]
 	},
@@ -242,7 +242,12 @@
 				"imageSize": "big"
 			},
 
-
+			{
+				"name": "Pandora's Box",
+				"image": "pandora.jpg",
+				"descriptionFile": "pandora.html",
+				"imageSize": ""
+			},
 			{
 				"name": "Speed Dating",
 				"image": "speedDating.jpg",
