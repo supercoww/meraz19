@@ -14,7 +14,7 @@
 				"image": "surreal.jpg",
 				"descriptionFile": "surreal.html",
 				"imageSize": "vertical",
-				"registerUrl": "https://qrgo.page.link/7xTyx"
+				"registerUrl": "https://forms.gle/MBmanLvef2gQ95K7A"
 			},
 			{
 				"name": "Euphony",
@@ -35,13 +35,15 @@
 				"name": "In10sity",
 				"image": "intensity.jpg",
 				"descriptionFile": "intensity.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl":"https://docs.google.com/forms/d/e/1FAIpQLSfGdi3fPDCEE470cYB9T60a-hmLZaIAmOaczJX6SIBkw5FZBA/viewform"
 			},
 			{
 				"name": "Mono Logue",
 				"image": "monologue.jpg",
 				"descriptionFile": "monologue.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/KwHBCHbFiV5E52nv7"
 			},
 			{
 				"name": "Final Masquerade",
@@ -59,19 +61,22 @@
 				"name": "Nukkad Natak",
 				"image": "nukkad.jpg",
 				"descriptionFile": "nukkad.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/UEKTuBQNo8cVr5CH6"
 			},
 			{
 				"name": "Photo Of the Fest",
 				"image": "photo-of-the-day.jpeg",
 				"descriptionFile": "photo-of-the-day.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/YVVWRvM1XqbwjspJ7"
 			},
 			{
 				"name": "PhotoWalk",
 				"image": "phootowalk.jpg",
 				"descriptionFile": "photowalk.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/sc5UTcZrsWgBH3Z18"
 			},
 			{
 				"name": "Glass Painting",
@@ -246,7 +251,7 @@
 				"name": "Pandora's Box",
 				"image": "pandora.jpg",
 				"descriptionFile": "pandora.html",
-				"imageSize": "horizontal"
+				"imageSize": "horizontal",
 				"registerUrl" : "https://forms.gle/cFLWWcGngFPReZUQ6"
 			},
 			{
@@ -272,6 +277,12 @@
 				"name": "Housie",
 				"image": "housie.jpg",
 				"descriptionFile": "housie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Box Cricket",
+				"image": "boxcricket.jpg",
+				"descriptionFile": "boxcricket.html",
 				"imageSize": ""
 			},
 			{
@@ -303,7 +314,7 @@
 				"name": "Stand Up Comedy",
 				"image": "StandUpComedy.jpg",
 				"descriptionFile": "StandUpComedy.html",
-				"imageSize": ""
+				"imageSize": "",
 				"registerUrl" : "https://forms.gle/Tq9qQqWFdzXRzMWk8"
 			}
 		]
