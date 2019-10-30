@@ -204,7 +204,7 @@
 
 			},
 			{
-				"name": "SES Drone Flight",
+				"name": "Drone Game",
 				"image": "SesDroneFlight.jpg",
 				"descriptionFile": "SesDroneFlight.html",
 				"imageSize": "horizontal"
@@ -246,7 +246,8 @@
 				"name": "Pandora's Box",
 				"image": "pandora.jpg",
 				"descriptionFile": "pandora.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
+				"registerUrl" : "https://forms.gle/cFLWWcGngFPReZUQ6"
 			},
 			{
 				"name": "Speed Dating",
@@ -297,6 +298,13 @@
 				"image": "sitPopBallon.jpg",
 				"descriptionFile": "sitPopBallon.html",
 				"imageSize": ""
+			},
+			{
+				"name": "Stand Up Comedy",
+				"image": "StandUpComedy.jpg",
+				"descriptionFile": "StandUpComedy.html",
+				"imageSize": ""
+				"registerUrl" : "https://forms.gle/Tq9qQqWFdzXRzMWk8"
 			}
 		]
 	}
