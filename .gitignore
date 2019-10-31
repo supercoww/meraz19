@@ -53,3 +53,14 @@ Thumbs.db
 functions/meraz-d165d-13bf8e4dbf85.json
 src/assets/event.zip
 debug.log
+deploy.sh
+deploy.sh
+dist/app.js
+dist/checksum.js
+dist/crypt.js
+dist/mailer.js
+dist/mailer2.js
+dist/package-lock.json
+dist/testfile
+selected
+deploy.sh
