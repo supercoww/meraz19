@@ -10,7 +10,7 @@
 
 		>
 		<div [innerHTML]="descriptionObservable | async"></div>
-		<div style='text-align:center' *ngIf="event.registerUrl">
+		<div style='text-align:center;text-justify: auto;' *ngIf="event.registerUrl">
 			<a
 			href='{{ event.registerUrl }}'
 			mat-raised-button
