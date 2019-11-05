@@ -271,7 +271,7 @@
 				"name": "Beg Borrow steal",
 				"image": "BigBorrow.jpeg",
 				"descriptionFile": "BegBorrowSteal.html",
-				"imageSize": ""
+				"imageSize": "horizontal"
 			},
 			{
 				"name": "Housie",
@@ -316,6 +316,12 @@
 				"descriptionFile": "StandUpComedy.html",
 				"imageSize": "",
 				"registerUrl" : "https://forms.gle/Tq9qQqWFdzXRzMWk8"
+			},
+			{
+				"name": "Dungeons and Dragons",
+				"image": "dungeons.jpg",
+				"descriptionFile": "dungeons.html",
+				"imageSize": "horizontal"
 			}
 		]
 	}
