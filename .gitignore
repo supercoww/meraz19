@@ -64,3 +64,4 @@ dist/package-lock.json
 dist/testfile
 selected
 deploy.sh
+deploy.sh
