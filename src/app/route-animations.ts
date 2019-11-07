@@ -7,7 +7,7 @@ import {
 	animate
 } from '@angular/animations';
 
-const isPhone = window.innerWidth <= 700;
+const isPhone = window.innerWidth <= 900;
 
 const slideInDesktop = trigger('routeAnimations', [
 	transition('* => home', slideTo('right')),

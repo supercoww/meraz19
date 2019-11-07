@@ -22,7 +22,7 @@ li {
 // 	font-family: nouty;
 // 	src: url('../../assets/nouty\ stamp.otf');
 // }
-@media (max-width: 720px) {
+@media (max-width: 900px) {
 	h1 {
 		position: relative;
 		left: -10px;
@@ -51,8 +51,6 @@ h1 {
 	// -moz-background-clip: text;
 	// -webkit-text-fill-color: transparent;
 }
-
-
 
 .app-bar {
 	position: fixed;
@@ -119,7 +117,7 @@ nav > h1 {
 	flex-grow: 1;
 	text-align: center;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
 	.links {
 		display: flex;
 	}
