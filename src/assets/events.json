@@ -184,7 +184,8 @@
 				"name": "Code Crusade",
 				"image": "CodeCrusade.png",
 				"descriptionFile": "CodeCrusade.html",
-				"imageSize": "big"
+				"imageSize": "big",
+				"registerUrl": "www.codechef.com/CCRU2019"
 			},
 			{
 				"name": "App-etite",
