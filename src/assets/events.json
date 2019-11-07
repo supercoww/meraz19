@@ -185,7 +185,7 @@
 				"image": "CodeCrusade.png",
 				"descriptionFile": "CodeCrusade.html",
 				"imageSize": "big",
-				"registerUrl": "www.codechef.com/CCRU2019"
+				"registerUrl": "https://forms.gle/4gYHAUo4tQ2G17uf9"
 			},
 			{
 				"name": "App-etite",
@@ -284,7 +284,8 @@
 				"name": "Box Cricket",
 				"image": "boxcricket.jpeg",
 				"descriptionFile": "boxcricket.html",
-				"imageSize": ""
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/XKFdDyrJ6Li1UpMG8"
 			},
 			{
 				"name": "Love Letter Writing",
