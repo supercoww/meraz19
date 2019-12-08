@@ -1,7 +1,4 @@
-<nav
-	class="app-bar"
-	[ngStyle]="{ 'background-color': bgColor, 'box-shadow': shadow }"
->
+<nav class="app-bar" [ngStyle]="{ 'background-color': bgColor, 'box-shadow': shadow }">
 	<i
 		class="fa fa-bars fa-2x"
 		onclick='document.getElementById("sidebar").classList.toggle("open");
@@ -12,17 +9,22 @@
 	<h1><a routerLink="">MERAZ</a></h1>
 	<ul class="links">
 		<li>
-			<a
-				routerLink=""
-				routerLinkActive="active"
-				[routerLinkActiveOptions]="{ exact: true }"
-				>Home</a
-			>
+			<a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
 		</li>
 		<li><a routerLink="events" routerLinkActive="active">Events</a></li>
 		<li><a routerLink="contact" routerLinkActive="active">Contact</a></li>
-		<li><a routerLink="register" routerLinkActive="active">Register</a></li>
-		<li><a href='https://docs.google.com/forms/d/e/1FAIpQLSdg9xGIixPQPlzdodIx6V5GDZwl8V2GVE6ADO4uzm83iK3KJg/viewform?usp=sf_link' >Accommodation</a></li>
-		<li><a href='https://docs.google.com/spreadsheets/d/16-b__c8o-1XvDP3F7ItEd5myHqzhN8rseNp1oi3UsT8/edit?usp=sharing' >Schedule</a></li>
+		<!-- <li><a routerLink="register" routerLinkActive="active">Register</a></li> -->
+		<li>
+			<a
+				href="https://docs.google.com/forms/d/e/1FAIpQLSdg9xGIixPQPlzdodIx6V5GDZwl8V2GVE6ADO4uzm83iK3KJg/viewform?usp=sf_link"
+				>Accommodation</a
+			>
+		</li>
+		<li>
+			<a
+				href="https://docs.google.com/spreadsheets/d/16-b__c8o-1XvDP3F7ItEd5myHqzhN8rseNp1oi3UsT8/edit?usp=sharing"
+				>Schedule</a
+			>
+		</li>
 	</ul>
 </nav>
