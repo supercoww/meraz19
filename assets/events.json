@@ -1,0 +1,330 @@
+[
+	{
+		"name": "cultural",
+		"events": [
+			{
+				"name": "Viva La Vida",
+				"image": "fashion.jpg",
+				"descriptionFile": "vivaLaVida.html",
+				"imageSize": "big",
+				"registerUrl": "https://forms.gle/rnztrVKyd6DGxmT38"
+			},
+			{
+				"name": "SurReal",
+				"image": "surreal.jpg",
+				"descriptionFile": "surreal.html",
+				"imageSize": "vertical",
+				"registerUrl": "https://forms.gle/MBmanLvef2gQ95K7A"
+			},
+			{
+				"name": "Euphony",
+				"image": "euphony.jpg",
+				"descriptionFile": "euphony.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/q2Gi6JaJ3siW4a6H6"
+			},
+			{
+				"name": "Foto Hue",
+				"image": "foto-hue.jpeg",
+				"descriptionFile": "foto-hue.html",
+				"imageSize": "vertical",
+				"registerUrl": "https://forms.gle/wSrpjzT4WiCdoXk6A"
+
+			},
+			{
+				"name": "In10sity",
+				"image": "intensity.jpg",
+				"descriptionFile": "intensity.html",
+				"imageSize": "big",
+				"registerUrl":"https://docs.google.com/forms/d/e/1FAIpQLSfGdi3fPDCEE470cYB9T60a-hmLZaIAmOaczJX6SIBkw5FZBA/viewform"
+			},
+			{
+				"name": "Mono Logue",
+				"image": "monologue.jpg",
+				"descriptionFile": "monologue.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/KwHBCHbFiV5E52nv7"
+			},
+			{
+				"name": "Final Masquerade",
+				"image": "FinalMasquerade.jpg",
+				"descriptionFile": "FinalMasquerade.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Murder Mystery",
+				"image": "murder-mystery.jpg",
+				"descriptionFile": "murder-mystery.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Nukkad Natak",
+				"image": "nukkad.jpg",
+				"descriptionFile": "nukkad.html",
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/UEKTuBQNo8cVr5CH6"
+			},
+			{
+				"name": "Photo Of the Fest",
+				"image": "photo-of-the-day.jpeg",
+				"descriptionFile": "photo-of-the-day.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/YVVWRvM1XqbwjspJ7"
+			},
+			{
+				"name": "PhotoWalk",
+				"image": "phootowalk.jpg",
+				"descriptionFile": "photowalk.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/sc5UTcZrsWgBH3Z18"
+			},
+			{
+				"name": "Glass Painting",
+				"image": "glass-painting.jpg",
+				"descriptionFile": "glass-painting.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Picturesque Gallery",
+				"image": "picturesque-gallery.jpg",
+				"descriptionFile": "picturesque-gallery.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/bqGXoXttXJixfSPb8"
+			},
+			{
+				"name": "Hue Tube",
+				"image": "hue-tube.jpg",
+				"descriptionFile": "hue-tube.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Shredded",
+				"image": "shred.jpg",
+				"descriptionFile": "shredded.html",
+				"imageSize": "horizontal",
+				"registerUrl":"https://tinyurl.com/meraz-battle-of-bands-form"
+			},
+			{
+				"name": "Handi-Crafts",
+				"image": "HandiCrafts.jpg",
+				"descriptionFile": "HandiCrafts.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Depth of Dance",
+				"image": "dod.jpg",
+				"descriptionFile": "depthofdance.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Motification",
+				"image": "Motification.jpg",
+				"descriptionFile": "Motification.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Short Movie",
+				"image": "short-movie.jpg",
+				"descriptionFile": "short-movie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "All Rounder's Quiz",
+				"image": "all rounder.png",
+				"descriptionFile": "allroundersquiz.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/xnQzLfhHGymgzos26"
+			},
+			{
+				"name": "Pop Culture Quiz",
+				"image": "pop culture.jpeg",
+				"descriptionFile": "popculture.html",
+				"imageSize": "",
+				"registerUrl": "https://forms.gle/kqyXiYMoyLmegBjb8"
+			}
+		]
+	},
+	{
+		"name": "gaming",
+		"events": [
+			{
+				"name": "CS:GO",
+				"image": "go.jpg",
+				"descriptionFile": "cs-go.html",
+				"imageSize": "big",
+				"registerUrl":"https://forms.gle/7WyqLkqJWjQB8bFv8"
+			},
+			{
+				"name": "FIFA 19",
+				"image": "fifa.jpg",
+				"descriptionFile": "fifa.html",
+				"imageSize": "big",
+				"registerUrl":"https://forms.gle/fDo6qcyxxuJ5vCHLA"
+			},
+			{
+				"name": "NFS",
+				"image": "nfs.jpg",
+				"descriptionFile": "nfs.html",
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/it1fxW2D7QqSaU2L9"
+			},
+			{
+				"name": "PUBG Mobile",
+				"image": "pubgmobile.jpg",
+				"descriptionFile": "pubgmobile.html",
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/Dh2h4Fea2dr7z63L7"
+			}
+		]
+	},
+	{
+		"name": "Technical",
+		"events": [
+			{
+				"name": "Code Crusade",
+				"image": "CodeCrusade.png",
+				"descriptionFile": "CodeCrusade.html",
+				"imageSize": "big",
+				"registerUrl": "https://forms.gle/4gYHAUo4tQ2G17uf9"
+			},
+			{
+				"name": "App-etite",
+				"image": "apphackathon.jpg",
+				"descriptionFile": "apphackathon.html",
+				"imageSize": "horizontal",
+				"registerUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdoUZDc6v-PtPsSzwuAD8Aynjh4OOfqZUw7QbWEhtkmfWbX9A/viewform"
+			},
+			{
+				"name": "F1 Boost",
+				"image": "datasciencehack.jpg",
+				"descriptionFile": "datasciencehack.html",
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/8rKAgVXu7RSU56kg9"
+			},
+			{
+				"name": "Tech Riddles",
+				"image": "techriddle.jpg",
+				"descriptionFile": "TechRiddles.html",
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/XoQTony4hmQFWimm7"
+
+			},
+			{
+				"name": "Drone Game",
+				"image": "SesDroneFlight.jpg",
+				"descriptionFile": "SesDroneFlight.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Areana Haste",
+				"image": "AreanaHaste.jpg",
+				"descriptionFile": "AreanaHaste.html",
+				"imageSize": "horizontal",
+				"registerUrl" : "https://forms.gle/XCDWu7XHwspbVhYy9"
+			},
+			{
+				"name": "Robo Kabaddi",
+				"image": "Robokabadi.jpg",
+				"descriptionFile": "RoboKabadi.html",
+				"imageSize": "horizontal",
+				"registerUrl": "https://forms.gle/tfaSxpGnHKXUTau99"
+			},
+			{
+				"name": "Robo Soccer",
+				"image": "RoboSoccor.jpeg",
+				"descriptionFile": "RoboSoccer.html",
+				"imageSize": "horizontal",
+				"registerUrl":"https://forms.gle/GCpCT2MYHHnPzZpD7"
+			}
+		]
+	},
+	{
+		"name": "informals",
+		"events" : [
+			{
+				"name": "Casino",
+				"image": "Casino.jpeg",
+				"descriptionFile": "casino.html",
+				"imageSize": "big"
+			},
+
+			{
+				"name": "Pandora's Box",
+				"image": "pandora.jpg",
+				"descriptionFile": "pandora.html",
+				"imageSize": "horizontal",
+				"registerUrl" : "https://forms.gle/cFLWWcGngFPReZUQ6"
+			},
+			{
+				"name": "Speed Dating",
+				"image": "speedDating.jpg",
+				"descriptionFile": "speedDating.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Intrepide",
+				"image": "Tatoo.jpg",
+				"descriptionFile": "Tatoo.html",
+				"imageSize": "",
+				"registerUrl" : "https://docs.google.com/forms/d/e/1FAIpQLSeCtv37kT-c02neEqUe1My1yf6czh0h6kf8wpHQZKKDWVDGdw/viewform?usp=sf_linkn"
+			},
+			{
+				"name": "Beg Borrow steal",
+				"image": "BigBorrow.jpeg",
+				"descriptionFile": "BegBorrowSteal.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Housie",
+				"image": "housie.jpg",
+				"descriptionFile": "housie.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Box Cricket",
+				"image": "boxcricket.jpeg",
+				"descriptionFile": "boxcricket.html",
+				"imageSize": "",
+				"registerUrl":"https://forms.gle/XKFdDyrJ6Li1UpMG8"
+			},
+			{
+				"name": "Love Letter Writing",
+				"image": "loveLetter.jpg",
+				"descriptionFile": "loveLetter.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Central Radio",
+				"image": "centralRadio.jpg",
+				"descriptionFile": "centralRadio.html",
+				"imageSize": "horizontal"
+			},
+
+			{
+				"name": "Dare to Dare",
+				"image": "daretodare.jpg",
+				"descriptionFile": "daretodare.html",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Balloon Butt Pop",
+				"image": "sitPopBallon.jpg",
+				"descriptionFile": "sitPopBallon.html",
+				"imageSize": ""
+			},
+			{
+				"name": "Stand Up Comedy",
+				"image": "StandUpComedy.jpg",
+				"descriptionFile": "StandUpComedy.html",
+				"imageSize": "",
+				"registerUrl" : "https://forms.gle/Tq9qQqWFdzXRzMWk8"
+			},
+			{
+				"name": "Dungeons and Dragons",
+				"image": "dungeons.jpg",
+				"descriptionFile": "dungeons.html",
+				"imageSize": "horizontal"
+			}
+		]
+	}
+]
