@@ -24,6 +24,7 @@ jobs:
       run: |
         npm i
         npm run build:prod
+        cp ./dist/meraz19/index.html ./dist/meraz19/404.html
     - name: Deploy
       if: success()
       uses: crazy-max/ghaction-github-pages@v1
