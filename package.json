@@ -2,7 +2,7 @@
 	"name": "meraz19",
 	"version": "0.0.0",
 	"scripts": {
-		"deploy:hosting": "firebase deploy --only hosting",
+		"deploy:hosting": "ng deploy",
 		"ng": "ng",
 		"start": "ng serve -o",
 		"build": "ng build",
@@ -10,8 +10,7 @@
 		"build:prod,watch": "ng build --prod --watch",
 		"test": "ng test",
 		"lint": "ng lint",
-		"e2e": "ng e2e",
-		"predeploy:hosting": "npm run build:prod"
+		"e2e": "ng e2e"
 	},
 	"private": true,
 	"dependencies": {
@@ -25,6 +24,7 @@
 		"@angular/platform-browser": "~8.2.0",
 		"@angular/platform-browser-dynamic": "~8.2.0",
 		"@angular/router": "~8.2.0",
+		"angular-cli-ghpages": "^0.6.0",
 		"angular-particle": "^1.0.4",
 		"animejs": "^3.1.0",
 		"body-parser": "^1.19.0",
